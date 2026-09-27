@@ -1,0 +1,8 @@
+(kicad_sch
+  (version 20260306)
+  (generator "bldc-esc")
+  (uuid "20000000-0000-4000-8000-000000000003")
+  (paper "A3")
+  (lib_symbols)
+  (embedded_fonts no)
+)
