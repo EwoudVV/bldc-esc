@@ -10,8 +10,8 @@ def build(c):
     gh=lambda n:'Connector_JST:JST_GH_BM%02dB-GHS-TBT_1x%02d-1MP_P1.25mm_Vertical'%(n,n)
 
     s='01_dc_link'
-    CON(s,'J101','XT60PW-M',65,70,['VBUS','GND'],'Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal','XT60PW-M')
-    D(s,'D101','SMCJ30A',125,70,'GND','VBUS','Diode_SMD:D_SMC','Device:D_TVS')
+    CON(s,'J101','XT60PW-M',65,70,['GND','VBUS'],'Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal','XT60PW-M')
+    D(s,'D101','SMCJ30A',125,70,'GND','VBUS','Diode_SMD:D_SMC','Device:D_Zener')
     for i in range(6):
         p(s,'C'+str(101+i),'Device:C_Polarized','100u 63V',200+55*i,70,{1:'VBUS',2:'GND'},
           'Capacitor_SMD:CP_Elec_10x12.5','GXC1J101MCW1GS','Nichicon')
@@ -24,7 +24,7 @@ def build(c):
     CON(s,'J102','MT60 / 12AWG pigtail',340,150,['PHASE_A','PHASE_B','PHASE_C'],'bldc-esc:MT60_Pigtail_12AWG','MT60-M')
     CON(s,'J103','CHASSIS',490,150,['CHASSIS','GND'],'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical','M20-9990245')
     R(s,'R102','1M',420,230,'CHASSIS','GND')
-    C(s,'C109','4.7n 1kV',480,230,'CHASSIS','GND','1206','C1206C472KGRACTU')
+    C(s,'C109','4.7n 1kV',480,230,'CHASSIS','GND','1206','C1206C472KDRACTU')
     R(s,'R103','0',540,230,'CHASSIS','GND',dnp=True)
     for i,(net,x) in enumerate([('VBUS',65),('GND',125),('PHASE_A',220),('PHASE_B',285),('PHASE_C',350)],1):
         TP(s,'TP'+str(100+i),net,x,305)
@@ -41,11 +41,11 @@ def build(c):
         'bldc-esc:DRV8353_RTA0040B','DRV8353SRTAT','Texas Instruments')
     R(s,'R201','2.2',45,205,'VBUS','DRV_VM','0805')
     p(s,'C201','Device:C_Polarized','22u 63V',90,205,{1:'DRV_VM',2:'GND'},'Capacitor_THT:CP_Radial_D6.3mm_P2.50mm','EEUFC1J220','Panasonic')
-    C(s,'C202','100n 100V',135,205,'DRV_VM','GND','0603','GRM188R72A104KA35D')
-    C(s,'C203','47n 100V',45,260,'DRV_CPH','DRV_CPL','0805','GRM21BR72A473KA01L')
+    C(s,'C202','100n 100V',135,205,'DRV_VM','GND','0603','C0603C104K1RACTU')
+    C(s,'C203','47n 100V',45,260,'DRV_CPH','DRV_CPL','0805','C0805C473K1RACTU')
     C(s,'C204','1u 50V',90,260,'DRV_VCP','VBUS','1206','C3216X7R1H105K160AB')
-    C(s,'C205','1u 25V',135,260,'DRV_VGLS','GND','0805','GRM21BR71E105KA99L')
-    C(s,'C206','1u 16V',45,315,'DRV_DVDD','GND','0603','GRM188R71C105KA12D')
+    C(s,'C205','1u 25V',135,260,'DRV_VGLS','GND','0805','C0805C105K3RACTU')
+    C(s,'C206','1u 16V',45,315,'DRV_DVDD','GND','0603','C0603C105K4RACTU')
     C(s,'C207','100n 50V',90,315,'3V3_A')
     R(s,'R202','4.7k',135,315,'3V3','DRV_SDO')
     R(s,'R203','10k',45,365,'3V3','DRV_nFAULT')
@@ -62,8 +62,8 @@ def build(c):
         p(s,'R'+str(b+4),'Device:R_Shunt','1m 1% 8W',x,200,{1:'SOURCE_'+phase,2:'KS_'+phase+'_P',3:'KS_'+phase+'_N',4:'GND'},'bldc-esc:CSS4J_4026','CSS4J-4026R-1L00F','Bourns')
         C(s,'C'+str(b),'1u 100V',x-50,200,'VBUS','GND','1206','C3216X7R2A105K160AA')
         C(s,'C'+str(b+1),'1u 100V',x+45,200,'VBUS','GND','1206','C3216X7R2A105K160AA')
-        p(s,'U'+str(202+i),'Amplifier_Current:INA241A2xDGK','INA241A2DGKR',x,275,{1:'KS_'+phase+'_N',2:'GND',3:'VBIAS_1V5',4:'GND',5:'I_'+phase+'_RAW',6:'3V3_A',7:'VBIAS_1V5',8:'KS_'+phase+'_P'},
-          'Package_SO:VSSOP-8_3x3mm_P0.65mm','INA241A2DGKR','Texas Instruments')
+        p(s,'U'+str(202+i),'Amplifier_Current:INA241A2xDGK','INA241A2IDGKR',x,275,{1:'KS_'+phase+'_N',2:'GND',3:'VBIAS_1V25',4:'GND',5:'I_'+phase+'_RAW',6:'3V3_A',7:'VBIAS_1V25',8:'KS_'+phase+'_P'},
+          'Package_SO:VSSOP-8_3x3mm_P0.65mm','INA241A2IDGKR','Texas Instruments')
         C(s,'C'+str(b+2),'100n 50V',x-50,275,'3V3_A')
         R(s,'R'+str(b+5),'100',x-50,330,'I_'+phase+'_RAW','I_PHASE_'+phase,angle=90)
         C(s,'C'+str(b+3),'1n 50V',x,330,'I_PHASE_'+phase,'GND','0603','C0603C102J5GACTU')
@@ -72,7 +72,7 @@ def build(c):
         C(s,'C'+str(b+4),'1n 50V',x,380,'I_DRV_'+phase,'GND','0603','C0603C102J5GACTU')
         R(s,'R'+str(b+7),'10',x+35,25,'PHASE_'+phase,'SNUB_'+phase,'0805',dnp=True)
         C(s,'C'+str(b+5),'1n 100V',x+70,25,'SNUB_'+phase,'GND','0805','C0805C102J1GACTU',dnp=True)
-    c.notes[s]+=[(180,240,'Kelvin pads: 1=I+ / 2=V+ / 3=V- / 4=I-'),(180,400,'CSA: 1.5V zero / 20mV per A. SPx gate return stays direct to low-side source.')]
+    c.notes[s]+=[(180,240,'Kelvin pads: 1=I+ / 2=V+ / 3=V- / 4=I-'),(180,400,'CSA: 1.25V zero / 20mV per A. SPx gate return stays direct to low-side source.')]
 
     s='04_power_usb'
     p(s,'U401','Regulator_Switching:LM5164DDA','LM5164DDAR',90,75,{1:'GND',2:'VBUS',3:'BUCK_EN',4:'BUCK_RON',5:'BUCK_FB',6:'BUS_5V_GOOD',7:'BUCK_BST',8:'BUCK_SW',9:'GND'},mpn='LM5164DDAR',manufacturer='Texas Instruments')
@@ -81,7 +81,7 @@ def build(c):
     R(s,'R403','42.2k',110,140,'BUCK_RON','GND')
     C(s,'C401','2.2u 100V',30,195,'VBUS','GND','1210','CGA6N3X7R2A225K230AB')
     C(s,'C402','2.2u 100V',70,195,'VBUS','GND','1210','CGA6N3X7R2A225K230AB')
-    C(s,'C403','2.2n 50V',150,75,'BUCK_BST','BUCK_SW','0603','GCM188R71H222KA37D')
+    C(s,'C403','2.2n 50V',150,75,'BUCK_BST','BUCK_SW','0603','C0603C222J5GACTU')
     p(s,'L401','Device:L','68uH / Isat>=2.3A',215,75,{1:'BUCK_SW',2:'5V_BUS'},'Inductor_SMD:L_Coilcraft_MSS1246T-XXX','MSS1246T-683MLC','Coilcraft',90)
     C(s,'C404','22u 25V',260,75,'5V_BUS','GND','1210','MSAST32MSB7226KPNB25')
     C(s,'C405','22u 25V',305,75,'5V_BUS','GND','1210','MSAST32MSB7226KPNB25')
@@ -95,12 +95,14 @@ def build(c):
     R(s,'R408','300k',370,145,'5V_BUS','MUX_PR1')
     R(s,'R409','100k',415,145,'MUX_PR1','GND')
     R(s,'R410','10k',460,145,'3V3','PWR_BUS_SELECTED')
-    C(s,'C408','1u 16V',370,195,'5V_BUS','GND','0603','GRM188R71C105KA12D')
-    C(s,'C409','1u 16V',415,195,'USB_5V','GND','0603','GRM188R71C105KA12D')
-    C(s,'C410','4.7u 10V',460,195,'5V_SYS','GND','0805','GRM21BR71A475KA73L')
-    p(s,'U403','Regulator_Linear:TLV75533PDRV','TLV75533PDRVR',520,75,{1:'3V3',2:None,3:'GND',4:'5V_SYS',5:None,6:'5V_SYS',7:'GND'},mpn='TLV75533PDRVR',manufacturer='Texas Instruments')
-    C(s,'C411','1u 16V',520,145,'5V_SYS','GND','0603','GRM188R71C105KA12D')
-    C(s,'C412','4.7u 10V',560,145,'3V3','GND','0805','GRM21BR71A475KA73L')
+    C(s,'C408','1u 16V',370,195,'5V_BUS','GND','0603','C0603C105K4RACTU')
+    C(s,'C409','1u 16V',415,195,'USB_5V','GND','0603','C0603C105K4RACTU')
+    C(s,'C410','4.7u 25V',460,195,'5V_SYS','GND','0805','C0805C475K3RACTU')
+    p(s,'U403','Regulator_Linear:TLV75801PDRV','TLV75801PDRVR',520,75,{1:'3V3',2:'VDD_FB',3:'GND',4:'5V_SYS',5:None,6:'5V_SYS',7:'GND'},mpn='TLV75801PDRVR',manufacturer='Texas Instruments')
+    R(s,'R417','51.1k',560,170,'3V3','VDD_FB',precision=True)
+    R(s,'R418','10k',560,210,'VDD_FB','GND',precision=True)
+    C(s,'C411','1u 16V',520,145,'5V_SYS','GND','0603','C0603C105K4RACTU')
+    C(s,'C412','4.7u 25V',560,145,'3V3','GND','0805','C0805C475K3RACTU')
     c.box_symbol('USB_C_16P',[("A4",'VBUS','passive'),('A9','VBUS','passive'),('B4','VBUS','passive'),('B9','VBUS','passive'),('A5','CC1','passive'),('B5','CC2','passive'),('A8','SBU1','passive'),('B8','SBU2','passive')],
         [('A6','D+','passive'),('B6','D+','passive'),('A7','D-','passive'),('B7','D-','passive'),('A1','GND','passive'),('A12','GND','passive'),('B1','GND','passive'),('B12','GND','passive'),('SH','SHIELD','passive')],25.4)
     p(s,'J401','bldc-esc:USB_C_16P','USB4105-GF-A',75,295,{'A4':'USB_VBUS_RAW','A9':'USB_VBUS_RAW','B4':'USB_VBUS_RAW','B9':'USB_VBUS_RAW',
@@ -108,7 +110,7 @@ def build(c):
         'A1':'GND','A12':'GND','B1':'GND','B12':'GND','SH':'CHASSIS'},'bldc-esc:USB4105_PCBWay','USB4105-GF-A','GCT')
     R(s,'R411','5.1k',155,260,'CC1','GND')
     R(s,'R412','5.1k',205,260,'CC2','GND')
-    p(s,'F401','Device:Polyfuse','0.5A / 6V',160,325,{1:'USB_VBUS_RAW',2:'USB_5V'},'Fuse:Fuse_1206_3216Metric','MF-PSMF050X-2','Bourns',90)
+    p(s,'F401','Device:Polyfuse','0.5A / 6V',160,325,{1:'USB_VBUS_RAW',2:'USB_5V'},'bldc-esc:MF_PSMF0805','MF-PSMF050X-2','Bourns',90)
     C(s,'C413','100n 50V',205,325,'USB_VBUS_RAW')
     p(s,'U404','Power_Protection:USBLC6-2SC6','USBLC6-2SC6',305,285,{1:'USB_DP_PORT',2:'GND',3:'USB_DM_PORT',4:'USB_DM_ESD',5:'USB_VBUS_RAW',6:'USB_DP_ESD'},mpn='USBLC6-2SC6',manufacturer='STMicroelectronics')
     R(s,'R413','22',390,270,'USB_DP_ESD','USB_DP',angle=90)
@@ -124,17 +126,17 @@ def build(c):
     pin_nets={int(r['pin']):None if r['net']=='NC' else r['net'] for r in pinmap}
     p(s,'U501','MCU_ST_STM32G4:STM32G474VETx','STM32G474VET6',135,160,pin_nets,mpn='STM32G474VET6',manufacturer='STMicroelectronics')
     for i in range(5):C(s,'C'+str(501+i),'100n 50V',45+40*i,300,'3V3')
-    C(s,'C506','4.7u 10V',245,300,'3V3','GND','0805','GRM21BR71A475KA73L')
-    p(s,'FB501','Device:FerriteBead','600R @ 100MHz',295,75,{1:'3V3',2:'3V3_A'},'Inductor_SMD:L_0603_1608Metric','BLM18AG601SN1D','Murata',90)
-    C(s,'C507','4.7u 10V',350,75,'3V3_A','GND','0805','GRM21BR71A475KA73L')
+    C(s,'C506','4.7u 25V',245,300,'3V3','GND','0805','C0805C475K3RACTU')
+    p(s,'FB501','Device:FerriteBead','600R @ 100MHz',295,75,{1:'3V3',2:'3V3_A'},'Inductor_SMD:L_0603_1608Metric','BLM18KG601SN1D','Murata',90)
+    C(s,'C507','4.7u 25V',350,75,'3V3_A','GND','0805','C0805C475K3RACTU')
     C(s,'C508','100n 50V',395,75,'3V3_A')
-    p(s,'U502','Reference_Voltage:REF2030','REF2030AIDDCR',310,155,{1:'VBIAS_1V5',2:'GND',3:'3V3_A',4:'3V3_A',5:'VREF_3V0'},mpn='REF2030AIDDCR',manufacturer='Texas Instruments')
+    p(s,'U502','Reference_Voltage:REF2025','REF2025AIDDCR',310,155,{1:'VBIAS_1V25',2:'GND',3:'3V3_A',4:'3V3_A',5:'VREF_2V5'},mpn='REF2025AIDDCR',manufacturer='Texas Instruments')
     C(s,'C509','100n 50V',250,155,'3V3_A')
-    C(s,'C510','1u 16V',375,145,'VREF_3V0','GND','0603','GRM188R71C105KA12D')
-    C(s,'C511','100n 50V',420,145,'VREF_3V0')
-    C(s,'C512','100n 50V',375,205,'VBIAS_1V5')
-    R(s,'R501','1k',420,205,'VREF_3V0','GND')
-    D(s,'D501','PMEG2010ER',465,145,'VREF_3V0','3V3_A','Diode_SMD:Nexperia_CFP3_SOD-123W')
+    C(s,'C510','1u 16V',375,145,'VREF_2V5','GND','0603','C0603C105K4RACTU')
+    C(s,'C511','100n 50V',420,145,'VREF_2V5')
+    C(s,'C512','100n 50V',375,205,'VBIAS_1V25')
+    R(s,'R501','1k',420,205,'VREF_2V5','GND')
+    D(s,'D501','PMEG2010ER',465,145,'VREF_2V5','3V3_A','Diode_SMD:Nexperia_CFP3_SOD-123W')
     p(s,'Y501','Device:Crystal','8MHz / CL18p',310,240,{1:'HSE_IN',2:'HSE_XOUT'},'Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm','ABM3-8.000MHZ-D2Y-T','Abracon')
     R(s,'R502','0',245,240,'HSE_OUT','HSE_XOUT',angle=90)
     C(s,'C513','27p 50V',375,260,'HSE_IN','GND','0603','C0603C270J5GACTU')
@@ -146,11 +148,11 @@ def build(c):
     R(s,'R504','10k',420,330,'3V3','NRST')
     p(s,'SW502','Switch:SW_Push','USER',470,330,{1:'BUTTON_USER',2:'GND'},'Button_Switch_SMD:SW_SPST_TL3342','TL3342F160QG','E-Switch')
     R(s,'R505','10k',525,330,'3V3','BUTTON_USER')
-    p(s,'J501','Connector_Generic:Conn_02x05_Odd_Even','SWD',500,75,{1:'3V3',2:'SWDIO',3:'GND',4:'SWCLK',5:'GND',6:'SWO',7:None,8:None,9:'GND',10:'NRST'},
-      'Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD','FTSH-105-01-L-DV-K','Samtec')
-    for i,(net,x) in enumerate([('VREF_3V0',45),('VBIAS_1V5',105),('3V3_A',165),('ADC_TRIG_SCOPE',245),('DAC1_CH1_TP',335),('DAC1_CH2_TP',425)],1):TP(s,'TP'+str(500+i),net,x,380)
+    p(s,'J501','bldc-esc:SWD10_Keyed','SWD / KEY 7',500,75,{1:'3V3',2:'SWDIO',3:'GND',4:'SWCLK',5:'GND',6:'SWO',8:None,9:'GND',10:'NRST'},
+      'bldc-esc:FTSH_105_DV_007_K','FTSH-105-01-L-DV-007-K','Samtec')
+    for i,(net,x) in enumerate([('VREF_2V5',45),('VBIAS_1V25',105),('3V3_A',165),('ADC_TRIG_SCOPE',245),('DAC1_CH1_TP',335),('DAC1_CH2_TP',425)],1):TP(s,'TP'+str(500+i),net,x,380)
     p(s,'#FLG501','power:PWR_FLAG','PWR_FLAG',530,200,{1:'3V3_A'})
-    c.notes[s]+=[(230,38,'PB8=BOOT0 / PA15=I2C1_SCL / PG10=NRST'),(230,110,'VREF=3.0V below VDDA; reference supply follows 3V3_A')]
+    c.notes[s]+=[(230,38,'PB8=BOOT0 / PA15=I2C1_SCL / PG10=NRST'),(230,110,'VREF=2.5V below VDDA; reference supply follows 3V3_A')]
 
     build_regen(c)
     build_sensors(c)
@@ -194,7 +196,7 @@ def build_m03(c):
         p('08_analog_inputs',ref,'bldc-esc:TLV9062','TLV9062IDR',50,50,nets,
             'Package_SO:SOIC-8_3.9x4.9mm_P1.27mm','TLV9062IDR','Texas Instruments')
         C('08_analog_inputs',decap,'100n 50V',60,60,'3V3_A')
-    C('07_io_can','C706','1u 16V',70,70,'3V3','GND','0603','GRM188R71C105KA12D')
+    C('07_io_can','C706','1u 16V',70,70,'3V3','GND','0603','C0603C105K4RACTU')
     for i,phase in enumerate('ABC'):
         for offset,net in enumerate(['G'+phase+'H','G'+phase+'L','SOURCE_'+phase]):
             TP('02_bridge','TP'+str(220+20*i+offset),net,10,10)
@@ -203,7 +205,7 @@ def build_m03(c):
 def build_regen(c):
     p,R,C,D,TP,CON=c.part,c.R,c.C,c.D,c.TP,c.CON
     s='03_regen';sot6='Package_TO_SOT_SMD:SOT-23-6';vssop8='Package_SO:VSSOP-8_2.3x2mm_P0.5mm'
-    p(s,'U301','bldc-esc:TLV3011B','TLV3011BDBVR',80,75,{1:'nDUMP_REQUEST',2:'GND',3:'DUMP_HYST',4:'DUMP_VSENSE',5:None,6:'5V_BUS'},sot6,'TLV3011BDBVR','Texas Instruments')
+    p(s,'U301','bldc-esc:TLV3011B','TLV3011BIDBVR',80,75,{1:'nDUMP_REQUEST',2:'GND',3:'DUMP_HYST',4:'DUMP_VSENSE',5:None,6:'5V_BUS'},sot6,'TLV3011BIDBVR','Texas Instruments')
     R(s,'R301','100k',30,145,'VBUS','DUMP_DIV_MID',precision=True)
     R(s,'R302','100k',75,145,'DUMP_DIV_MID','DUMP_VSENSE',precision=True)
     R(s,'R303','8.45k',120,145,'DUMP_VSENSE','GND',precision=True)
@@ -215,7 +217,7 @@ def build_regen(c):
     C(s,'C303','100n 50V',30,260,'DUMP_REF')
     p(s,'U308','Reference_Voltage:REF2025','REF2025AIDDCR',70,260,{1:'DUMP_REF',2:'GND',3:'5V_BUS',4:'5V_BUS',5:'DUMP_REF_2V5'},mpn='REF2025AIDDCR',manufacturer='Texas Instruments')
     C(s,'C313','100n 50V',95,260,'5V_BUS')
-    C(s,'C314','1u 16V',125,260,'DUMP_REF_2V5','GND','0603','GRM188R71C105KA12D')
+    C(s,'C314','1u 16V',125,260,'DUMP_REF_2V5','GND','0603','C0603C105K4RACTU')
     p(s,'U302','Driver_FET:UCC27511ADBV','UCC27511ADBVR',275,75,{1:'5V_BUS',2:'DUMP_GH',3:'DUMP_GL',4:'DUMP_SOURCE',5:'nDUMP_REQUEST',6:'BRK_ARMED'},mpn='UCC27511ADBVR',manufacturer='Texas Instruments')
     R(s,'R307','2.2',355,55,'DUMP_GH','DUMP_GATE',angle=90)
     R(s,'R308','1',355,105,'DUMP_GL','DUMP_GATE',angle=90)
@@ -224,7 +226,7 @@ def build_regen(c):
     R(s,'R309','47k',490,75,'DUMP_GATE','DUMP_SOURCE')
     p(s,'R310','Device:R','3m / 3W',430,150,{1:'DUMP_SOURCE',2:'GND'},'Resistor_SMD:R_2512_6332Metric','WSLP2512R0030FEA','Vishay')
     C(s,'C304','100n 50V',230,145,'5V_BUS','DUMP_SOURCE')
-    C(s,'C305','1u 16V',280,145,'5V_BUS','DUMP_SOURCE','0603','GRM188R71C105KA12D')
+    C(s,'C305','1u 16V',280,145,'5V_BUS','DUMP_SOURCE','0603','C0603C105K4RACTU')
     CON(s,'J301','DUMP RESISTOR',535,160,['VBUS','DUMP_SW'],
         'TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal','1711725')
     D(s,'D301','STPS5H100AF',490,220,'DUMP_SW','VBUS','Diode_SMD:D_SOD-128','Device:D_Schottky')
@@ -273,7 +275,7 @@ def build_sensors(c):
         R(s,'R'+str(602+4*k),'100k',x+10,145,en,'GND')
         R(s,'R'+str(603+4*k),'10k',x+60,145,'3V3',fault)
         C(s,'C'+str(601+2*k),'100n 50V',x+60,75,'5V_SYS')
-        C(s,'C'+str(602+2*k),'1u 16V',x+115,75,rail,'GND','0603','GRM188R71C105KA12D')
+        C(s,'C'+str(602+2*k),'1u 16V',x+115,75,rail,'GND','0603','C0603C105K4RACTU')
     CON(s,'J601','HALL',80,225,['5V_HALL','GND','HALL_1_IN','HALL_2_IN','HALL_3_IN'])
     CON(s,'J602','ENCODER',350,225,['5V_ENCODER','GND','ENC_A_IN','ENC_B_IN','ENC_Z_IN'])
     for k,(channels,x) in enumerate([(['HALL_1','HALL_2','HALL_3'],180),(['ENC_A','ENC_B','ENC_Z'],465)]):
@@ -295,10 +297,11 @@ def build_sensors(c):
 def build_io(c):
     p,R,C,D,TP,CON=c.part,c.R,c.C,c.D,c.TP,c.CON
     s='07_io_can';sot6='Package_TO_SOT_SMD:SOT-23-6';vssop8='Package_SO:VSSOP-8_2.3x2mm_P0.5mm'
-    p(s,'U701','bldc-esc:TPS3808Gxx','TPS3808G33DBVR',70,75,{1:'POWER_OK',2:'GND',3:'3V3',4:'POR_CT',5:'3V3',6:'3V3'},sot6,'TPS3808G33DBVR','Texas Instruments')
+    p(s,'U701','bldc-esc:TPS3890','TPS389033DSER',70,75,{1:'3V3_A',2:'GND',3:'3V3',4:'3V3',5:'POR_CT',6:'POWER_OK'},
+      'Package_SON:WSON-6_1.5x1.5mm_P0.5mm','TPS389033DSER','Texas Instruments')
     R(s,'R701','0',30,135,'NRST','POWER_OK')
     C(s,'C701','100n 50V',80,135,'3V3')
-    C(s,'C702','10n 50V',130,135,'POR_CT','GND','0603','C0603C103K5RACTU')
+    C(s,'C702','47n 50V',130,135,'POR_CT','GND','0603','C0603C473K5RACTU')
     p(s,'U702','bldc-esc:TPS3431','TPS3431SDRBR',220,75,{1:'3V3',2:'WD_CWD',3:'3V3',4:'GND',5:'WD_RUN',6:'WD_HEARTBEAT',7:'WD_OK',8:None,9:'GND'},
         'Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm','TPS3431SDRBR','Texas Instruments')
     R(s,'R702','10k',180,135,'3V3','WD_CWD')
@@ -338,14 +341,17 @@ def build_protection(c):
     s='01_dc_link'
     p(s,'U101','bldc-esc:TLV9024','TLV9024PWR',65,240,{3:'3V3_A',12:'GND',5:'OC_HI',4:'I_PHASE_A',2:'nOC_HW',7:'I_PHASE_A',6:'OC_LO',1:'nOC_HW',9:'OC_HI',8:'I_PHASE_B',14:'nOC_HW',11:'I_PHASE_B',10:'OC_LO',13:'nOC_HW'},
       'Package_SO:TSSOP-14_4.4x5mm_P0.65mm','TLV9024PWR','Texas Instruments')
-    p(s,'U102','bldc-esc:TLV9024','TLV9024PWR',235,240,{3:'3V3_A',12:'GND',5:'OC_HI',4:'I_PHASE_C',2:'nOC_HW',7:'I_PHASE_C',6:'OC_LO',1:'nOC_HW',9:'BUS_OV_REF',8:'V_BUS_ADC',14:'BUS_OK',11:'V_BUS_ADC',10:'OC_LO',13:'BUS_OK'},
+    p(s,'U102','bldc-esc:TLV9024','TLV9024PWR',235,240,{3:'3V3_A',12:'GND',5:'OC_HI',4:'I_PHASE_C',2:'nOC_HW',7:'I_PHASE_C',6:'OC_LO',1:'nOC_HW',9:'BUS_OV_REF',8:'V_BUS_ADC',14:'BUS_OK',11:'V_BUS_ADC',10:'BUS_UV_REF',13:'BUS_OK'},
       'Package_SO:TSSOP-14_4.4x5mm_P0.65mm','TLV9024PWR','Texas Instruments')
-    R(s,'R110','10k',340,65,'VREF_3V0','OC_HI',precision=True)
-    R(s,'R111','49.9k',340,105,'OC_HI','GND',precision=True)
-    R(s,'R112','49.9k',400,105,'VREF_3V0','OC_LO',precision=True)
+    R(s,'R110','10k',340,65,'VREF_2V5','OC_HI',precision=True)
+    R(s,'R111','90.9k',340,105,'OC_HI','GND',precision=True)
+    R(s,'R112','90.9k',400,105,'VREF_2V5','OC_LO',precision=True)
     R(s,'R113','10k',460,105,'OC_LO','GND',precision=True)
-    R(s,'R114','10k',400,160,'VREF_3V0','BUS_OV_REF',precision=True)
-    R(s,'R115','11k',460,160,'BUS_OV_REF','GND',precision=True)
+    R(s,'R114','10k',400,160,'VREF_2V5','BUS_OV_REF',precision=True)
+    R(s,'R115','16.9k',460,160,'BUS_OV_REF','GND',precision=True)
+    R(s,'R118','40.2k',520,160,'VREF_2V5','BUS_UV_REF',precision=True)
+    R(s,'R119','10k',570,160,'BUS_UV_REF','GND',precision=True)
+    C(s,'C117','10n 50V',570,220,'BUS_UV_REF','GND','0603','C0603C103K5RACTU')
     C(s,'C110','10n 50V',335,235,'OC_HI','GND','0603','C0603C103K5RACTU')
     C(s,'C111','10n 50V',335,285,'OC_LO','GND','0603','C0603C103K5RACTU')
     C(s,'C112','10n 50V',395,285,'BUS_OV_REF','GND','0603','C0603C103K5RACTU')
@@ -413,7 +419,7 @@ def build_measurements(c):
     for i,(net,x) in enumerate([('THROTTLE_ADC',70),('AUX_ANALOG_ADC',245)]):
         n=850+5*i
         CON(s,'J'+str(801+i),net,x,285,['5V_HALL','GND',net+'_IN'])
-        R(s,'R'+str(n),'8.2k',x-25,345,net+'_IN',net,angle=90)
+        R(s,'R'+str(n),'12.1k',x-25,345,net+'_IN',net,angle=90)
         R(s,'R'+str(n+1),'10k',x+35,345,net,'GND')
         C(s,'C'+str(n),'10n 50V',x-25,400,net,'GND','0603','C0603C103K5RACTU')
         p(s,'D'+str(n),'Diode:BAT54S','BAT54S',x+45,400,{1:'GND',2:'3V3_A',3:net},mpn='BAT54S,215',manufacturer='Nexperia')
@@ -431,7 +437,7 @@ def build_measurements(c):
     C(s,'C845','100n 50V',750,405,'3V3')
     for i,(net,x) in enumerate([('NTC_BRIDGE',70),('NTC_PCB',245),('NTC_MOTOR',420),('NTC_DUMP',595)]):
         n=880+3*i
-        R(s,'R'+str(n),'10k',x,475,'VREF_3V0',net,precision=True)
+        R(s,'R'+str(n),'10k',x,475,'VREF_2V5',net,precision=True)
         C(s,'C'+str(n),'10n 50V',x+55,475,net,'GND','0603','C0603C103K5RACTU')
         if i<2:
             p(s,'TH'+str(801+i),'Device:Thermistor_NTC','10k / B25-50=3380K',x,540,{1:net,2:'GND'},'Resistor_SMD:R_0603_1608Metric','NCP18XH103F03RB','Murata')
@@ -447,8 +453,8 @@ def build_measurements(c):
 
 def reorganize(c):
     for part in c.parts:
-        if part['mpn']=='INA241A2DGKR':
-            part['value']='INA241A2DR';part['mpn']='INA241A2DR'
+        if part['mpn']=='INA241A2IDGKR':
+            part['value']='INA241A2IDR';part['mpn']='INA241A2IDR'
             part['footprint']='Package_SO:SOIC-8_3.9x4.9mm_P1.27mm'
         elif part['mpn']=='SN74LVC3G17DCUR':
             part['value']='SN74LVC3G17DCTR';part['mpn']='SN74LVC3G17DCTR'

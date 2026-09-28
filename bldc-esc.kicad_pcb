@@ -320,7 +320,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -332,7 +332,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1543,7 +1543,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1832,7 +1832,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u 10V"
+		(property "Value" "4.7u 25V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "741eca5a-364d-461e-b492-e677d0daf29c")
@@ -1877,7 +1877,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71A475KA73L"
+		(property "MPN" "C0805C475K3RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1889,7 +1889,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2235,7 +2235,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2918,7 +2918,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2930,7 +2930,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3103,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3437,7 +3437,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3449,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3565,7 +3565,7 @@
 				)
 			)
 		)
-		(property "Value" "11k 0.1%"
+		(property "Value" "16.9k 0.1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "05f1bff1-bb22-4487-a493-90ec7c41e1c3")
@@ -3610,7 +3610,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0603BRD0711KL"
+		(property "MPN" "RT0603BRD0716K9L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3738,7 +3738,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u 10V"
+		(property "Value" "4.7u 25V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "69850c78-d258-4da3-93e4-18ee62d4cd4c")
@@ -3783,7 +3783,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71A475KA73L"
+		(property "MPN" "C0805C475K3RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3795,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3968,7 +3968,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4314,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4648,7 +4648,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4660,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4821,7 +4821,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4833,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6487,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6775,7 +6775,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6787,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7379,7 +7379,7 @@
 				)
 			)
 		)
-		(property "Value" "VBIAS_1V5"
+		(property "Value" "VBIAS_1V25"
 			(at 0 1.75 0)
 			(layer "F.Fab")
 			(uuid "81758cad-f283-48fd-b870-6378cfffc462")
@@ -7482,7 +7482,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "0b4c4969-63ec-490f-8243-3f11a90aad68")
 		)
 		(embedded_fonts no)
@@ -7541,7 +7541,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7854,7 +7854,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8015,7 +8015,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8027,7 +8027,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9344,7 +9344,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9356,7 +9356,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9867,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Littelfuse"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10392,6 +10392,179 @@
 			)
 		)
 	)
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "23903d9b-727d-42ae-9657-4e9e342eac35")
+		(at 574 254)
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor")
+		(property "Reference" "C117"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "a00a1bbb-1df9-4f0a-af70-2abdf15cf445")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10n 50V"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "cf7cebeb-54e5-4b52-b358-517651a0ad6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9199f7aa-4a5f-4507-ba1c-07d45913aed5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62830308-8207-41b4-be89-affa8eb67048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "027b010a-6348-4d4a-93f3-2f143850194c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0603C103K5RACTU"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2578ec9-2aa3-416c-93a1-9a675cd34d53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c39e9a5-cd7d-4fe5-aa4a-068f84cf9bba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000011/ff65e97f-f43b-54e7-9c84-236e10c5bf32")
+		(sheetname "/11_current_protection/")
+		(sheetfile "schematic/11_current_protection.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "21909434-984f-48b2-a3fa-9a53b0fc39e0")
+		)
+		(fp_line
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b944171-2c04-4367-bce9-49cf160ec629")
+		)
+		(fp_rect
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d43cf4aa-4b6b-4eb5-a63a-56f1b396fd9c")
+		)
+		(fp_rect
+			(start -0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "09c3e84b-2366-4864-95ef-8d21804dca3e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7d8a6e3e-5f0e-4297-853a-69c14f954cf7")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.775 0)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/11_current_protection/BUS_UV_REF")
+			(uuid "11664be3-b55a-4d8b-927f-ad43bdba5a06")
+		)
+		(pad "2" smd roundrect
+			(at 0.775 0)
+			(size 0.9 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "5e5f0511-7121-4f40-82ff-a94981696837")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "23bbdf65-be1a-4a21-b356-50811c1d756c")
@@ -10446,7 +10619,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT54H"
+		(property "MPN" "BAT54H,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10757,7 +10930,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10769,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10942,7 +11115,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11449,7 +11622,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11461,7 +11634,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12882,7 +13055,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13216,7 +13389,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13228,7 +13401,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13574,7 +13747,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13735,7 +13908,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13747,7 +13920,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13900,7 +14073,7 @@
 				)
 			)
 		)
-		(property "MPN" "PMEG2010ER"
+		(property "MPN" "PMEG2010ER,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14121,7 +14294,7 @@
 			(at 1.4 0)
 			(size 1.2 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "3217fdbb-51fe-4118-9559-31eac5f80d2b")
 		)
 		(embedded_fonts no)
@@ -14509,7 +14682,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15248,7 +15421,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15561,7 +15734,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16274,7 +16447,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16835,6 +17008,179 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "329c86fc-efa1-49c4-bf50-2ccce66a1291")
+		(at 510 798)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R417"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "70545e0f-a5e3-4199-a6ff-57281ca2d3e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "51.1k 0.1%"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "336b12a3-5488-4585-a751-63a47cea46c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e31317f3-9d95-40ec-92e7-32e7b6b5d675")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aae2908-a5ee-43d2-ac5a-6eb578560702")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1643332-9669-42af-bb62-1f368ce0385e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0751K1L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75175081-2c4d-4596-99b6-76bbb99766fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c898cd5-03da-4de9-a236-c3d47a818143")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000004/5368787f-06fa-5c0b-bc21-97e8d5472cb2")
+		(sheetname "/04_power_usb/")
+		(sheetfile "schematic/04_power_usb.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e51a632a-844c-4096-8dd6-2714c98fa178")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3914b68e-6ed2-49e2-902d-0ea1c74d0d6e")
+		)
+		(fp_rect
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b5c6adc3-ea1e-4ffc-aa97-f584ba7f2b08")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b6ea5367-4762-4544-b7eb-ee0866575f26")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "91df8881-3ca4-4be6-9bdd-6e4fa4305512")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "3V3")
+			(uuid "e7ac101f-a14f-49fe-9a97-25b5069235d0")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/04_power_usb/VDD_FB")
+			(uuid "cd2f3205-d98c-412d-bf60-0863e8e2e0c0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 		(layer "F.Cu")
 		(uuid "32d43b63-f155-469e-8484-56961659845b")
@@ -16852,7 +17198,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75533PDRVR"
+		(property "Value" "TLV75801PDRVR"
 			(at 0 1.95 0)
 			(layer "F.Fab")
 			(uuid "19d8670f-a6fd-4807-aa42-17815b3834cd")
@@ -16863,7 +17209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv755p.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv758p.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16897,7 +17243,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLV75533PDRVR"
+		(property "MPN" "TLV75801PDRVR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17128,7 +17474,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U403-NC-Pad2)")
+			(net "/04_power_usb/VDD_FB")
 			(uuid "c3aa1c38-5795-4356-b020-25d732a3c38a")
 		)
 		(pad "3" smd roundrect
@@ -17152,7 +17498,7 @@
 			(size 0.375 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U403-NC-Pad5)")
+			(net "unconnected-(U403-DNC-Pad5)")
 			(uuid "d813b7cb-1c1b-498a-943a-ea9c882b076c")
 		)
 		(pad "6" smd roundrect
@@ -17259,7 +17605,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17420,7 +17766,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17432,7 +17778,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17939,7 +18285,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17951,7 +18297,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18112,7 +18458,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18124,7 +18470,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18297,7 +18643,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19267,7 +19613,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT54H"
+		(property "MPN" "BAT54H,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19590,7 +19936,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19838,7 +20184,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "6b820c97-2cd2-4d03-b58e-76900445f35e")
 		)
 		(pad "2" smd roundrect
@@ -19879,7 +20225,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9k 0.1%"
+		(property "Value" "90.9k 0.1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "910f962f-6287-492b-ba60-eecba60ceeed")
@@ -19924,7 +20270,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0603BRD0749K9L"
+		(property "MPN" "RT0603BRD0790K9L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20663,7 +21009,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R71H222KA37D"
+		(property "MPN" "C0603C222J5GACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20675,7 +21021,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21021,7 +21367,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21528,7 +21874,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM18AG601SN1D"
+		(property "MPN" "BLM18KG601SN1D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21701,7 +22047,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21713,7 +22059,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22059,7 +22405,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22220,7 +22566,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22232,7 +22578,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23729,7 +24075,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23741,7 +24087,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23902,7 +24248,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23914,7 +24260,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24702,7 +25048,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25003,7 +25349,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25015,7 +25361,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26389,7 +26735,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "12.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e2635640-b677-41f9-a840-516887a46808")
@@ -26434,7 +26780,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-078K2L"
+		(property "MPN" "RC0603FR-0712K1L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26619,7 +26965,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26780,7 +27126,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26792,7 +27138,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27138,7 +27484,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27645,7 +27991,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27657,7 +28003,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28426,622 +28772,6 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-		(layer "F.Cu")
-		(uuid "4b5d1651-31e4-4078-9607-142cbaff5092")
-		(at 94 318)
-		(descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
-		(tags "Surface mounted pin header SMD 2x05 1.27mm double row")
-		(property "Reference" "J501"
-			(at 0 -4.285 0)
-			(layer "F.SilkS")
-			(uuid "e2bbbb2a-1b9f-48d3-ac40-706a2327a320")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SWD"
-			(at 0 4.285 0)
-			(layer "F.Fab")
-			(uuid "56574447-b767-4d77-a448-f603e289a16c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ffdb738-f425-473c-ba24-0f81c91093d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd236a7d-a15e-41db-9e9e-ea506e0f0b1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cc5fb66b-5139-4df1-b609-301f9ac42650")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "FTSH-105-01-L-DV-K"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b88698a-c6b9-4b6d-97dc-b752cf41908b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45e71828-56df-4bd3-b947-1ecffe37f683")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/10000000-0000-4000-8000-000000000005/4ea3bf4c-636a-5748-ae7a-cfd1b90407d9")
-		(sheetname "/05_mcu/")
-		(sheetfile "schematic/05_mcu.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.09 -3.22)
-			(end -1.815 -3.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "314d4598-6626-42f8-bafb-02dd1426d6cb")
-		)
-		(fp_line
-			(start -1.815 -3.285)
-			(end -1.815 -3.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6841901-b400-47fe-8a59-cc665c5f0ce3")
-		)
-		(fp_line
-			(start -1.815 -3.285)
-			(end 1.815 -3.285)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5097abd3-5610-41e7-913c-a2153b9fa100")
-		)
-		(fp_line
-			(start -1.815 3.22)
-			(end -1.815 3.285)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "915bca90-6af5-4a23-bc88-9f7c531980b3")
-		)
-		(fp_line
-			(start -1.815 3.285)
-			(end 1.815 3.285)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e27c5bf-80e9-435e-a54a-3cb3c831fe39")
-		)
-		(fp_line
-			(start 1.815 -3.285)
-			(end 1.815 -3.22)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5b1a5d7b-f846-4a5a-854e-454ca4e4d971")
-		)
-		(fp_line
-			(start 1.815 3.22)
-			(end 1.815 3.285)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2ce26667-43e1-4f1b-b41a-471d43ff8970")
-		)
-		(fp_rect
-			(start -4.29 -3.68)
-			(end 4.29 3.68)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "1d9ae3e1-1261-4203-ad3e-fee92e0033cc")
-		)
-		(fp_line
-			(start -2.75 -2.74)
-			(end -2.75 -2.34)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dc442427-d62c-4c75-b3da-e42aa6d0d2d0")
-		)
-		(fp_line
-			(start -2.75 -2.34)
-			(end -1.705 -2.34)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "234a40ab-5b97-442f-a355-609dc89fb770")
-		)
-		(fp_line
-			(start -2.75 -1.47)
-			(end -2.75 -1.07)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f840ed13-d9c1-46bb-8d6f-951bed9e0d56")
-		)
-		(fp_line
-			(start -2.75 -1.07)
-			(end -1.705 -1.07)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a1dec63c-b003-4de4-9a92-5ea456327ba3")
-		)
-		(fp_line
-			(start -2.75 -0.2)
-			(end -2.75 0.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0f04be29-09fa-4d4a-b7ed-7cb33d30ca46")
-		)
-		(fp_line
-			(start -2.75 0.2)
-			(end -1.705 0.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "391622a4-182e-4bb9-8bbe-63f4e58fc1de")
-		)
-		(fp_line
-			(start -2.75 1.07)
-			(end -2.75 1.47)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3c9cfa3d-9f71-4c8c-86dc-51818a353374")
-		)
-		(fp_line
-			(start -2.75 1.47)
-			(end -1.705 1.47)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d294359e-b4c3-4168-804b-bb4c03e6b993")
-		)
-		(fp_line
-			(start -2.75 2.34)
-			(end -2.75 2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b096f94e-2406-49af-8652-41d4bb2d23df")
-		)
-		(fp_line
-			(start -2.75 2.74)
-			(end -1.705 2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9a5b2437-be2c-4ea3-91e2-5bb1dee3e736")
-		)
-		(fp_line
-			(start -1.705 -2.74)
-			(end -2.75 -2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "86a8804b-b9b0-400b-a70a-15ed23ec61fa")
-		)
-		(fp_line
-			(start -1.705 -2.74)
-			(end -1.27 -3.175)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d87bb2a6-6ab1-412b-9dc6-ce935676febd")
-		)
-		(fp_line
-			(start -1.705 -1.47)
-			(end -2.75 -1.47)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "571ae79f-66c3-41de-a6e4-a4d308738963")
-		)
-		(fp_line
-			(start -1.705 -0.2)
-			(end -2.75 -0.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c4eaa18e-6265-4382-ad56-1ef776f46a32")
-		)
-		(fp_line
-			(start -1.705 1.07)
-			(end -2.75 1.07)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f10a451e-9d50-4796-acb0-3529e844ad16")
-		)
-		(fp_line
-			(start -1.705 2.34)
-			(end -2.75 2.34)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1033b3de-0e01-478a-aacd-5bcace3f0f9c")
-		)
-		(fp_line
-			(start -1.705 3.175)
-			(end -1.705 -2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "872446c6-1ab2-4fcc-857c-0d44067c41d0")
-		)
-		(fp_line
-			(start -1.27 -3.175)
-			(end 1.705 -3.175)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cc38d75d-93b3-4ed3-b718-d010107280da")
-		)
-		(fp_line
-			(start 1.705 -3.175)
-			(end 1.705 3.175)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "05ac07f3-6471-439b-888a-8ec05dc9dc89")
-		)
-		(fp_line
-			(start 1.705 -2.74)
-			(end 2.75 -2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d5008cee-998c-4c19-bd5f-8695ba2a885f")
-		)
-		(fp_line
-			(start 1.705 -1.47)
-			(end 2.75 -1.47)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a327ed16-4b9f-4cb6-8616-636bd98dfaa5")
-		)
-		(fp_line
-			(start 1.705 -0.2)
-			(end 2.75 -0.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4de60af6-6d56-4f5f-bdde-8fbb7b3f6c3b")
-		)
-		(fp_line
-			(start 1.705 1.07)
-			(end 2.75 1.07)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "746e50fe-0879-41bb-8fdc-ad65d869ba00")
-		)
-		(fp_line
-			(start 1.705 2.34)
-			(end 2.75 2.34)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ae9af30f-7bc0-477c-9c18-f525e2ce9bc8")
-		)
-		(fp_line
-			(start 1.705 3.175)
-			(end -1.705 3.175)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4e3fc0c9-c269-451a-97c5-58ceb7599c19")
-		)
-		(fp_line
-			(start 2.75 -2.74)
-			(end 2.75 -2.34)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2625a83b-6921-442a-aeb8-bcd16c9f534d")
-		)
-		(fp_line
-			(start 2.75 -2.34)
-			(end 1.705 -2.34)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8e2511d0-c748-4864-872a-8c180e979bcf")
-		)
-		(fp_line
-			(start 2.75 -1.47)
-			(end 2.75 -1.07)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3da3316f-3a89-4d6d-8f9b-643e3f784ac5")
-		)
-		(fp_line
-			(start 2.75 -1.07)
-			(end 1.705 -1.07)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6979b0fc-704b-4769-8b95-b94c55571cdb")
-		)
-		(fp_line
-			(start 2.75 -0.2)
-			(end 2.75 0.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "00340e58-2a16-4b32-ada4-e41c2a8d3d38")
-		)
-		(fp_line
-			(start 2.75 0.2)
-			(end 1.705 0.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3a49dd12-f5e8-4236-a892-46b3bed70ac7")
-		)
-		(fp_line
-			(start 2.75 1.07)
-			(end 2.75 1.47)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1f4a5e88-5ca1-47a5-b3ba-a5c50b5822c1")
-		)
-		(fp_line
-			(start 2.75 1.47)
-			(end 1.705 1.47)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "38e3789b-ca62-4ebc-95c4-b18f0e721ae8")
-		)
-		(fp_line
-			(start 2.75 2.34)
-			(end 2.75 2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5c784936-9bcd-4556-9800-2b9596e115cb")
-		)
-		(fp_line
-			(start 2.75 2.74)
-			(end 1.705 2.74)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ffee6362-6b74-42c6-9f89-8e72cf8ae2d1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "c5eb964b-fa37-4734-823d-95713bbef976")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at -1.95 -2.54)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "3V3")
-			(uuid "3ed3db06-d427-4c2c-9d6b-f92bf0daca06")
-		)
-		(pad "2" smd rect
-			(at 1.95 -2.54)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/05_mcu/SWDIO")
-			(uuid "1c8c8c7b-e740-4314-baa3-45453c2c87e7")
-		)
-		(pad "3" smd rect
-			(at -1.95 -1.27)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(uuid "5a793098-5438-448e-9493-d6b5cec17a7e")
-		)
-		(pad "4" smd rect
-			(at 1.95 -1.27)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/05_mcu/SWCLK")
-			(uuid "6fbc4cf7-1686-4906-8d74-ccf2492e7313")
-		)
-		(pad "5" smd rect
-			(at -1.95 0)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(uuid "fbfef9d1-f9f4-4a2c-9a84-7ff7ab6498bf")
-		)
-		(pad "6" smd rect
-			(at 1.95 0)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/05_mcu/SWO")
-			(uuid "66a004c5-209b-4220-98b3-b2284c254f06")
-		)
-		(pad "7" smd rect
-			(at -1.95 1.27)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(J501-Pin_7-Pad7)")
-			(uuid "6cc57b67-4ffe-477c-ba84-d2e65eb81b8d")
-		)
-		(pad "8" smd rect
-			(at 1.95 1.27)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(J501-Pin_8-Pad8)")
-			(uuid "49367a04-68bd-4094-9ae8-a759b06ccaec")
-		)
-		(pad "9" smd rect
-			(at -1.95 2.54)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
-			(uuid "12a3d7cb-6e9e-4ff1-92a2-0c951f6cb2a6")
-		)
-		(pad "10" smd rect
-			(at 1.95 2.54)
-			(size 2.4 0.74)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "NRST")
-			(uuid "40a6571d-072e-4a68-997d-68372e7a9ebb")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x05_P1.27mm_Vertical_SMD.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4bd73327-7102-4df0-a4f6-0867065d3717")
@@ -29116,7 +28846,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30572,7 +30302,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30584,7 +30314,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31447,6 +31177,283 @@
 			)
 		)
 	)
+	(footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
+		(layer "F.Cu")
+		(uuid "4fc298d0-bd8c-4f7e-a0a9-0b33cfa2a2be")
+		(at 478 702)
+		(descr "WSON6, http://www.ti.com/lit/ds/symlink/tlv702.pdf")
+		(tags "WSON6_1.5x1.5mm_P0.5mm")
+		(property "Reference" "U701"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "a72eb098-036f-4ead-a3b7-5de251686798")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TPS389033DSER"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "83c9ffa0-9916-4a1d-a1ff-ccbb6158a468")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3890.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86c527b6-6cca-4323-af3d-bc2c2d4b813e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6611e1b2-d940-4d7e-aa52-35c4d544cde4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TPS389033DSER"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db3c927a-edca-41cb-9d19-befb21d0e9aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2426a6b-7219-49a7-840f-58f9f71b04aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000016/e5d19fb5-b752-5aac-a5bf-2329a4db5a3b")
+		(sheetname "/16_supervisor/")
+		(sheetfile "schematic/16_supervisor.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.785 0.9)
+			(end 0.785 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7c07a080-c605-4f48-a72d-c3dd79dd8672")
+		)
+		(fp_line
+			(start -0.58 -0.9)
+			(end 0.78 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "091148ed-0057-41ce-b27c-acdc44d3961a")
+		)
+		(fp_poly
+			(pts
+				(xy -0.9 -0.9) (xy -1.18 -0.9) (xy -0.9 -1.18) (xy -0.9 -0.9)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "3cc8b168-b0b8-43ed-9bda-8aa343f08663")
+		)
+		(fp_line
+			(start -1.2 1.02)
+			(end -1.2 -1.02)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "26dfd985-52e9-4a03-8ca3-750eb320546d")
+		)
+		(fp_line
+			(start -1.2 1.02)
+			(end 1.2 1.02)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "07da9aaa-4b16-4561-a6a2-08a0d8fc5586")
+		)
+		(fp_line
+			(start 1.2 -1.02)
+			(end -1.2 -1.02)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aedaf55b-bb23-4b8d-8730-6842a3349eef")
+		)
+		(fp_line
+			(start 1.2 -1.02)
+			(end 1.2 1.02)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f82be1b6-a8db-4083-84e2-4d1c58ea2054")
+		)
+		(fp_line
+			(start -0.775 -0.5)
+			(end -0.775 0.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ac7a0de4-8ea6-4339-b79d-38e8ad25ae82")
+		)
+		(fp_line
+			(start -0.775 0.78)
+			(end 0.785 0.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a640968-b6a8-4746-ba4c-39b1b10e79cc")
+		)
+		(fp_line
+			(start -0.495 -0.78)
+			(end -0.775 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c42a56e-f76e-4c59-a142-cabc8875d6d0")
+		)
+		(fp_line
+			(start 0.785 -0.78)
+			(end -0.495 -0.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "49d0e64f-9b5f-481e-aae7-2682f4da3057")
+		)
+		(fp_line
+			(start 0.785 -0.78)
+			(end 0.785 0.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "919ebffe-194c-4bcc-9d84-c2bb50086b55")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.005 0 0)
+			(layer "F.Fab")
+			(uuid "200dd414-0fb8-467f-91dc-42be84afee17")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.05)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.525 -0.5 270)
+			(size 0.28 0.85)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "3V3_A")
+			(uuid "08293cba-7351-4841-9103-ccc084e29ad1")
+		)
+		(pad "2" smd roundrect
+			(at -0.575 0 270)
+			(size 0.28 0.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "615fb45a-435e-47f1-923e-da3085f3b7ab")
+		)
+		(pad "3" smd roundrect
+			(at -0.575 0.5 270)
+			(size 0.28 0.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "3V3")
+			(uuid "1b33aeef-9b6a-423f-bcc9-6a1f0edcd0e9")
+		)
+		(pad "4" smd roundrect
+			(at 0.575 0.5 270)
+			(size 0.28 0.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "3V3")
+			(uuid "3fefd4da-4243-4138-b556-970dd95d99df")
+		)
+		(pad "5" smd roundrect
+			(at 0.575 0 270)
+			(size 0.28 0.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/16_supervisor/POR_CT")
+			(uuid "ca1930c1-35d3-42b4-a30f-ff9b926877c6")
+		)
+		(pad "6" smd roundrect
+			(at 0.575 -0.5 270)
+			(size 0.28 0.75)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/16_supervisor/POWER_OK")
+			(uuid "db3e09a7-110a-479a-8bb8-5026b73f4752")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/WSON-6_1.5x1.5mm_P0.5mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "50b334dd-f9a8-4754-a224-2fb41e17b0cd")
@@ -31682,7 +31689,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31694,7 +31701,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32222,7 +32229,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32234,7 +32241,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32568,7 +32575,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32580,7 +32587,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32753,7 +32760,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32914,7 +32921,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32926,7 +32933,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33260,7 +33267,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "C0603C104K1RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33272,7 +33279,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33606,7 +33613,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33618,7 +33625,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34645,7 +34652,7 @@
 				)
 			)
 		)
-		(property "Value" "INA241A2DR"
+		(property "Value" "INA241A2IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "a79228d3-9111-4468-9021-5d1be27f57ff")
@@ -34690,7 +34697,7 @@
 				)
 			)
 		)
-		(property "MPN" "INA241A2DR"
+		(property "MPN" "INA241A2IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34955,7 +34962,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "3c93c3b4-36de-4837-93ed-35002733fd9b")
 		)
 		(pad "4" smd roundrect
@@ -34987,7 +34994,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "584fe14e-44fc-4ef5-aacc-f34ce780e21d")
 		)
 		(pad "8" smd roundrect
@@ -35735,7 +35742,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35747,7 +35754,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36585,7 +36592,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Harwin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37857,7 +37864,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u 10V"
+		(property "Value" "4.7u 25V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "13d6541d-e094-4410-b94d-239244a55926")
@@ -37902,7 +37909,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71A475KA73L"
+		(property "MPN" "C0805C475K3RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37914,7 +37921,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38087,7 +38094,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38260,7 +38267,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38981,7 +38988,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39154,7 +39161,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39315,7 +39322,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39327,7 +39334,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39488,7 +39495,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39500,7 +39507,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39598,6 +39605,131 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "bldc-esc:MF_PSMF0805"
+		(layer "F.Cu")
+		(uuid "637a766f-e263-4809-a0ea-def521f48efb")
+		(at 446 286)
+		(property "Reference" "F401"
+			(at 0 -2.25 0)
+			(layer "F.SilkS")
+			(uuid "0a825552-f4fe-4149-adc8-4c9259ac22b5")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "0.5A / 6V"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "139bb2f7-a349-42be-9570-f8faf9319981")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4732710-d08f-4462-ba81-cafad27e5625")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ee96002-9f2c-4de6-a441-8d3343e0a11d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Source" "Bourns MF-PSMF recommended pad layout; 1.00 x 1.50mm pads / 1.20mm gap"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b9b92b5-b8ea-4a27-b0d4-0fb52df9cc05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MF-PSMF050X-2"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9e22ba9-ffbd-4ecb-99a9-610cd4c15de5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "129550d0-0833-481f-9fcd-118cff867449")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000013/2d3c5088-3f7c-546f-8d58-d9ce5ec4341f")
+		(sheetname "/13_usb_status/")
+		(sheetfile "schematic/13_usb_status.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.85 -1)
+			(end 1.85 1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "83d87810-ffa8-4e07-bffa-b24794bb6161")
+		)
+		(fp_rect
+			(start -1.15 -0.75)
+			(end 1.15 0.75)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5756b5f2-1919-4165-ad03-0f64da9cf843")
+		)
+		(pad "1" smd rect
+			(at -1.1 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/13_usb_status/USB_VBUS_RAW")
+			(uuid "83b25524-2762-4251-8f33-5b036fffa2e5")
+		)
+		(pad "2" smd rect
+			(at 1.1 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "USB_5V")
+			(uuid "fb4739ab-f5c5-4767-8db8-1ee81621f6bc")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -40019,7 +40151,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40575,7 +40707,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41131,7 +41263,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41143,7 +41275,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41218,7 +41350,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "22e016a4-2466-49ad-a3d9-640e1835f0ed")
 		)
 		(pad "2" smd roundrect
@@ -41304,7 +41436,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41316,7 +41448,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41489,7 +41621,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41835,7 +41967,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41934,6 +42066,352 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "68ac7889-353e-4d9b-bf19-176b21aa7414")
+		(at 542 798)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R418"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "63ccd925-693c-4e88-a783-3db4652ead58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k 0.1%"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "89a7e424-465b-4b0f-9d09-3da74a4eb76c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c61faa53-5355-4b25-86ba-25ee0610911e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6299f72b-ecd9-4d92-9d39-70a6928ce95d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "72c73972-1c8f-4d68-8c71-063f5afb914d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b8dab39-3925-4122-9bb7-0c166b2b6bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82e08cb0-d0ed-443d-926e-3c1da74d7e53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000004/f4f26567-f775-59e9-8850-93639729bd32")
+		(sheetname "/04_power_usb/")
+		(sheetfile "schematic/04_power_usb.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70df29b5-94c8-4755-a2f2-0db799b0ab88")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e8991969-da25-4055-bd6c-12d20e12a7ff")
+		)
+		(fp_rect
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6b1c90b0-1a20-4126-8905-b14948d2989b")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a1a7fd26-bd20-4f83-a234-3a50ff30021c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "926b3ea4-13fb-405e-8fb5-7b4b7e0edcc4")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/04_power_usb/VDD_FB")
+			(uuid "d7e845f7-aadf-4cb6-a1c9-a8cf1c08a419")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "f3af8dba-e3a2-43a4-93a5-7d74ff195988")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "69126125-e1a9-4f47-8744-8df2bd28183f")
+		(at 478 798)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R119"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "da3fc767-ac82-436e-8500-e6ba412ef459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k 0.1%"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "4151851b-1630-4edf-9a0f-a055b944a26d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6a14466-1eb2-450d-bae9-73aef23b1eba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50fae52f-521e-4577-bb42-c0e6a7e62914")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab946215-fb9a-4161-81e8-4cac7b38f35f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "393ed79e-96c2-4d45-b09c-fd110cf245af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c2bf2d0-9f73-494e-880e-f644eb25c544")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000011/4753dc99-548e-5316-9635-db6d8d1f3887")
+		(sheetname "/11_current_protection/")
+		(sheetfile "schematic/11_current_protection.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc684f95-b2ed-49a8-a61b-8148713c6f07")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1cd23c60-e737-462c-866f-46b1813860cd")
+		)
+		(fp_rect
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fdfe08a4-6aa8-40f5-8219-6d6d47b70a48")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ce96abfe-a209-409d-bd0a-007bc5582881")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "40c3a4f0-7d56-42ad-a90a-093fda1e59f9")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/11_current_protection/BUS_UV_REF")
+			(uuid "1075216b-6c27-40cd-9114-6a27188a7107")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(uuid "89d52cc9-5338-4fe3-a872-65926d0c5cc0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "69b2fed2-fe2a-4ec1-96db-a011cbcfa8b2")
@@ -42008,7 +42486,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42256,7 +42734,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "5295a0f4-ca3a-46b1-aed6-187a1f06f623")
 		)
 		(pad "2" smd roundrect
@@ -42527,7 +43005,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42700,7 +43178,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42873,7 +43351,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44505,7 +44983,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "573a22e3-5f30-49b3-8371-a444344409dc")
 		)
 		(pad "2" smd roundrect
@@ -45619,7 +46097,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45631,7 +46109,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45792,7 +46270,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR72A473KA01L"
+		(property "MPN" "C0805C473K1RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45804,7 +46282,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47025,7 +47503,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47186,7 +47664,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47198,7 +47676,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47544,7 +48022,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48089,7 +48567,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48802,7 +49280,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49633,7 +50111,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50545,7 +51023,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50891,7 +51369,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Harwin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51596,7 +52074,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52435,7 +52913,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Harwin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52871,7 +53349,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Phoenix Contact"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53238,7 +53716,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53250,7 +53728,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53812,7 +54290,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54596,6 +55074,179 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "8c27e30f-46f2-470a-bccd-ca87e0c101fa")
+		(at 30 286)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R118"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "9daa6c89-8c7d-4082-a84a-f37a10c05a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "40.2k 0.1%"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "2172f515-3001-4586-a6e2-25977bea3fcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "540b75ff-41a8-4f0b-9a46-8872977f1cfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba127d0-150d-4e11-855b-306895f8fe58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b2e0c9d6-2ac2-408f-9f9f-c75afbfb65ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RT0603BRD0740K2L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acece08e-6747-4d6d-b2fe-af1b83b259cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bb6e885-4fed-4001-9e57-40a86aaf7ec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000011/7ad4d29a-304e-5087-9ea8-b138ea9071ad")
+		(sheetname "/11_current_protection/")
+		(sheetfile "schematic/11_current_protection.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c93ccb9d-c271-4d59-9892-88cc18c4a055")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "719a4896-da00-49d1-adfc-457652e53bab")
+		)
+		(fp_rect
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "daed7c79-a5ad-4430-b346-a63a0f7bde2c")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7c30aff8-fd2d-4c78-bad0-4fdcff222e58")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "05b98753-1caf-43b7-ab7a-992a8a5ed2ba")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VREF_2V5")
+			(uuid "8dfe2e66-9981-4798-91c1-2ba380d7f084")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/11_current_protection/BUS_UV_REF")
+			(uuid "431b8eb6-88e2-4a32-bf4a-541dd6c1fec0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "8cdcc8c0-b81f-44d9-b90a-76c953ceb15f")
@@ -55133,7 +55784,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "AMASS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -55370,7 +56021,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
-			(net "VBUS")
+			(net "GND")
 			(uuid "5f9e4c0c-be40-43ab-a362-61892aefe1e9")
 		)
 		(pad "2" thru_hole circle
@@ -55379,7 +56030,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
+			(net "VBUS")
 			(uuid "300de82c-66bc-49a7-82c0-56e4093f512c")
 		)
 		(embedded_fonts no)
@@ -55469,7 +56120,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -55642,7 +56293,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -55988,7 +56639,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56149,7 +56800,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56161,7 +56812,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -56334,7 +56985,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57040,7 +57691,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -57052,7 +57703,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58911,7 +59562,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -58923,7 +59574,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59369,7 +60020,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59381,7 +60032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59534,7 +60185,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61164,7 +61815,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61465,7 +62116,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61477,7 +62128,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61725,7 +62376,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "fec767fe-6f36-4689-80e2-4197eb4bb797")
 		)
 		(pad "2" smd roundrect
@@ -61823,7 +62474,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64580,7 +65231,7 @@
 				)
 			)
 		)
-		(property "Value" "49.9k 0.1%"
+		(property "Value" "90.9k 0.1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "bb667d3a-c0b6-4db5-9834-546969d090d2")
@@ -64625,7 +65276,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0603BRD0749K9L"
+		(property "MPN" "RT0603BRD0790K9L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -64712,7 +65363,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "7e0a6c7d-2e4f-47be-913e-f0f1dfe38640")
 		)
 		(pad "2" smd roundrect
@@ -64983,7 +65634,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Harwin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65398,7 +66049,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65410,7 +66061,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -65563,7 +66214,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -66037,7 +66688,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -66049,7 +66700,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -66124,7 +66775,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "8c0d63c2-2eec-437f-b2b6-6ab8d41cb441")
 		)
 		(pad "2" smd roundrect
@@ -67250,7 +67901,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV3011BDBVR"
+		(property "Value" "TLV3011BIDBVR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "6bbadb56-13d9-4984-83d8-a5de88b53c3e")
@@ -67295,7 +67946,7 @@
 				)
 			)
 		)
-		(property "MPN" "TLV3011BDBVR"
+		(property "MPN" "TLV3011BIDBVR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -67674,7 +68325,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68008,7 +68659,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68020,7 +68671,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68268,7 +68919,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "0e50e913-d128-49b7-ae80-79597f3c2462")
 		)
 		(pad "2" smd roundrect
@@ -68309,7 +68960,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u 10V"
+		(property "Value" "4.7u 25V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "334717d6-0e6f-4a25-a33a-5d1cf466e5e8")
@@ -68354,7 +69005,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71A475KA73L"
+		(property "MPN" "C0805C475K3RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68366,7 +69017,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68692,7 +69343,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -68985,7 +69636,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -70267,7 +70918,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -70279,7 +70930,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -70613,7 +71264,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -70625,7 +71276,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -71887,7 +72538,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1206C472KGRACTU"
+		(property "MPN" "C1206C472KDRACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -71899,7 +72550,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72898,7 +73549,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -72910,7 +73561,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -73744,7 +74395,7 @@
 				)
 			)
 		)
-		(property "Value" "10n 50V"
+		(property "Value" "47n 50V"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6cd6a47e-ec92-45b1-8e40-9b6a6e09faec")
@@ -73789,7 +74440,7 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C103K5RACTU"
+		(property "MPN" "C0603C473K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -73801,7 +74452,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75257,7 +75908,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -75269,7 +75920,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -76819,7 +77470,7 @@
 				)
 			)
 		)
-		(property "Value" "INA241A2DR"
+		(property "Value" "INA241A2IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "847f5095-66fe-4bef-a5a8-ec35902c097f")
@@ -76864,7 +77515,7 @@
 				)
 			)
 		)
-		(property "MPN" "INA241A2DR"
+		(property "MPN" "INA241A2IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77129,7 +77780,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "9961b6f2-6253-4146-a925-c6c0f52b805d")
 		)
 		(pad "4" smd roundrect
@@ -77161,7 +77812,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "e8d49532-2930-4dad-941e-ac745858d6cd")
 		)
 		(pad "8" smd roundrect
@@ -77259,7 +77910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77432,7 +78083,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -77530,6 +78181,191 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "bldc-esc:FTSH_105_DV_007_K"
+		(layer "F.Cu")
+		(uuid "c7b9828b-24b5-4ad2-b9a0-0e483da48cf0")
+		(at 94 318)
+		(property "Reference" "J501"
+			(at 0 -4.675 0)
+			(layer "F.SilkS")
+			(uuid "982158e7-7a54-4d7f-8579-e7a250b47cd1")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SWD / KEY 7"
+			(at 0 4.675 0)
+			(layer "F.Fab")
+			(uuid "05e5c4d7-50a2-474c-b95a-5a8fe17e9c3e")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.samtec.com/products/ftsh-105-01-l-dv-007-k"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbecfc66-72fd-49f5-983d-42716d343839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49d81fb6-1c70-4c9e-87d2-80c52a29179e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Source" "Samtec FTSH-DV footprint rev H; pin 7 omitted"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7210bb7-f77a-41ac-aacf-6e9238838994")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "FTSH-105-01-L-DV-007-K"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4849184-f19e-4fcd-9189-c4cab81df821")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76cb2c74-eeca-4ed4-8512-bd8e7582f04b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/10000000-0000-4000-8000-000000000005/4ea3bf4c-636a-5748-ae7a-cfd1b90407d9")
+		(sheetname "/05_mcu/")
+		(sheetfile "schematic/05_mcu.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center -3.55 -3)
+			(end -3.4 -3)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "186f2c02-ba7d-4144-9765-17c8e270770c")
+		)
+		(fp_rect
+			(start -3.7 -3.45)
+			(end 3.7 3.45)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5a16a592-5817-43f1-b262-cbc1c3e5b3f7")
+		)
+		(fp_rect
+			(start -1.715 -3.175)
+			(end 1.715 3.175)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "010a6f13-0c5e-49c7-9425-244e7a11bfd3")
+		)
+		(pad "1" smd rect
+			(at -2.032 -2.54)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "3V3")
+			(uuid "8f36c287-72e8-4f0b-9b30-88e2bda20964")
+		)
+		(pad "2" smd rect
+			(at 2.032 -2.54)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/05_mcu/SWDIO")
+			(uuid "13bc1c50-548e-4dae-8b30-a2b368430490")
+		)
+		(pad "3" smd rect
+			(at -2.032 -1.27)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(uuid "d11080bb-b77f-427d-bd1d-83405f4b6d86")
+		)
+		(pad "4" smd rect
+			(at 2.032 -1.27)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/05_mcu/SWCLK")
+			(uuid "a6404b54-fa5c-4abf-8535-b87cfa7b359f")
+		)
+		(pad "5" smd rect
+			(at -2.032 0)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(uuid "0de7ecf1-3add-4bf3-89f7-581e4d59586c")
+		)
+		(pad "6" smd rect
+			(at 2.032 0)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/05_mcu/SWO")
+			(uuid "87f077ad-0beb-4211-a3fa-d4e03d025625")
+		)
+		(pad "8" smd rect
+			(at 2.032 1.27)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(J501-Pin_8-Pad8)")
+			(uuid "626d9152-877a-499c-988d-530f6f484ba2")
+		)
+		(pad "9" smd rect
+			(at -2.032 2.54)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(uuid "b6e25b79-8935-4f6e-9475-62bb0b94fd83")
+		)
+		(pad "10" smd rect
+			(at 2.032 2.54)
+			(size 2.794 0.7366)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "NRST")
+			(uuid "b80bacaa-e374-48a2-98ca-d52c3a79a11c")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -78555,7 +79391,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -78856,7 +79692,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR71E105KA99L"
+		(property "MPN" "C0805C105K3RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -78868,7 +79704,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79041,7 +79877,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -79859,7 +80695,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -80890,7 +81726,7 @@
 			(size 1.475 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/11_current_protection/OC_LO")
+			(net "/11_current_protection/BUS_UV_REF")
 			(uuid "14ce7717-88f3-49d3-a2c1-933655fe2e3f")
 		)
 		(pad "11" smd roundrect
@@ -81298,7 +82134,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -81310,7 +82146,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -81467,7 +82303,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "AMASS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -82057,7 +82893,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -82069,7 +82905,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -83661,7 +84497,7 @@
 			(size 0.3 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "afbd8d72-5504-4833-9fc1-0c5b78d66e85")
 		)
 		(pad "37" smd roundrect
@@ -84424,7 +85260,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -84436,7 +85272,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -84552,7 +85388,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "12.1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b97cb3c2-4973-4980-a58b-0dd3aafe2d53")
@@ -84597,7 +85433,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-078K2L"
+		(property "MPN" "RC0603FR-0712K1L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -85736,7 +86572,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -85748,7 +86584,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -85909,7 +86745,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -85921,7 +86757,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -86342,7 +87178,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "9ef11c3d-e44c-4af9-b0d8-7f561229023b")
 		)
 		(pad "2" smd roundrect
@@ -86908,7 +87744,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "72352bfb-b21d-4caf-8eb8-a7d183dc2376")
 		)
 		(pad "2" smd roundrect
@@ -87295,7 +88131,7 @@
 				)
 			)
 		)
-		(property "Value" "INA241A2DR"
+		(property "Value" "INA241A2IDR"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "6f6e66c0-b71e-4062-b65f-bc9ccb47cbd3")
@@ -87340,7 +88176,7 @@
 				)
 			)
 		)
-		(property "MPN" "INA241A2DR"
+		(property "MPN" "INA241A2IDR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -87605,7 +88441,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "c5767694-f9cd-458d-a548-019f3cf55274")
 		)
 		(pad "4" smd roundrect
@@ -87637,7 +88473,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "f212f828-4b81-498d-8267-106d103587aa")
 		)
 		(pad "8" smd roundrect
@@ -87650,179 +88486,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Fuse:Fuse_1206_3216Metric"
-		(layer "F.Cu")
-		(uuid "e346587f-2249-4a70-be74-00f5e9794314")
-		(at 446 286)
-		(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
-		(tags "fuse")
-		(property "Reference" "F401"
-			(at 0 -1.83 0)
-			(layer "F.SilkS")
-			(uuid "fa556145-2943-4b82-8c72-1c074db6f035")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "0.5A / 6V"
-			(at 0 1.83 0)
-			(layer "F.Fab")
-			(uuid "3702ba6f-8e25-4818-80da-a593cfca68ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ded6a426-1db0-44b9-8b58-2b6011135669")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "621835e8-44ba-4dd0-9378-9bb531afa1b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "47e32100-3661-4ab0-b8b3-2f9c6265388f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "MF-PSMF050X-2"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe2949c0-288b-4c4a-898c-9b77c4ecaadb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "729473b6-7fe7-47e5-b9df-24e3dd889eb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/10000000-0000-4000-8000-000000000013/2d3c5088-3f7c-546f-8d58-d9ce5ec4341f")
-		(sheetname "/13_usb_status/")
-		(sheetfile "schematic/13_usb_status.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.602064 -0.91)
-			(end 0.602064 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "af62d757-4cce-4976-bb6a-1b1d1d41c6c8")
-		)
-		(fp_line
-			(start -0.602064 0.91)
-			(end 0.602064 0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f110872f-18c5-443a-866d-9fd3b4e37873")
-		)
-		(fp_rect
-			(start -2.28 -1.13)
-			(end 2.28 1.13)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "2b5e5ca8-5878-4831-a274-7c27564a67a1")
-		)
-		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "6687d24d-e92e-4f33-884a-831888e5b9da")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "2460e737-437b-429e-8481-2d4aeac9248b")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.4 0)
-			(size 1.25 1.75)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.2)
-			(net "/13_usb_status/USB_VBUS_RAW")
-			(uuid "471898e7-bae1-4829-b772-712ed54db23d")
-		)
-		(pad "2" smd roundrect
-			(at 1.4 0)
-			(size 1.25 1.75)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.2)
-			(net "USB_5V")
-			(uuid "6a3ff21a-6d95-4fbb-b8d6-337e355c66dd")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -88339,7 +89002,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -89539,7 +90202,7 @@
 				)
 			)
 		)
-		(property "Value" "VREF_3V0"
+		(property "Value" "VREF_2V5"
 			(at 0 1.75 0)
 			(layer "F.Fab")
 			(uuid "56b6b880-4311-468e-82f2-bdf0373c3c5d")
@@ -89642,7 +90305,7 @@
 			(at 0 0)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "0f6a2460-30a2-4316-ac31-ecd1637f8093")
 		)
 		(embedded_fonts no)
@@ -89701,7 +90364,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -90002,7 +90665,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -90014,7 +90677,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -90089,7 +90752,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "65bebe9d-dbce-4019-b4fe-973a672c676d")
 		)
 		(pad "2" smd roundrect
@@ -92304,373 +92967,6 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-23-6"
-		(layer "F.Cu")
-		(uuid "edc6686f-02bd-4bbf-8355-ab383ccea2b8")
-		(at 478 702)
-		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
-		(tags "SOT TO_SOT_SMD")
-		(property "Reference" "U701"
-			(at 0 -2.4 0)
-			(layer "F.SilkS")
-			(uuid "1e841c08-9e93-41eb-9c27-d2243d4fd036")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TPS3808G33DBVR"
-			(at 0 2.4 0)
-			(layer "F.Fab")
-			(uuid "a81962e9-f96a-4f4c-830a-6f48f3869c78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3808.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "34a8f447-2d9b-4419-8881-ab54289a523f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20e79f3b-7991-4552-a94b-d0aaef86b25b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "28183358-a34e-45d3-8c1d-f4b6758a5688")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "TPS3808G33DBVR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ada46ee-0add-4666-a1d5-21549450bdd4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8739e62e-cc97-45d8-bdf6-945335df00f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/10000000-0000-4000-8000-000000000016/e5d19fb5-b752-5aac-a5bf-2329a4db5a3b")
-		(sheetname "/16_supervisor/")
-		(sheetfile "schematic/16_supervisor.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.91 -1.56)
-			(end 0.91 -1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e9994d0d-d9f6-4b75-837d-4b0daabf3eda")
-		)
-		(fp_line
-			(start -0.91 -1.51)
-			(end -0.91 -1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "877686a7-3499-49b4-8d10-707e649b7f78")
-		)
-		(fp_line
-			(start -0.91 1.56)
-			(end -0.91 1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7340164c-31fc-46fc-9651-b532526aa8b7")
-		)
-		(fp_line
-			(start 0.91 -1.56)
-			(end 0.91 -1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3c2e0673-112e-4fa5-9043-e93d074f47bc")
-		)
-		(fp_line
-			(start 0.91 1.51)
-			(end 0.91 1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96c113cc-2747-4a0a-8d89-a1a1ee3ca218")
-		)
-		(fp_line
-			(start 0.91 1.56)
-			(end -0.91 1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c218f0a-d20f-4c1c-bfd0-c3371a8f2990")
-		)
-		(fp_poly
-			(pts
-				(xy -1.45 -1.51) (xy -1.69 -1.84) (xy -1.21 -1.84)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "c3f3ad03-0692-45a7-bd73-91e073f9e986")
-		)
-		(fp_line
-			(start -2.05 -1.5)
-			(end -1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5b0b88f6-38bc-4229-89d5-8472d37c55c3")
-		)
-		(fp_line
-			(start -2.05 1.5)
-			(end -2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9c72515c-74e7-4994-ada9-0ff4fde3ea5c")
-		)
-		(fp_line
-			(start -1.05 -1.7)
-			(end 1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "932b784c-120c-46b8-8399-56ad32839270")
-		)
-		(fp_line
-			(start -1.05 -1.5)
-			(end -1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7471e256-bc75-445a-b15b-918bcab1e3d6")
-		)
-		(fp_line
-			(start -1.05 1.5)
-			(end -2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3f67bd68-9b49-4da9-903b-ae0973395608")
-		)
-		(fp_line
-			(start -1.05 1.7)
-			(end -1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c0019c9b-01ac-4f89-a8bc-35264e18330a")
-		)
-		(fp_line
-			(start 1.05 -1.7)
-			(end 1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cb20b8c7-f816-4fb4-86ea-0ec392b1a141")
-		)
-		(fp_line
-			(start 1.05 -1.5)
-			(end 2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ebf3c70f-89ef-4bde-b82d-5b29f8599dc9")
-		)
-		(fp_line
-			(start 1.05 1.5)
-			(end 1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1b865bfc-a3b4-42dd-bc1c-0ca834c7acc6")
-		)
-		(fp_line
-			(start 1.05 1.7)
-			(end -1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e6f2c720-bf45-4f2b-87af-2a07af2c3a94")
-		)
-		(fp_line
-			(start 2.05 -1.5)
-			(end 2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4501fea9-fa50-4b64-b938-e6df50afd92e")
-		)
-		(fp_line
-			(start 2.05 1.5)
-			(end 1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "156b3a86-3a8f-4d9f-85f0-7b1f3d214597")
-		)
-		(fp_poly
-			(pts
-				(xy -0.4 -1.45) (xy 0.8 -1.45) (xy 0.8 1.45) (xy -0.8 1.45) (xy -0.8 -1.05)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "f52971fb-e724-4b92-8597-83d0111aba1c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "4653da75-ffa8-4e8e-9e42-3d942635b09f")
-			(effects
-				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.1375 -0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/16_supervisor/POWER_OK")
-			(uuid "59e7d601-c099-45b3-8faf-76a5eb5ec146")
-		)
-		(pad "2" smd roundrect
-			(at -1.1375 0)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(uuid "3fec1a45-716c-4c48-8525-55068199bc5f")
-		)
-		(pad "3" smd roundrect
-			(at -1.1375 0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "3V3")
-			(uuid "880f76d5-0f80-41b8-a17e-c0b628d93e66")
-		)
-		(pad "4" smd roundrect
-			(at 1.1375 0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "/16_supervisor/POR_CT")
-			(uuid "9b3247c3-d150-43e2-8259-5e181b42a742")
-		)
-		(pad "5" smd roundrect
-			(at 1.1375 0)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "3V3")
-			(uuid "fe4b1400-befa-42cd-9c13-129581cfb798")
-		)
-		(pad "6" smd roundrect
-			(at 1.1375 -0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "3V3")
-			(uuid "5b8fb2f8-1e2c-4f2b-85c8-b09c0df579d3")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "edd2f687-f56e-4663-a8d7-096700c09ebb")
@@ -92906,7 +93202,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -92918,7 +93214,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -93851,7 +94147,7 @@
 				)
 			)
 		)
-		(property "Value" "REF2030AIDDCR"
+		(property "Value" "REF2025AIDDCR"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "97b20d3f-0548-42f3-943d-8d6c393b39d8")
@@ -93896,7 +94192,7 @@
 				)
 			)
 		)
-		(property "MPN" "REF2030AIDDCR"
+		(property "MPN" "REF2025AIDDCR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94195,7 +94491,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBIAS_1V5")
+			(net "VBIAS_1V25")
 			(uuid "40b2e09f-b150-4ba5-89e5-59383a5b089b")
 		)
 		(pad "2" smd roundrect
@@ -94227,7 +94523,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VREF_3V0")
+			(net "VREF_2V5")
 			(uuid "0c1c0006-90fa-4a73-a242-d6343e111def")
 		)
 		(embedded_fonts no)
@@ -94305,7 +94601,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94317,7 +94613,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94478,7 +94774,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71H104KA93D"
+		(property "MPN" "C0603C104K5RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94490,7 +94786,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94651,7 +94947,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R71C105KA12D"
+		(property "MPN" "C0603C105K4RACTU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -94663,7 +94959,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -95009,7 +95305,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -96094,7 +96390,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Harwin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -96348,7 +96644,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -98105,7 +98401,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -98278,7 +98574,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -99195,7 +99491,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1BA"
+		(property "MPN" "PESD5V0S1BA,115"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -99508,7 +99804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -99854,7 +100150,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -100027,7 +100323,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

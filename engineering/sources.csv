@@ -62,3 +62,14 @@ GCT_USB4105,GCT,USB4105,B4_2023-12-18,https://gct.co/files/drawings/usb4105.pdf,
 PCBWAY_CAP,PCBWay,PCB_capabilities,2026-09-28,https://www.pcbway.com/capabilities.html,drill_annulus_copper,2026-09-28,web
 PCBWAY_NPTH,PCBWay,NPTH_design_rule,2026-09-28,https://www.pcbway.com/helpcenter/drill_hole_or_via_issues/NTPH_design_rule.html,0p2mm_copper_clearance,2026-09-28,web
 PCBWAY_STACK,PCBWay,stackup,2026-09-28,https://www.pcbway.com/blog/Engineering_Technical/stackup___pcbway.html,standard_1oz_stack_not_confirmed_2oz_outer,2026-09-28,web
+TI_TLV758,Texas_Instruments,SBVS329,D_2023-10,https://www.ti.com/lit/ds/symlink/tlv758p.pdf,feedback_accuracy_IFB_line_thermal_DRV,2026-09-28,local_pdf
+TI_TPS3890,Texas_Instruments,SBVS236,A_2016-05,https://www.ti.com/lit/ds/symlink/tps3890.pdf,33_thresholds_1pct_CT_pinout_DSE0006A,2026-09-28,local_pdf
+MURATA_BLM18KG,Murata,ENFA0003,catalog,https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf,BLM18KG601SN1D_DCR_and_current,2026-09-28,web_pdf
+AMASS_XT60PW,AMASS,XT60PW_M,manufacturer_drawing,https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf,pin_polarity_against_native_footprint_markings,2026-09-28,web_pdf_and_native_footprint
+SAMTEC_FTSH,Samtec,FTSH_105_01_L_DV_007_K,active_product,https://www.samtec.com/products/ftsh-105-01-l-dv-007-k,pin7_omitted_key_notch,2026-09-28,web
+SAMTEC_FTSH_LAND,Samtec,FTSH_DV_recommended_PCB_layout,H_2019-08-27,https://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-footprint.pdf,2p794_by_0p7366_land_1p27_pitch,2026-09-28,local_pdf
+BOURNS_PSMF,Bourns,MF_PSMF,datasheet,https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf,0805_land_and_85C_derating,2026-09-28,local_pdf
+KEMET_C109,KEMET,C1206C472KDRACTU,part_specsheet,https://search.kemet.com/component-documentation/download/specsheet/C1206C472KDRACTU,4n7_1kV_1206,2026-09-28,local_pdf
+JST_GH_LAND,JST,GH_series,catalog,https://www.jst.com/wp-content/uploads/2021/08/eGH.pdf,SM_1p25_pitch_land_mating_views_1A_85C,2026-09-28,local_pdf
+ESW_TL3342,E_Switch,P010632,J,https://configured-product-images.s3.amazonaws.com/2D/specs/TL3342F160QG.pdf,pad_geometry_pole_pairing,2026-09-28,local_pdf
+M04_BOM_EVIDENCE,project,112_ordercode_evidence_records,2026-09-28,,engineering/bom_evidence.json,2026-09-28,primary_source_links_and_cached_PDF_checks

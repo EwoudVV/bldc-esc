@@ -1982,7 +1982,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R72A104KA35D"
+    (property "MPN" "C0603C104K1RACTU"
       (at 71.12 63.5 0)
       (effects
         (font
@@ -1992,7 +1992,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 71.12 63.5 0)
       (effects
         (font
@@ -2058,7 +2058,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM21BR72A473KA01L"
+    (property "MPN" "C0805C473K1RACTU"
       (at 137.16 55.88 0)
       (effects
         (font
@@ -2068,7 +2068,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 137.16 55.88 0)
       (effects
         (font
@@ -2144,7 +2144,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 154.94 78.74 0)
       (effects
         (font
@@ -2210,7 +2210,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM21BR71E105KA99L"
+    (property "MPN" "C0805C105K3RACTU"
       (at 139.7 106.68 0)
       (effects
         (font
@@ -2220,7 +2220,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 139.7 106.68 0)
       (effects
         (font
@@ -2286,7 +2286,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71C105KA12D"
+    (property "MPN" "C0603C105K4RACTU"
       (at 139.7 139.7 0)
       (effects
         (font
@@ -2296,7 +2296,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 139.7 139.7 0)
       (effects
         (font
@@ -2362,7 +2362,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 30.48 121.92 0)
       (effects
         (font
@@ -2372,7 +2372,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 30.48 121.92 0)
       (effects
         (font

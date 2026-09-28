@@ -1282,8 +1282,8 @@
     )
     (uuid "1645df43-5c42-5ce9-99e2-2f7eb90a7a7f")
   )
-  (text "21:1 dividers; 3.0 V ADC full scale = 63 V at the input.\nBuffers isolate the dividers from ADC sampling transients.\nNormal operation remains limited to a 12-30 V bus."
-    (at 82.55 189.23 0)
+  (text "21:1 dividers; 2.5 V ADC full scale = 52.5 V at the input.\nBuffers isolate the dividers from ADC sampling transients.\nNormal operation remains limited to a 12-30 V bus."
+    (at 90.17 189.23 0)
     (effects
       (font
         (size 1.15 1.15)
@@ -1577,7 +1577,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 97.79 63.5 0)
       (effects
         (font
@@ -1875,7 +1875,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 168.91 66.04 0)
       (effects
         (font
@@ -2179,7 +2179,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 273.05 63.5 0)
       (effects
         (font
@@ -2477,7 +2477,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 344.17 66.04 0)
       (effects
         (font
@@ -2781,7 +2781,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 102.87 139.7 0)
       (effects
         (font
@@ -3079,7 +3079,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 173.99 142.24 0)
       (effects
         (font
@@ -3383,7 +3383,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 276.86 139.7 0)
       (effects
         (font
@@ -3681,7 +3681,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 347.98 142.24 0)
       (effects
         (font
@@ -3710,19 +3710,21 @@
     (dnp no)
     (uuid "2d636651-e72f-5083-9337-4c56cb61307a")
     (property "Reference" "U801"
-      (at 19.05 189.23 0)
+      (at 22.86 191.77 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "TLV9064IPWR"
-      (at 19.05 191.77 0)
+      (at 22.86 194.31 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
@@ -3731,6 +3733,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3740,6 +3743,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3749,6 +3753,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3758,6 +3763,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3772,7 +3778,7 @@
   )
   (symbol
     (lib_id "Device:C")
-    (at 31.75 199.39 0)
+    (at 39.37 199.39 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
@@ -3780,7 +3786,7 @@
     (dnp no)
     (uuid "5dab864d-def2-543f-800a-824553073b4f")
     (property "Reference" "C840"
-      (at 35.56 196.85 0)
+      (at 43.18 196.85 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3789,7 +3795,7 @@
       )
     )
     (property "Value" "100n 50V"
-      (at 35.56 199.39 0)
+      (at 43.18 199.39 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3798,7 +3804,7 @@
       )
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-      (at 31.75 199.39 0)
+      (at 39.37 199.39 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3808,7 +3814,7 @@
       (hide yes)
     )
     (property "Datasheet" ""
-      (at 31.75 199.39 0)
+      (at 39.37 199.39 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3817,8 +3823,8 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
-      (at 31.75 199.39 0)
+    (property "MPN" "C0603C104K5RACTU"
+      (at 39.37 199.39 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3827,8 +3833,8 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
-      (at 31.75 199.39 0)
+    (property "Manufacturer" "KEMET"
+      (at 39.37 199.39 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3848,7 +3854,7 @@
   )
   (symbol
     (lib_id "power:VCC")
-    (at 31.75 190.5 0)
+    (at 39.37 190.5 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -3856,7 +3862,7 @@
     (dnp no)
     (uuid "95b2f629-f08f-51e7-bbe4-a2469c8de1b9")
     (property "Reference" "#PWR100001"
-      (at 31.75 190.5 0)
+      (at 39.37 190.5 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -3865,7 +3871,7 @@
       )
     )
     (property "Value" "3V3_A"
-      (at 31.75 186.69 0)
+      (at 39.37 186.69 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -3883,7 +3889,7 @@
   )
   (symbol
     (lib_id "power:GND")
-    (at 31.75 208.28 0)
+    (at 39.37 208.28 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -3891,7 +3897,7 @@
     (dnp no)
     (uuid "a57630e6-27de-5629-9a92-33c468fe33f0")
     (property "Reference" "#PWR100002"
-      (at 31.75 208.28 0)
+      (at 39.37 208.28 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -3900,7 +3906,7 @@
       )
     )
     (property "Value" "GND"
-      (at 31.75 212.09 0)
+      (at 39.37 212.09 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -4756,8 +4762,8 @@
   )
   (wire
     (pts
-      (xy 31.75 190.5)
-      (xy 31.75 195.58)
+      (xy 39.37 190.5)
+      (xy 39.37 195.58)
     )
     (stroke
       (width 0)
@@ -4844,8 +4850,8 @@
   )
   (wire
     (pts
-      (xy 31.75 203.2)
-      (xy 31.75 208.28)
+      (xy 39.37 203.2)
+      (xy 39.37 208.28)
     )
     (stroke
       (width 0)

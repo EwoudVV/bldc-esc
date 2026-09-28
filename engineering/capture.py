@@ -58,6 +58,13 @@ def box_symbol(name, left, right, width=30.48, spacing=2.54):
 
 
 def define_symbols():
+    swd=symbol('Connector_Generic:Conn_02x05_Odd_Even')
+    old_name=swd[1];swd[1]='SWD10_Keyed'
+    for section in swd:
+        if isinstance(section,list) and section[0]=='symbol':
+            section[1]='SWD10_Keyed'+section[1][len(old_name):]
+            section[:]=[v for v in section if not (isinstance(v,list) and v and v[0]=='pin' and str(child(v,'number')[1])=='7')]
+    custom['SWD10_Keyed']=swd
     drv = [(3,'VM','power_in'),(4,'VDRAIN','input'),(24,'VREF','power_in'),(31,'ENABLE','input'),
            (32,'INHA','input'),(33,'INLA','input'),(34,'INHB','input'),(35,'INLB','input'),
            (36,'INHC','input'),(37,'INLC','input'),(30,'nSCS','input'),(29,'SCLK','input'),
@@ -85,6 +92,8 @@ def define_symbols():
         [(7,'nWDO','open_collector'),(8,'ENOUT','open_collector'),(4,'GND','power_in'),(9,'EP','passive')],20.32)
     box_symbol('TPS3808Gxx', [(6,'VDD','power_in'),(5,'SENSE','input'),(3,'nMR','input'),(4,'CT','passive')],
         [(1,'nRESET','open_collector'),(2,'GND','power_in')],20.32)
+    box_symbol('TPS3890', [(4,'VDD','power_in'),(3,'nMR','input'),(1,'SENSE','input'),(5,'CT','passive')],
+        [(6,'nRESET','open_collector'),(2,'GND','power_in')],20.32)
     box_symbol('TLV3011B', [(6,'V+','power_in'),(3,'IN+','input'),(4,'IN-','input')],
         [(1,'OUT','open_collector'),(5,'REF','output'),(2,'V-','power_in')],20.32)
     box_symbol('TPS2553_1', [(1,'IN','power_in'),(3,'EN','input'),(5,'ILIM','passive')],
@@ -123,6 +132,11 @@ def define_symbols():
 
 
 def part(sheet, ref, lib_id, value, x, y, nets, footprint='', mpn='', manufacturer='', angle=0, dnp=False):
+    if not manufacturer:
+        for prefixes,maker in [(('GRM','GCM','BLM','NCP'),'Murata'),(('C0603C','C0805C','C1206C'),'KEMET'),
+                (('C3216','CGA'),'TDK'),(('SMCJ',),'Littelfuse'),(('M20-',),'Harwin'),
+                (('XT60','MT60'),'AMASS'),(('1711725',),'Phoenix Contact')]:
+            if mpn.startswith(prefixes):manufacturer=maker;break
     node=copy.deepcopy(custom[lib_id.split(':')[1]]) if lib_id.startswith('bldc-esc:') else symbol(lib_id)
     if not footprint:
         footprint=next((v[2] for v in node if isinstance(v,list) and v[0]=='property' and v[1]=='Footprint'),'')
@@ -136,6 +150,8 @@ def part(sheet, ref, lib_id, value, x, y, nets, footprint='', mpn='', manufactur
         'SN74LVC244A':'https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf',
         'TPS3431':'https://www.ti.com/lit/ds/symlink/tps3431.pdf',
         'TPS3808Gxx':'https://www.ti.com/lit/ds/symlink/tps3808.pdf',
+        'TPS3890':'https://www.ti.com/lit/ds/symlink/tps3890.pdf',
+        'SWD10_Keyed':'https://www.samtec.com/products/ftsh-105-01-l-dv-007-k',
         'TLV3011B':'https://www.ti.com/lit/ds/symlink/tlv3012.pdf',
         'TPS2553_1':'https://www.ti.com/lit/ds/symlink/tps2553.pdf',
         'TCAN3403':'https://www.ti.com/lit/ds/symlink/tcan3403-q1.pdf',
@@ -178,12 +194,13 @@ def R(sheet, ref, value, x, y, n1, n2, package='0603', precision=False, dnp=Fals
 def C(sheet, ref, value, x, y, n1, n2='GND', package='0603', mpn='', dnp=False):
     return part(sheet,ref,'Device:C',value,x,y,{1:n1,2:n2},
         'Capacitor_SMD:C_'+package+'_'+{'0603':'1608','0805':'2012','1206':'3216','1210':'3225'}[package]+'Metric',
-        mpn or ('GRM188R71H104KA93D' if value=='100n 50V' else ''),'Murata' if not mpn else '',dnp=dnp)
+        mpn or ('C0603C104K5RACTU' if value=='100n 50V' else ''),'KEMET' if not mpn else '',dnp=dnp)
 
 
 def D(sheet, ref, value, x, y, anode, cathode, footprint='Diode_SMD:D_SOD-123', lib='Device:D', dnp=False):
     maker='Nexperia' if value.startswith(('PESD','BAT','PMEG')) else 'STMicroelectronics' if value.startswith('STPS') else ''
-    return part(sheet,ref,lib,value,x,y,{1:cathode,2:anode},footprint,value,maker,angle=90,dnp=dnp)
+    mpn=value+',115' if value in ('PESD5V0S1BA','BAT54H','PMEG2010ER') else value
+    return part(sheet,ref,lib,value,x,y,{1:cathode,2:anode},footprint,mpn,maker,angle=90,dnp=dnp)
 
 
 def TP(sheet, ref, net, x, y):
@@ -342,6 +359,23 @@ def footprints():
     usb.append(tag('property','Source','KiCad10:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal',tag('at',0,0,0),tag('layer','F.Fab'),tag('hide',A('yes')),effect()))
     usb.append(tag('property','Modification','GND pad corner radius 0.30mm; holes and pad extents unchanged',tag('at',0,0,0),tag('layer','F.Fab'),tag('hide',A('yes')),effect()))
     output['bldc-esc.pretty/USB4105_PCBWay.kicad_mod']=dump(usb)+'\n'
+    swd_pads=[]
+    for number in range(1,11):
+        if number==7:continue
+        swd_pads.append((number,-2.032 if number%2 else 2.032,-2.54+1.27*((number-1)//2),2.794,0.7366,'smd'))
+    swd=footprint('FTSH_105_DV_007_K',swd_pads,(1.715,3.175))
+    for node in swd:
+        if isinstance(node,list) and node and node[0]=='fp_rect' and child(node,'layer')[1]=='F.CrtYd':
+            child(node,'start')[1:]=[-3.70,-3.45];child(node,'end')[1:]=[3.70,3.45]
+    swd.append(tag('fp_circle',tag('center',-3.55,-3.0),tag('end',-3.4,-3.0),tag('stroke',tag('width',0.12),tag('type',A('default'))),tag('fill',A('none')),tag('layer','F.SilkS')))
+    swd.append(tag('property','Source','Samtec FTSH-DV footprint rev H; pin 7 omitted',tag('at',0,0,0),tag('layer','F.Fab'),tag('hide',A('yes')),effect()))
+    output['bldc-esc.pretty/FTSH_105_DV_007_K.kicad_mod']=dump(swd)+'\n'
+    fuse=footprint('MF_PSMF0805',[(1,-1.1,0,1,1.5,'smd'),(2,1.1,0,1,1.5,'smd')],(1.15,.75))
+    for node in fuse:
+        if isinstance(node,list) and node and node[0]=='fp_rect' and child(node,'layer')[1]=='F.CrtYd':
+            child(node,'start')[1:]=[-1.85,-1];child(node,'end')[1:]=[1.85,1]
+    fuse.append(tag('property','Source','Bourns MF-PSMF recommended pad layout; 1.00 x 1.50mm pads / 1.20mm gap',tag('at',0,0,0),tag('layer','F.Fab'),tag('hide',A('yes')),effect()))
+    output['bldc-esc.pretty/MF_PSMF0805.kicad_mod']=dump(fuse)+'\n'
     pads=[]
     for i in range(10):
         pads.extend([(i+1,-2.9,-2.25+0.5*i,0.6,0.22,'smd'),(i+11,-2.25+0.5*i,2.9,0.22,0.6,'smd'),

@@ -6,15 +6,17 @@ I want to build a small vesc like controller, with hall sensors, current sensing
 
 ## status
 
-went through the power, protection and sensing circuits again. there's 16 subsheets now, all on A3 or A4. the footprints are assigned and on the pcb in a staging grid
+finished another pass through the reference supply, reset circuit, BOM and connectors. there's 16 subsheets, all on A3 or A4. the pcb has 449 footprints in the staging grid, still no placement or routing
 
-fixed some part/footprint mismatches, changed the hardware comparators, added buffers for the external analog inputs, and made the bridge depend on the brake chopper being ready. the temperature, brake protection and reset circuits have their own pages too
+found a pretty important mistake: the XT60 nets were backwards compared to the footprint's polarity marks. thats fixed now, and there's a separate check for it. **don't manufacture the devlog 03 snapshot (`dcad1e4`) or use its old input wiring**
 
-ERC is clean and the schematic and pcb connections match. PCBWay is the planned fab. the usb hole clearance and buck thermal-via checks pass with the project rules now
+changed the ADC reference to 2.5V with a 1.25V current-sense bias. the logic supply is now about 3.36V, with a supervisor watching the filtered analog rail. that closes the reference headroom problem on paper. startup, brownouts and supply switching still need scope tests
 
-this is still a review checkpoint, not a finished board. the reference's low-voltage headroom, final BOM and connector fit checks are still open before freezing the schematic. placement, routing, firmware and bench testing haven't started
+ERC is clean and the schematic and pcb connections match. checked the 112 different part numbers and corrected the SWD header and USB fuse footprints. connector drawings are checked, but physical fit and stock still need checking before assembly
 
-the detailed checks and remaining limits are in [engineering/review_m03.md](engineering/review_m03.md)
+this is a schematic freeze candidate, not a finished board. next is reviewing it and starting placement. PCBWay is the planned fab, but the exact copper/dielectric stackup is still needed. routing, firmware and bench testing haven't started
+
+the current checks and remaining limits are in [engineering/review_m04.md](engineering/review_m04.md). [engineering/review_m03.md](engineering/review_m03.md) is the older checkpoint
 
 Progress is in [journal.md](journal.md).
 
@@ -66,7 +68,8 @@ motor data and measurements are in [engineering/motor.csv](engineering/motor.csv
 - [x] Set up the repo, KiCad project, calculations, and draft pinmap
 - [x] Draw the complete schematic and assign footprints
 - [x] First review of protection, power-up behavior, current sensing, and regen
-- [ ] Close the remaining reference/BOM/connector checks and freeze the schematic
+- [x] Close the reference headroom, part-number and connector drawing checks
+- [ ] Review the updated schematic and freeze it for placement
 - [ ] Place and route the PCB
 - [ ] Review the layout and make production files
 - [ ] Bring up the MCU, telemetry, Hall inputs, and gate driver

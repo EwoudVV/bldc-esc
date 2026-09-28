@@ -19,7 +19,7 @@ emit("MOTOR_EFFICIENCY_RATIO", output_power / (26 * 0.75), "ratio", "only_if_DC_
 
 r_shunt = 0.001
 gain = 20
-adc_ref = 3.0
+adc_ref = 2.5
 bias = adc_ref / 2
 emit("ADC_CURRENT_STEP", adc_ref / 4096 / (r_shunt * gain), "A_per_LSB", "12bit_raw")
 emit("ADC_COUNTS_AT_0A5", 0.5 * r_shunt * gain * 4096 / adc_ref, "counts", "no_oversampling")
@@ -28,10 +28,10 @@ emit("INA241A2_OFFSET_EQUIV", 15e-6 / r_shunt, "A", "25C_max_datasheet_test_cond
 emit("INA241A2_DRIFT_60C_EQUIV", 150e-9 * 60 / r_shunt, "A", "max_offset_drift")
 emit("DRV8353_OFFSET_EQUIV", 3e-3 / r_shunt, "A", "pre_external_offset_subtraction")
 emit("DRV8353_SENSE_OC_MIN_EQUIV", 0.25 / r_shunt, "A", "SEN_LVL_00_nominal")
-for current in (0.5, 0.75, 15, 20, 40, 60):
+for current in (0.5, 0.75, 15, 20, 40, 50):
     key = str(current).replace(".", "p")
-    emit("CSA_LOW_" + key, bias - current * r_shunt * gain, "V", "INA241_REF1_REF2_1V5")
-    emit("CSA_HIGH_" + key, bias + current * r_shunt * gain, "V", "INA241_REF1_REF2_1V5")
+    emit("CSA_LOW_" + key, bias - current * r_shunt * gain, "V", "INA241_REF1_REF2_1V25")
+    emit("CSA_HIGH_" + key, bias + current * r_shunt * gain, "V", "INA241_REF1_REF2_1V25")
 
 r_on_25 = 1.15e-3
 r_on_hot = r_on_25 * 2
@@ -53,7 +53,7 @@ emit("TVS_60V_HEADROOM_AT_TEST", 60 - 48.4, "V", "25C_31A_10_1000us_only")
 emit("DIVIDER_AT_30V", 30 / 21, "V", "200k_top_10k_bottom")
 emit("DIVIDER_AT_50V", 50 / 21, "V", "200k_top_10k_bottom")
 emit("DIVIDER_AT_60V", 60 / 21, "V", "200k_top_10k_bottom")
-emit("DIVIDER_ADC_BUS_STEP", 3.0 / 4096 * 21, "V_per_LSB", "12bit_raw")
+emit("DIVIDER_ADC_BUS_STEP", adc_ref / 4096 * 21, "V_per_LSB", "12bit_raw")
 
 for label, cap in (("LEGACY", 792e-6), ("CURRENT", 1000e-6)):
     emit("DC_LINK_C_" + label, cap, "F", "nominal")

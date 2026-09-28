@@ -48,11 +48,11 @@ contracts = {
     'U308': {1:'DUMP_REF',2:'GND',3:'5V_BUS',4:'5V_BUS',5:'DUMP_REF_2V5'},
     'U401': {1:'GND',2:'VBUS',3:'BUCK_EN',4:'BUCK_RON',5:'BUCK_FB',6:'BUS_5V_GOOD',7:'BUCK_BST',8:'BUCK_SW',9:'GND'},
     'U402': {1:'GND',2:'5V_SYS',3:'5V_BUS',4:'MUX_PR1',5:'5V_BUS',6:'USB_5V',7:'5V_SYS',8:'PWR_BUS_SELECTED'},
-    'U403': {1:'3V3',3:'GND',4:'5V_SYS',6:'5V_SYS',7:'GND'},
+    'U403': {1:'3V3',2:'VDD_FB',3:'GND',4:'5V_SYS',6:'5V_SYS',7:'GND'},
     'U404': {1:'USB_DP_PORT',2:'GND',3:'USB_DM_PORT',4:'USB_DM_ESD',5:'USB_VBUS_RAW',6:'USB_DP_ESD'},
-    'U502': {1:'VBIAS_1V5',2:'GND',3:'3V3_A',4:'3V3_A',5:'VREF_3V0'},
+    'U502': {1:'VBIAS_1V25',2:'GND',3:'3V3_A',4:'3V3_A',5:'VREF_2V5'},
     'U503': {1:'GND',2:'GND',3:'GND',4:'GND',5:'I2C_SDA',6:'I2C_SCL',7:'EEPROM_WP',8:'3V3'},
-    'U701': {1:'POWER_OK',2:'GND',3:'3V3',4:'POR_CT',5:'3V3',6:'3V3'},
+    'U701': {1:'3V3_A',2:'GND',3:'3V3',4:'3V3',5:'POR_CT',6:'POWER_OK'},
     'U702': {1:'3V3',2:'WD_CWD',3:'3V3',4:'GND',5:'WD_RUN',6:'WD_HEARTBEAT',7:'WD_OK',9:'GND'},
     'U703': {1:'NRST',2:'GND',3:'BUS_OK',4:'SYSTEM_GOOD_PRE',5:'3V3',6:'HW_ENABLE_OK'},
     'U704': {1:'SYSTEM_GOOD',2:'GND',3:'nOC_HW',4:'SAFETY_GOOD',5:'3V3',6:'DRV_nFAULT'},
@@ -68,7 +68,7 @@ contracts = {
     'D301': {1:'VBUS',2:'DUMP_SW'}, 'Y501': {1:'HSE_IN',2:'HSE_XOUT'},
     'C203': {1:'DRV_CPH',2:'DRV_CPL'}, 'C204': {1:'DRV_VCP',2:'VBUS'},
     'C403': {1:'BUCK_BST',2:'BUCK_SW'},
-    'J101': {1:'VBUS',2:'GND'}, 'J102': {1:'PHASE_A',2:'PHASE_B',3:'PHASE_C'},
+    'J101': {1:'GND',2:'VBUS'}, 'J102': {1:'PHASE_A',2:'PHASE_B',3:'PHASE_C'},
     'J301': {1:'VBUS',2:'DUMP_SW'}, 'J701': {1:'GND',2:'CAN_H',3:'CAN_L'},
     'J702': {1:'GND',2:'UART_TX',3:'UART_RX',4:'3V3'},
     'J501': {1:'3V3',2:'SWDIO',3:'GND',4:'SWCLK',5:'GND',6:'SWO',9:'GND',10:'NRST'},
@@ -93,12 +93,12 @@ for i, phase in enumerate('ABC'):
                                      ('Q'+str(202+2*i),'PHASE_'+phase,'SOURCE_'+phase,'G'+phase+'L')]:
         pincheck(ref, {1:source,2:source,3:source,4:gate,5:drain})
     pincheck('R'+str(214+20*i), {1:'SOURCE_'+phase,2:'KS_'+phase+'_P',3:'KS_'+phase+'_N',4:'GND'})
-    pincheck('U'+str(202+i), {1:'KS_'+phase+'_N',2:'GND',3:'VBIAS_1V5',4:'GND',
-                            5:'I_'+phase+'_RAW',6:'3V3_A',7:'VBIAS_1V5',8:'KS_'+phase+'_P'})
+    pincheck('U'+str(202+i), {1:'KS_'+phase+'_N',2:'GND',3:'VBIAS_1V25',4:'GND',
+                            5:'I_'+phase+'_RAW',6:'3V3_A',7:'VBIAS_1V25',8:'KS_'+phase+'_P'})
 for ref, channels in [('U101', [('I_PHASE_A','OC_HI','nOC_HW'),('OC_LO','I_PHASE_A','nOC_HW'),
                                ('I_PHASE_B','OC_HI','nOC_HW'),('OC_LO','I_PHASE_B','nOC_HW')]),
                       ('U102', [('I_PHASE_C','OC_HI','nOC_HW'),('OC_LO','I_PHASE_C','nOC_HW'),
-                               ('V_BUS_ADC','BUS_OV_REF','BUS_OK'),('OC_LO','V_BUS_ADC','BUS_OK')])]:
+                               ('V_BUS_ADC','BUS_OV_REF','BUS_OK'),('BUS_UV_REF','V_BUS_ADC','BUS_OK')])]:
     pincheck(ref, {3:'3V3_A',12:'GND'})
     for (minus, plus, out), (m,p,o) in zip(channels,[(4,5,2),(6,7,1),(8,9,14),(10,11,13)]):
         pincheck(ref, {m:minus,p:plus,o:out})

@@ -46,7 +46,7 @@ for part in bom:
 
 byref={r['reference']:r for r in bom}
 for reference,pin,net in [('U201','5','DRV_VCP'),('C204','1','DRV_VCP'),('C204','2','VBUS'),
-    ('C203','1','DRV_CPH'),('C203','2','DRV_CPL'),('U201','24','3V3_A'),('U501','36','VREF_3V0'),
+    ('C203','1','DRV_CPH'),('C203','2','DRV_CPL'),('U201','24','3V3_A'),('U501','36','VREF_2V5'),
     ('U501','95','BOOT0'),('U501','78','I2C_SCL'),('U705','5','nFAULT_LATCH'),
     ('U705','3','nPWM_ENABLE'),('U706','1','nPWM_ENABLE'),('U706','19','nPWM_ENABLE'),
     ('U301','6','5V_BUS'),('U302','5','nDUMP_REQUEST'),('U302','6','BRK_ARMED'),

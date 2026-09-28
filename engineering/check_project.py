@@ -84,6 +84,10 @@ check({row["function"] for row in pins if row["net"] in ("I_PHASE_A", "I_PHASE_B
 
 computed = subprocess.check_output([sys.executable, str(engineering / "calculations.py")], text=True)
 check(computed.strip() == (engineering / "calculations.csv").read_text().strip(), "CALCULATIONS_REPRODUCIBLE")
+computed = subprocess.check_output([sys.executable, str(engineering / "electrical_checks.py")], text=True)
+check(computed.strip() == (engineering / "electrical_checks.csv").read_text().strip(), "ELECTRICAL_CHECKS_REPRODUCIBLE")
+computed = subprocess.check_output([sys.executable, str(engineering / "reference_checks.py")], text=True)
+check(json.loads(computed) == json.loads((engineering / "reference_checks.json").read_text()), "REFERENCE_CHECKS_REPRODUCIBLE")
 requirements = {row["id"]: row for row in tables["requirements"]}
 check(float(requirements["R001"]["max"]) < float(requirements["R007"]["target"]), "BUS_FET_RATING")
 check(float(requirements["R028"]["target"]) < float(requirements["R030"]["target"]), "ADC_VREF_VDDA_MARGIN")

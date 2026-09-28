@@ -166,7 +166,7 @@ PACKING={
     '14_temperature':['col',['row','bridge_ntc','pcb_ntc','rail_adc','buffer_power'],['row','motor_ntc','dump_ntc']],
     '09_safety':['col','arm',['row','wake','buffer'],'monitor'],
     '10_voltage_sensing':['col',['row','bus','phase_a'],['row','phase_b','phase_c'],'power'],
-    '11_current_protection':['col','current',['row','thresholds','bus'],'power'],
+    '11_current_protection':['col',['row','current','thresholds'],['row','bus','power']],
 }
 
 

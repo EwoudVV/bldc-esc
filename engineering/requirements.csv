@@ -25,13 +25,13 @@ R023,T_ADC_WINDOW_MIN,,3,,us,settling_blanking_conversion_budget,provisional,TI_
 R024,DUTY_MAX_INITIAL,,,0.85,ratio,minimum_valid_low_side_window,provisional,CALC
 R025,R_SHUNT,,0.001,,ohm,three_four_terminal,accepted,BOURNS_CSS4J
 R026,G_PRIMARY_CSA,,20,,V_per_V,INA241A2,selected,TI_INA241
-R027,V_PRIMARY_CSA_BIAS,,1.5,,V,REF2030_VBIAS,selected,TI_REF2030
-R028,V_ADC_REF,,3,,V,REF2030_VREF,selected,TI_REF2030
-R029,V_DRV_CSA_REF,,3.3,,V,3V3_A_rail_VREF_DIV_1,selected,TI_DRV8353
-R030,V_ADC_ANALOG_SUPPLY,,3.3,,V,filtered_3V3,selected,ST_G474
+R027,V_PRIMARY_CSA_BIAS,,1.25,,V,REF2025_VBIAS,selected,TI_REF2030
+R028,V_ADC_REF,,2.5,,V,REF2025_VREF,selected,TI_REF2030
+R029,V_DRV_CSA_REF,,3.3605,,V,3V3_A_rail_VREF_DIV_1_gain10,selected,TI_DRV8353
+R030,V_ADC_ANALOG_SUPPLY,,3.3605,,V,filtered_TLV75801_rail_bead_drop_excluded,selected,TI_TLV758
 R031,ADC_BITS,,12,,bit,native_single_conversion,verified,ST_G474
 R032,ADC_OVERSAMPLING,,,,ratio,valid_sample_windows_only,characterize,ST_RM0440
-R033,I_PRIMARY_CSA_SPAN,-60,0,60,A,0.3_to_2.7V_ideal,calculated,CALC
+R033,I_PRIMARY_CSA_SPAN,-50,0,50,A,0.25_to_2.25V_ideal,calculated,CALC
 R034,I_MOTOR_INITIAL_LIMIT,,0.5,,A_phase_peak,conservative_first_commutation,provisional,USER_PLAN
 R035,I_MOTOR_NAMEPLATE,,,0.75,A,DC_input_or_phase_unspecified,user_report,USER_MOTOR
 R036,V_MOTOR_NAMEPLATE,,,26,V,OEM_label,user_report,USER_MOTOR
@@ -65,7 +65,7 @@ R063,CHOPPER_MCU_INDEPENDENCE,,1,,bool,bus_powered_reference_and_comparator,requ
 R064,USB_CURRENT_PRE_ENUM,,,100,mA,sensors_off_default_no_1A_USB_assumption,required,USER_PLAN
 R065,PHASE_VOLTAGE_DIVIDER,,21,,ratio,100k_plus_100k_over_10k,provisional,CALC
 R066,BOARD_OUTLINE,,,,mm,user_placement_decision,unset,USER_PLAN
-R067,I_HW_WINDOW,-49.96,0,49.96,A,external_TLV9024_nominal,calculated_not_tested,TI_TLV9024
+R067,I_HW_WINDOW,-50.1115,0,50.1115,A,external_TLV9024_nominal,calculated_not_tested,TI_TLV9024
 R068,I_DUMP_OCP,,20.8333,,A,3mohm_gain20_REF2025_1V25,calculated_not_tested,TI_INA180
 R069,SERVICE_MODE_BRIDGE_ENABLE,,0,,bool,WD_RUN_LOW_hardware_interlock,captured_m02,USER_PLAN
 R070,PCB_FAB,,PCBWay,,name,user_selected_2026_09_28,specified,USER_PLAN
@@ -74,3 +74,6 @@ R072,PCB_MIN_DRILL,,.2,,mm,nominal_design_rule,specified,PCBWAY_CAP
 R073,PCB_MIN_VIA_ANNULUS,,.15,,mm,0p5_pad_0p2_drill,specified,PCBWAY_CAP
 R074,DUMP_ADC_SCALE,,.036,,V_per_A,PA6_ADC2_IN3,specified,CALC
 R075,UCPD_DEAD_BATTERY_DISABLE,,1,,bool,set_before_reading_PB4_fault,specified,ST_G474
+R076,V_LOGIC_NOMINAL,,3.3605,,V,0p55_times_1_plus_51k1_over_10k,calculated_not_tested,TI_TLV758
+R077,V_ANALOG_RESET_FALL,,3.17,,V,TPS389033_1pct,selected,TI_TPS3890
+R078,G_DRV_DIAGNOSTIC_CSA,,10,,V_per_V,keep_50A_inside_2V5_ADC,required,TI_DRV8353

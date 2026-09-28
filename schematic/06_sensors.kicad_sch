@@ -1938,7 +1938,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 16.51 58.42 0)
       (effects
         (font
@@ -1948,7 +1948,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 16.51 58.42 0)
       (effects
         (font
@@ -2014,7 +2014,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71C105KA12D"
+    (property "MPN" "C0603C105K4RACTU"
       (at 167.64 58.42 0)
       (effects
         (font
@@ -2024,7 +2024,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 167.64 58.42 0)
       (effects
         (font
@@ -2392,7 +2392,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 113.03 142.24 0)
       (effects
         (font
@@ -2421,21 +2421,21 @@
     (dnp no)
     (uuid "399fd810-ddf0-5fe0-a41f-ab184bc83b0d")
     (property "Reference" "D610"
-      (at 63.5 135.89 90)
+      (at 71.12 142.24 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "PESD5V0S1BA"
-      (at 63.5 138.43 90)
+      (at 71.12 144.78 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-323"
@@ -2444,7 +2444,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -2454,17 +2454,17 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
-    (property "MPN" "PESD5V0S1BA"
+    (property "MPN" "PESD5V0S1BA,115"
       (at 67.31 144.78 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -2474,7 +2474,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -2766,7 +2766,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 113.03 185.42 0)
       (effects
         (font
@@ -2795,21 +2795,21 @@
     (dnp no)
     (uuid "fda4d117-14f2-5938-b868-00a22540d1fe")
     (property "Reference" "D611"
-      (at 63.5 179.07 90)
+      (at 71.12 185.42 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "PESD5V0S1BA"
-      (at 63.5 181.61 90)
+      (at 71.12 187.96 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-323"
@@ -2818,7 +2818,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -2828,17 +2828,17 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
-    (property "MPN" "PESD5V0S1BA"
+    (property "MPN" "PESD5V0S1BA,115"
       (at 67.31 187.96 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -2848,7 +2848,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -3140,7 +3140,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 113.03 228.6 0)
       (effects
         (font
@@ -3169,21 +3169,21 @@
     (dnp no)
     (uuid "df2ba659-4432-559c-ab62-463edf647548")
     (property "Reference" "D612"
-      (at 63.5 222.25 90)
+      (at 71.12 228.6 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "PESD5V0S1BA"
-      (at 63.5 224.79 90)
+      (at 71.12 231.14 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-323"
@@ -3192,7 +3192,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -3202,17 +3202,17 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
-    (property "MPN" "PESD5V0S1BA"
+    (property "MPN" "PESD5V0S1BA,115"
       (at 67.31 231.14 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -3222,7 +3222,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -3245,19 +3245,21 @@
     (dnp no)
     (uuid "6b7a9230-d604-562d-96e8-5d47b02531f4")
     (property "Reference" "U603"
-      (at 120.65 76.2 0)
+      (at 124.46 78.74 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "SN74LVC3G17DCTR"
-      (at 120.65 78.74 0)
+      (at 124.46 81.28 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
@@ -3266,6 +3268,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3275,6 +3278,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3284,6 +3288,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3293,6 +3298,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3352,7 +3358,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 184.15 88.9 0)
       (effects
         (font
@@ -3362,7 +3368,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 184.15 88.9 0)
       (effects
         (font
@@ -3726,7 +3732,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 203.2 58.42 0)
       (effects
         (font
@@ -3736,7 +3742,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 203.2 58.42 0)
       (effects
         (font
@@ -3802,7 +3808,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71C105KA12D"
+    (property "MPN" "C0603C105K4RACTU"
       (at 355.6 58.42 0)
       (effects
         (font
@@ -3812,7 +3818,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 355.6 58.42 0)
       (effects
         (font
@@ -4180,7 +4186,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 299.72 142.24 0)
       (effects
         (font
@@ -4209,21 +4215,21 @@
     (dnp no)
     (uuid "33138383-f2d4-5cec-924e-115e57108e21")
     (property "Reference" "D613"
-      (at 250.19 135.89 90)
+      (at 257.81 142.24 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "PESD5V0S1BA"
-      (at 250.19 138.43 90)
+      (at 257.81 144.78 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-323"
@@ -4232,7 +4238,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4242,17 +4248,17 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
-    (property "MPN" "PESD5V0S1BA"
+    (property "MPN" "PESD5V0S1BA,115"
       (at 254.0 144.78 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4262,7 +4268,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4554,7 +4560,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 299.72 185.42 0)
       (effects
         (font
@@ -4583,21 +4589,21 @@
     (dnp no)
     (uuid "a4cd9be6-180a-529e-8c40-69d028be7f3a")
     (property "Reference" "D614"
-      (at 250.19 179.07 90)
+      (at 257.81 185.42 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "PESD5V0S1BA"
-      (at 250.19 181.61 90)
+      (at 257.81 187.96 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-323"
@@ -4606,7 +4612,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4616,17 +4622,17 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
-    (property "MPN" "PESD5V0S1BA"
+    (property "MPN" "PESD5V0S1BA,115"
       (at 254.0 187.96 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4636,7 +4642,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4928,7 +4934,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 299.72 228.6 0)
       (effects
         (font
@@ -4957,21 +4963,21 @@
     (dnp no)
     (uuid "8b0cd863-2f02-57c6-bc25-be0d2eb280b6")
     (property "Reference" "D615"
-      (at 250.19 222.25 90)
+      (at 257.81 228.6 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "PESD5V0S1BA"
-      (at 250.19 224.79 90)
+      (at 257.81 231.14 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-323"
@@ -4980,7 +4986,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4990,17 +4996,17 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
-    (property "MPN" "PESD5V0S1BA"
+    (property "MPN" "PESD5V0S1BA,115"
       (at 254.0 231.14 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -5010,7 +5016,7 @@
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -5033,19 +5039,21 @@
     (dnp no)
     (uuid "0e07cf39-ebbd-55ff-9c49-3bd9901089f9")
     (property "Reference" "U604"
-      (at 307.34 76.2 0)
+      (at 311.15 78.74 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "SN74LVC3G17DCTR"
-      (at 307.34 78.74 0)
+      (at 311.15 81.28 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm"
@@ -5054,6 +5062,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -5063,6 +5072,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -5072,6 +5082,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -5081,6 +5092,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -5140,7 +5152,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 370.84 88.9 0)
       (effects
         (font
@@ -5150,7 +5162,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 370.84 88.9 0)
       (effects
         (font
@@ -5835,41 +5847,6 @@
     )
   )
   (symbol
-    (lib_id "power:GND")
-    (at 24.13 137.16 0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board yes)
-    (dnp no)
-    (uuid "a910fbbe-a3b9-5a11-8783-675cb8f96373")
-    (property "Reference" "#PWR060020"
-      (at 24.13 137.16 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
-      )
-    )
-    (property "Value" "GND"
-      (at 24.13 140.97 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "bldc-esc"
-        (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060020")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol
     (lib_id "power:VCC")
     (at 54.61 100.33 0)
     (unit 1)
@@ -5877,8 +5854,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "f732e75c-64d5-5590-83f8-ddeb1a1d6da3")
-    (property "Reference" "#PWR060021"
+    (uuid "a910fbbe-a3b9-5a11-8783-675cb8f96373")
+    (property "Reference" "#PWR060020"
       (at 54.61 100.33 0)
       (effects
         (font
@@ -5898,7 +5875,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060021")
+          (reference "#PWR060020")
           (unit 1)
         )
       )
@@ -5912,8 +5889,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "b91656e0-1b39-5973-98d8-885c62ae712d")
-    (property "Reference" "#PWR060022"
+    (uuid "f732e75c-64d5-5590-83f8-ddeb1a1d6da3")
+    (property "Reference" "#PWR060021"
       (at 113.03 151.13 0)
       (effects
         (font
@@ -5933,7 +5910,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060022")
+          (reference "#PWR060021")
           (unit 1)
         )
       )
@@ -5947,8 +5924,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "edbd7402-337a-59ee-b509-a5f0928c0541")
-    (property "Reference" "#PWR060023"
+    (uuid "b91656e0-1b39-5973-98d8-885c62ae712d")
+    (property "Reference" "#PWR060022"
       (at 67.31 135.89 0)
       (effects
         (font
@@ -5968,7 +5945,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060023")
+          (reference "#PWR060022")
           (unit 1)
         )
       )
@@ -5982,8 +5959,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "5935f054-3f0b-5267-bf80-489fad9a4bc4")
-    (property "Reference" "#PWR060024"
+    (uuid "edbd7402-337a-59ee-b509-a5f0928c0541")
+    (property "Reference" "#PWR060023"
       (at 54.61 143.51 0)
       (effects
         (font
@@ -6003,7 +5980,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060024")
+          (reference "#PWR060023")
           (unit 1)
         )
       )
@@ -6017,8 +5994,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "c41929b2-7ab0-5739-9cb6-6fb104ffd5f0")
-    (property "Reference" "#PWR060025"
+    (uuid "5935f054-3f0b-5267-bf80-489fad9a4bc4")
+    (property "Reference" "#PWR060024"
       (at 113.03 194.31 0)
       (effects
         (font
@@ -6038,7 +6015,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060025")
+          (reference "#PWR060024")
           (unit 1)
         )
       )
@@ -6052,8 +6029,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "dc3dd4be-302b-5074-a002-43bbb85ea4ff")
-    (property "Reference" "#PWR060026"
+    (uuid "c41929b2-7ab0-5739-9cb6-6fb104ffd5f0")
+    (property "Reference" "#PWR060025"
       (at 67.31 179.07 0)
       (effects
         (font
@@ -6073,7 +6050,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060026")
+          (reference "#PWR060025")
           (unit 1)
         )
       )
@@ -6087,8 +6064,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "9d44009d-6575-5bfc-a466-7d96732dbcbe")
-    (property "Reference" "#PWR060027"
+    (uuid "dc3dd4be-302b-5074-a002-43bbb85ea4ff")
+    (property "Reference" "#PWR060026"
       (at 54.61 186.69 0)
       (effects
         (font
@@ -6108,7 +6085,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060027")
+          (reference "#PWR060026")
           (unit 1)
         )
       )
@@ -6122,8 +6099,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "7431b44a-6f4e-5238-9248-734b7f8ffb89")
-    (property "Reference" "#PWR060028"
+    (uuid "9d44009d-6575-5bfc-a466-7d96732dbcbe")
+    (property "Reference" "#PWR060027"
       (at 113.03 237.49 0)
       (effects
         (font
@@ -6143,7 +6120,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060028")
+          (reference "#PWR060027")
           (unit 1)
         )
       )
@@ -6157,8 +6134,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "7c30ad4d-78fe-5121-8e37-6b793637b915")
-    (property "Reference" "#PWR060029"
+    (uuid "7431b44a-6f4e-5238-9248-734b7f8ffb89")
+    (property "Reference" "#PWR060028"
       (at 67.31 222.25 0)
       (effects
         (font
@@ -6178,7 +6155,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060029")
+          (reference "#PWR060028")
           (unit 1)
         )
       )
@@ -6192,8 +6169,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "da1d2ebd-833c-5219-911b-cfe6fbd95071")
-    (property "Reference" "#PWR060030"
+    (uuid "7c30ad4d-78fe-5121-8e37-6b793637b915")
+    (property "Reference" "#PWR060029"
       (at 120.65 101.6 0)
       (effects
         (font
@@ -6213,7 +6190,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060030")
+          (reference "#PWR060029")
           (unit 1)
         )
       )
@@ -6227,8 +6204,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "15170796-0320-54be-a939-ffe59f909342")
-    (property "Reference" "#PWR060031"
+    (uuid "da1d2ebd-833c-5219-911b-cfe6fbd95071")
+    (property "Reference" "#PWR060030"
       (at 120.65 71.12 0)
       (effects
         (font
@@ -6248,7 +6225,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060031")
+          (reference "#PWR060030")
           (unit 1)
         )
       )
@@ -6262,8 +6239,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "2dc5dd2a-138f-5c8c-b044-93e59825370b")
-    (property "Reference" "#PWR060032"
+    (uuid "15170796-0320-54be-a939-ffe59f909342")
+    (property "Reference" "#PWR060031"
       (at 255.27 60.96 0)
       (effects
         (font
@@ -6283,7 +6260,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060032")
+          (reference "#PWR060031")
           (unit 1)
         )
       )
@@ -6297,8 +6274,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "ddd00208-3ae9-5327-b27b-01afbf4aa6dc")
-    (property "Reference" "#PWR060033"
+    (uuid "2dc5dd2a-138f-5c8c-b044-93e59825370b")
+    (property "Reference" "#PWR060032"
       (at 293.37 60.96 0)
       (effects
         (font
@@ -6318,7 +6295,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060033")
+          (reference "#PWR060032")
           (unit 1)
         )
       )
@@ -6332,8 +6309,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "a3683586-a7d0-5de0-b705-6b11154710f3")
-    (property "Reference" "#PWR060034"
+    (uuid "ddd00208-3ae9-5327-b27b-01afbf4aa6dc")
+    (property "Reference" "#PWR060033"
       (at 293.37 66.04 0)
       (effects
         (font
@@ -6353,7 +6330,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060034")
+          (reference "#PWR060033")
           (unit 1)
         )
       )
@@ -6367,8 +6344,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "38898244-b2fc-5ad5-98da-89ac64ba31f8")
-    (property "Reference" "#PWR060035"
+    (uuid "a3683586-a7d0-5de0-b705-6b11154710f3")
+    (property "Reference" "#PWR060034"
       (at 220.98 90.17 0)
       (effects
         (font
@@ -6388,7 +6365,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060035")
+          (reference "#PWR060034")
           (unit 1)
         )
       )
@@ -6402,8 +6379,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "ce358dea-5640-5491-90d3-d0ae655e1669")
-    (property "Reference" "#PWR060036"
+    (uuid "38898244-b2fc-5ad5-98da-89ac64ba31f8")
+    (property "Reference" "#PWR060035"
       (at 223.52 57.15 0)
       (effects
         (font
@@ -6423,7 +6400,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060036")
+          (reference "#PWR060035")
           (unit 1)
         )
       )
@@ -6437,8 +6414,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "a0bf8f97-3e1d-5d30-bfd5-b2b051cfdddb")
-    (property "Reference" "#PWR060037"
+    (uuid "ce358dea-5640-5491-90d3-d0ae655e1669")
+    (property "Reference" "#PWR060036"
       (at 335.28 49.53 0)
       (effects
         (font
@@ -6458,7 +6435,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060037")
+          (reference "#PWR060036")
           (unit 1)
         )
       )
@@ -6472,8 +6449,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "b4d4e506-7908-5db5-9b49-5fbb6c45b447")
-    (property "Reference" "#PWR060038"
+    (uuid "a0bf8f97-3e1d-5d30-bfd5-b2b051cfdddb")
+    (property "Reference" "#PWR060037"
       (at 210.82 134.62 0)
       (effects
         (font
@@ -6493,42 +6470,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060038")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol
-    (lib_id "power:GND")
-    (at 210.82 137.16 0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board yes)
-    (dnp no)
-    (uuid "c13f1fd6-395a-5b61-b33a-f68d07d42173")
-    (property "Reference" "#PWR060039"
-      (at 210.82 137.16 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
-      )
-    )
-    (property "Value" "GND"
-      (at 210.82 140.97 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "bldc-esc"
-        (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060039")
+          (reference "#PWR060037")
           (unit 1)
         )
       )
@@ -6542,8 +6484,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "aec59eb6-68f9-55c3-bc7e-52c30b963ee9")
-    (property "Reference" "#PWR060040"
+    (uuid "b4d4e506-7908-5db5-9b49-5fbb6c45b447")
+    (property "Reference" "#PWR060038"
       (at 241.3 100.33 0)
       (effects
         (font
@@ -6563,7 +6505,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060040")
+          (reference "#PWR060038")
           (unit 1)
         )
       )
@@ -6577,8 +6519,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "3035886d-37b4-5cc9-9541-e78813883706")
-    (property "Reference" "#PWR060041"
+    (uuid "c13f1fd6-395a-5b61-b33a-f68d07d42173")
+    (property "Reference" "#PWR060039"
       (at 299.72 151.13 0)
       (effects
         (font
@@ -6598,7 +6540,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060041")
+          (reference "#PWR060039")
           (unit 1)
         )
       )
@@ -6612,8 +6554,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "cf084ed9-6496-532b-9e3d-d2d33f077aa8")
-    (property "Reference" "#PWR060042"
+    (uuid "aec59eb6-68f9-55c3-bc7e-52c30b963ee9")
+    (property "Reference" "#PWR060040"
       (at 254.0 135.89 0)
       (effects
         (font
@@ -6633,7 +6575,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060042")
+          (reference "#PWR060040")
           (unit 1)
         )
       )
@@ -6647,8 +6589,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "c4381752-a882-5783-8d41-6a64d4ddb0bd")
-    (property "Reference" "#PWR060043"
+    (uuid "3035886d-37b4-5cc9-9541-e78813883706")
+    (property "Reference" "#PWR060041"
       (at 241.3 143.51 0)
       (effects
         (font
@@ -6668,7 +6610,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060043")
+          (reference "#PWR060041")
           (unit 1)
         )
       )
@@ -6682,8 +6624,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "2b820594-5537-54ac-bd0c-c00ebb7700a6")
-    (property "Reference" "#PWR060044"
+    (uuid "cf084ed9-6496-532b-9e3d-d2d33f077aa8")
+    (property "Reference" "#PWR060042"
       (at 299.72 194.31 0)
       (effects
         (font
@@ -6703,7 +6645,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060044")
+          (reference "#PWR060042")
           (unit 1)
         )
       )
@@ -6717,8 +6659,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "eb3d04a8-41a7-51d0-b10e-1a9acf065199")
-    (property "Reference" "#PWR060045"
+    (uuid "c4381752-a882-5783-8d41-6a64d4ddb0bd")
+    (property "Reference" "#PWR060043"
       (at 254.0 179.07 0)
       (effects
         (font
@@ -6738,7 +6680,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060045")
+          (reference "#PWR060043")
           (unit 1)
         )
       )
@@ -6752,8 +6694,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "d1fd1e21-d7c5-5bbf-9976-cc3c0013a64b")
-    (property "Reference" "#PWR060046"
+    (uuid "2b820594-5537-54ac-bd0c-c00ebb7700a6")
+    (property "Reference" "#PWR060044"
       (at 241.3 186.69 0)
       (effects
         (font
@@ -6773,7 +6715,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060046")
+          (reference "#PWR060044")
           (unit 1)
         )
       )
@@ -6787,8 +6729,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "e66789ed-08fb-518e-ad2e-a2caf62982de")
-    (property "Reference" "#PWR060047"
+    (uuid "eb3d04a8-41a7-51d0-b10e-1a9acf065199")
+    (property "Reference" "#PWR060045"
       (at 299.72 237.49 0)
       (effects
         (font
@@ -6808,7 +6750,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060047")
+          (reference "#PWR060045")
           (unit 1)
         )
       )
@@ -6822,8 +6764,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "b58daca0-9930-5611-968e-702a87c79a5d")
-    (property "Reference" "#PWR060048"
+    (uuid "d1fd1e21-d7c5-5bbf-9976-cc3c0013a64b")
+    (property "Reference" "#PWR060046"
       (at 254.0 222.25 0)
       (effects
         (font
@@ -6843,7 +6785,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060048")
+          (reference "#PWR060046")
           (unit 1)
         )
       )
@@ -6857,8 +6799,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "8de45f53-fdf7-5ce6-8461-e4ae98a56fbd")
-    (property "Reference" "#PWR060049"
+    (uuid "e66789ed-08fb-518e-ad2e-a2caf62982de")
+    (property "Reference" "#PWR060047"
       (at 307.34 101.6 0)
       (effects
         (font
@@ -6878,7 +6820,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060049")
+          (reference "#PWR060047")
           (unit 1)
         )
       )
@@ -6892,8 +6834,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "8216b080-17e1-5659-ad91-656e70657bca")
-    (property "Reference" "#PWR060050"
+    (uuid "b58daca0-9930-5611-968e-702a87c79a5d")
+    (property "Reference" "#PWR060048"
       (at 307.34 71.12 0)
       (effects
         (font
@@ -6913,7 +6855,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000006"
-          (reference "#PWR060050")
+          (reference "#PWR060048")
           (unit 1)
         )
       )
@@ -8451,6 +8393,17 @@
     )
     (uuid "c05115fd-910b-5e6e-ad18-41499d545944")
   )
+  (global_label "GND"
+    (shape bidirectional)
+    (at 24.13 137.16 180)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "38f3c70b-540c-5838-b3db-836403108fb2")
+  )
   (label "HALL_1_IN"
     (at 24.13 139.7 0)
     (effects
@@ -8459,7 +8412,7 @@
       )
       (justify right bottom)
     )
-    (uuid "38f3c70b-540c-5838-b3db-836403108fb2")
+    (uuid "abc9aa56-525e-5107-b9ef-0735e1ae6c79")
   )
   (label "HALL_2_IN"
     (at 24.13 142.24 0)
@@ -8469,7 +8422,7 @@
       )
       (justify right bottom)
     )
-    (uuid "abc9aa56-525e-5107-b9ef-0735e1ae6c79")
+    (uuid "3cfcbe9e-c3a3-506d-8908-7171a43ef056")
   )
   (label "HALL_3_IN"
     (at 24.13 144.78 0)
@@ -8479,7 +8432,7 @@
       )
       (justify right bottom)
     )
-    (uuid "3cfcbe9e-c3a3-506d-8908-7171a43ef056")
+    (uuid "70b8657e-27d1-514b-8de9-3f305102c6a5")
   )
   (global_label "HALL_1"
     (shape bidirectional)
@@ -8490,7 +8443,7 @@
       )
       (justify left)
     )
-    (uuid "70b8657e-27d1-514b-8de9-3f305102c6a5")
+    (uuid "fe36ac48-3483-5fdd-8efc-4686a932d682")
   )
   (global_label "HALL_2"
     (shape bidirectional)
@@ -8501,7 +8454,7 @@
       )
       (justify left)
     )
-    (uuid "fe36ac48-3483-5fdd-8efc-4686a932d682")
+    (uuid "30cf7846-679d-5bc2-9490-c1ce72854213")
   )
   (global_label "HALL_3"
     (shape bidirectional)
@@ -8512,7 +8465,7 @@
       )
       (justify left)
     )
-    (uuid "30cf7846-679d-5bc2-9490-c1ce72854213")
+    (uuid "cbeec2f0-1ca5-54bc-95bc-20ee5f62695c")
   )
   (global_label "ENCODER_5V_EN"
     (shape bidirectional)
@@ -8523,7 +8476,7 @@
       )
       (justify right)
     )
-    (uuid "cbeec2f0-1ca5-54bc-95bc-20ee5f62695c")
+    (uuid "68b61cc3-63c9-57c5-9d61-d506a4978327")
   )
   (label "5V_ENCODER_ILIM"
     (at 255.27 66.04 0)
@@ -8533,7 +8486,7 @@
       )
       (justify right bottom)
     )
-    (uuid "68b61cc3-63c9-57c5-9d61-d506a4978327")
+    (uuid "25696cf2-0dc7-5e86-b78d-1e25b65d0147")
   )
   (global_label "ENCODER_nFAULT"
     (shape bidirectional)
@@ -8544,7 +8497,7 @@
       )
       (justify left)
     )
-    (uuid "25696cf2-0dc7-5e86-b78d-1e25b65d0147")
+    (uuid "ec079f23-827a-5ab4-90c4-5355dc7309be")
   )
   (label "5V_ENCODER_ILIM"
     (at 220.98 72.39 0)
@@ -8554,7 +8507,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ec079f23-827a-5ab4-90c4-5355dc7309be")
+    (uuid "c89bc6b2-6636-5532-b278-0851d71c3508")
   )
   (global_label "ENCODER_5V_EN"
     (shape bidirectional)
@@ -8565,7 +8518,7 @@
       )
       (justify left)
     )
-    (uuid "c89bc6b2-6636-5532-b278-0851d71c3508")
+    (uuid "632affb0-28f8-5928-a932-6199179e8d59")
   )
   (global_label "ENCODER_nFAULT"
     (shape bidirectional)
@@ -8576,7 +8529,18 @@
       )
       (justify left)
     )
-    (uuid "632affb0-28f8-5928-a932-6199179e8d59")
+    (uuid "9b54a47f-c8da-5409-9c4b-0fd6aed0ac42")
+  )
+  (global_label "GND"
+    (shape bidirectional)
+    (at 210.82 137.16 180)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "5cfe368a-a296-55e2-9439-e48e0ab7de21")
   )
   (label "ENC_A_IN"
     (at 210.82 139.7 0)
@@ -8586,7 +8550,7 @@
       )
       (justify right bottom)
     )
-    (uuid "9b54a47f-c8da-5409-9c4b-0fd6aed0ac42")
+    (uuid "a513b8b4-8302-50eb-92d6-b5af19fa11bd")
   )
   (label "ENC_B_IN"
     (at 210.82 142.24 0)
@@ -8596,7 +8560,7 @@
       )
       (justify right bottom)
     )
-    (uuid "5cfe368a-a296-55e2-9439-e48e0ab7de21")
+    (uuid "bef22cfb-39bd-5a39-80f2-4b69bab16a2f")
   )
   (label "ENC_Z_IN"
     (at 210.82 144.78 0)
@@ -8606,7 +8570,7 @@
       )
       (justify right bottom)
     )
-    (uuid "a513b8b4-8302-50eb-92d6-b5af19fa11bd")
+    (uuid "9ec47753-318c-530a-9aa9-cc5bdeda0f2d")
   )
   (global_label "ENC_A"
     (shape bidirectional)
@@ -8617,7 +8581,7 @@
       )
       (justify left)
     )
-    (uuid "bef22cfb-39bd-5a39-80f2-4b69bab16a2f")
+    (uuid "cc709af1-94c2-51c2-a8a3-2ab6ce0c9858")
   )
   (global_label "ENC_B"
     (shape bidirectional)
@@ -8628,7 +8592,7 @@
       )
       (justify left)
     )
-    (uuid "9ec47753-318c-530a-9aa9-cc5bdeda0f2d")
+    (uuid "44f59b55-df37-5708-a823-d0f5a6e15a9c")
   )
   (global_label "ENC_Z"
     (shape bidirectional)
@@ -8639,7 +8603,7 @@
       )
       (justify left)
     )
-    (uuid "cc709af1-94c2-51c2-a8a3-2ab6ce0c9858")
+    (uuid "b5b4fa1e-e147-54a4-bea4-254fe5be86ac")
   )
   (embedded_fonts no)
 )

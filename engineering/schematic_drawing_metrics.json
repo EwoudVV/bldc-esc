@@ -2,16 +2,16 @@
   "01_dc_link": {
     "paper_before": "A3",
     "paper_after": "A4",
-    "content_width_mm": 213.36,
-    "content_height_mm": 135.89,
+    "content_width_mm": 217.17,
+    "content_height_mm": 140.97,
     "blocks": {
       "input": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 121.92,
-        "removed_y_mm": 34.29,
-        "content_width_mm": 226.06,
-        "content_height_mm": 81.28
+        "removed_x_mm": 114.3,
+        "removed_y_mm": 29.21,
+        "content_width_mm": 229.87,
+        "content_height_mm": 86.36
       },
       "chassis": {
         "paper_before": "A3",
@@ -66,8 +66,8 @@
   "04_power_usb": {
     "paper_before": "A2",
     "paper_after": "A3",
-    "content_width_mm": 290.83,
-    "content_height_mm": 141.42,
+    "content_width_mm": 318.77,
+    "content_height_mm": 166.83,
     "blocks": {
       "buck": {
         "paper_before": "A2",
@@ -80,33 +80,33 @@
       "mux": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 0.0,
+        "removed_x_mm": 17.78,
         "removed_y_mm": 20.32,
-        "content_width_mm": 120.65,
-        "content_height_mm": 154.12
+        "content_width_mm": 148.59,
+        "content_height_mm": 179.53
       }
     }
   },
   "05_mcu": {
     "paper_before": "A2",
     "paper_after": "A3",
-    "content_width_mm": 381.0,
-    "content_height_mm": 247.65,
+    "content_width_mm": 386.08,
+    "content_height_mm": 248.92,
     "blocks": {
       "core": {
         "paper_before": "A2",
         "paper_after": "A3",
-        "removed_x_mm": 5.08,
-        "removed_y_mm": 53.34,
-        "content_width_mm": 204.47,
-        "content_height_mm": 260.35
+        "removed_x_mm": 2.54,
+        "removed_y_mm": 52.07,
+        "content_width_mm": 207.01,
+        "content_height_mm": 261.62
       },
       "reference": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 21.59,
+        "removed_x_mm": 19.05,
         "removed_y_mm": 8.89,
-        "content_width_mm": 146.05,
+        "content_width_mm": 148.59,
         "content_height_mm": 142.24
       },
       "eeprom": {
@@ -121,9 +121,9 @@
         "paper_before": "A2",
         "paper_after": "A3",
         "removed_x_mm": 0,
-        "removed_y_mm": 156.21,
+        "removed_y_mm": 146.05,
         "content_width_mm": 58.42,
-        "content_height_mm": 185.42
+        "content_height_mm": 195.58
       }
     }
   },
@@ -168,9 +168,9 @@
       "uart": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 0,
+        "removed_x_mm": 2.54,
         "removed_y_mm": 24.13,
-        "content_width_mm": 176.91,
+        "content_width_mm": 174.37,
         "content_height_mm": 33.02
       }
     }
@@ -178,7 +178,7 @@
   "03_regen": {
     "paper_before": "A2",
     "paper_after": "A3",
-    "content_width_mm": 367.03,
+    "content_width_mm": 375.92,
     "content_height_mm": 174.44,
     "blocks": {
       "control": {
@@ -192,9 +192,9 @@
       "power": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 29.21,
+        "removed_x_mm": 20.32,
         "removed_y_mm": 0,
-        "content_width_mm": 212.09,
+        "content_width_mm": 220.98,
         "content_height_mm": 134.62
       }
     }
@@ -202,63 +202,63 @@
   "08_analog_inputs": {
     "paper_before": "A2",
     "paper_after": "A3",
-    "content_width_mm": 381.0,
-    "content_height_mm": 205.74,
+    "content_width_mm": 367.03,
+    "content_height_mm": 217.17,
     "blocks": {
       "throttle": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 58.42,
-        "removed_y_mm": 19.05,
-        "content_width_mm": 196.85,
-        "content_height_mm": 92.71
+        "removed_x_mm": 46.99,
+        "removed_y_mm": 6.35,
+        "content_width_mm": 167.64,
+        "content_height_mm": 105.41
       },
       "ports": {
         "paper_before": "A2",
         "paper_after": "A4",
         "removed_x_mm": 0,
-        "removed_y_mm": 64.77,
+        "removed_y_mm": 66.04,
         "content_width_mm": 52.5,
-        "content_height_mm": 44.45
+        "content_height_mm": 43.18
       },
       "aux": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 59.69,
-        "removed_y_mm": 1.27,
-        "content_width_mm": 198.12,
-        "content_height_mm": 83.82
+        "removed_x_mm": 48.26,
+        "removed_y_mm": 3.81,
+        "content_width_mm": 168.91,
+        "content_height_mm": 96.52
       },
       "buffer_power": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 312.42,
+        "removed_x_mm": 299.72,
         "removed_y_mm": 21.59,
-        "content_width_mm": 74.93,
+        "content_width_mm": 87.63,
         "content_height_mm": 96.52
       },
       "rc": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 12.7,
+        "removed_x_mm": 10.16,
         "removed_y_mm": 1.27,
-        "content_width_mm": 114.3,
+        "content_width_mm": 105.41,
         "content_height_mm": 77.47
       },
       "brake": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 12.7,
+        "removed_x_mm": 10.16,
         "removed_y_mm": 1.27,
-        "content_width_mm": 114.3,
+        "content_width_mm": 105.41,
         "content_height_mm": 81.28
       },
       "direction": {
         "paper_before": "A2",
         "paper_after": "A4",
-        "removed_x_mm": 12.7,
+        "removed_x_mm": 10.16,
         "removed_y_mm": 1.27,
-        "content_width_mm": 113.03,
+        "content_width_mm": 104.14,
         "content_height_mm": 81.28
       }
     }
@@ -344,18 +344,18 @@
       "power": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 20.32,
+        "removed_x_mm": 12.7,
         "removed_y_mm": 0,
-        "content_width_mm": 125.73,
+        "content_width_mm": 133.35,
         "content_height_mm": 49.53
       }
     }
   },
   "11_current_protection": {
     "paper_before": "A3",
-    "paper_after": "A4_portrait",
-    "content_width_mm": 184.15,
-    "content_height_mm": 184.15,
+    "paper_after": "A4",
+    "content_width_mm": 254.45,
+    "content_height_mm": 142.24,
     "blocks": {
       "current": {
         "paper_before": "A3",
@@ -376,17 +376,17 @@
       "power": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 86.36,
+        "removed_x_mm": 68.58,
         "removed_y_mm": 0,
-        "content_width_mm": 104.59,
+        "content_width_mm": 122.37,
         "content_height_mm": 49.53
       },
       "bus": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 92.71,
+        "removed_x_mm": 120.65,
         "removed_y_mm": 2.54,
-        "content_width_mm": 121.92,
+        "content_width_mm": 152.4,
         "content_height_mm": 72.39
       }
     }
@@ -410,7 +410,7 @@
   "13_usb_status": {
     "paper_before": "A4",
     "paper_after": "A3",
-    "content_width_mm": 299.72,
+    "content_width_mm": 298.45,
     "content_height_mm": 130.81,
     "blocks": {
       "usb": {
@@ -424,18 +424,18 @@
       "leds": {
         "paper_before": "A4",
         "paper_after": "A4",
-        "removed_x_mm": 24.13,
-        "removed_y_mm": 12.7,
-        "content_width_mm": 102.87,
-        "content_height_mm": 96.52
+        "removed_x_mm": 22.86,
+        "removed_y_mm": 16.51,
+        "content_width_mm": 101.6,
+        "content_height_mm": 92.71
       }
     }
   },
   "14_temperature": {
     "paper_before": "A3",
     "paper_after": "A3",
-    "content_width_mm": 327.66,
-    "content_height_mm": 159.2,
+    "content_width_mm": 328.93,
+    "content_height_mm": 156.66,
     "blocks": {
       "bridge_ntc": {
         "paper_before": "A3",
@@ -456,25 +456,25 @@
       "motor_ntc": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 30.48,
+        "removed_x_mm": 22.86,
         "removed_y_mm": 0,
-        "content_width_mm": 175.26,
-        "content_height_mm": 97.79
+        "content_width_mm": 176.53,
+        "content_height_mm": 95.25
       },
       "dump_ntc": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 33.02,
+        "removed_x_mm": 25.4,
         "removed_y_mm": 0,
         "content_width_mm": 172.72,
-        "content_height_mm": 97.79
+        "content_height_mm": 95.25
       },
       "buffer_power": {
         "paper_before": "A3",
         "paper_after": "A4",
-        "removed_x_mm": 21.59,
+        "removed_x_mm": 12.7,
         "removed_y_mm": 0,
-        "content_width_mm": 40.64,
+        "content_width_mm": 49.53,
         "content_height_mm": 49.53
       },
       "rail_adc": {
@@ -490,7 +490,7 @@
   "15_regen_safety": {
     "paper_before": "A3",
     "paper_after": "A3",
-    "content_width_mm": 339.09,
+    "content_width_mm": 347.98,
     "content_height_mm": 133.35,
     "blocks": {
       "monitors": {
@@ -503,10 +503,10 @@
       },
       "trip": {
         "paper_before": "A3",
-        "paper_after": "A4",
-        "removed_x_mm": 16.51,
+        "paper_after": "A3",
+        "removed_x_mm": 19.05,
         "removed_y_mm": 0,
-        "content_width_mm": 276.86,
+        "content_width_mm": 285.75,
         "content_height_mm": 146.05
       }
     }

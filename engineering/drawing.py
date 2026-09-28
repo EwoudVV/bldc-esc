@@ -117,7 +117,7 @@ class Drawing:
         start=self.point(terminal);end=(round(start[0]+dx*length*G,4),round(start[1]+dy*length*G,4))
         net=self.net(terminal)
         self.line(net,[start,end]);self.handled.add((ref,num))
-        if net in RAILS:
+        if net in RAILS and not (net=='GND' and ref.startswith('J') and dx!=0):
             self.power_sites.append((net,end,180 if net!='GND' and dy>0 else 0))
         else:self.labels.append((net,end,'right' if dx<0 else 'left'))
 
@@ -203,16 +203,22 @@ class Drawing:
             elif count<=4:
                 tx,ty=(x-4,y-8.89) if p['angle']==90 else (x+3.81,y-2.54)
             else:tx,ty=x,min(self.at[(ref,str(child(pin,'number')[1]))][1] for pin in pins(p['node'],unit))-7.62
+            power_unit=ref.startswith('U') and all(pin[1] in ('power_in','power_out') for pin in pins(p['node'],unit))
             if ref.startswith('U') and count<=3:tx,ty=x,y-10.16
+            if power_unit:tx,ty=x+3.81,y-7.62
             if ref.startswith('U') and 4<=count<=8 and p['lib_id'].startswith(('Amplifier_','74xGxx:')) and (ref,unit) not in self.fields:tx,ty=x+8.89,y-8.89
-            if ref.startswith('Q'):tx,ty=x+6.35,y-5.08
+            if ref.startswith('Q'):tx,ty=x+8.89,y-6.35
+            diode_side=ref.startswith('D') and count==2 and p['angle']==90
+            if diode_side and (ref,unit) not in self.fields:tx,ty=x+3.81,y-2.54
+            if ref.startswith('SW') and (ref,unit) not in self.fields:tx,ty=x+3.81,y-8.89
             if p['lib_id']=='Device:R_Shunt':tx,ty=x-15.24,y-2.54
             value=p['value']
             ds=p.get('datasheet',next((v[2] for v in p['node'] if isinstance(v,list) and v[0]=='property' and v[1]=='Datasheet'),''))
             for key,value,hidden in [('Reference',ref,False),('Value',value,False),('Footprint',p['footprint'],True),
                 ('Datasheet',ds,True),('MPN',p['mpn'],True),('Manufacturer',p['manufacturer'],True)]:
                 px,py=(tx,ty+(2.0 if key=='Value' else 0)) if not hidden else (x,y)
-                prop=tag('property',key,value,tag('at',round(px,4),round(py,4),p['angle']%180),c.effect(1.15,'left' if count<=4 and not ref.startswith('U') else None))
+                justify='right' if diode_side else 'left' if ref.startswith('Q') or (count<=4 and not ref.startswith('U')) or power_unit else None
+                prop=tag('property',key,value,tag('at',round(px,4),round(py,4),p['angle']%180),c.effect(1.15,justify))
                 if hidden or ref.startswith('#'):prop.append(tag('hide',A('yes')))
                 n.append(prop)
             n.append(tag('instances',tag('project','bldc-esc',tag('path','/'+c.ROOT_ID+'/10000000-0000-4000-8000-%012d'%index,tag('reference',ref),tag('unit',unit)))))
@@ -260,14 +266,15 @@ class Drawing:
 
 def dc_link(d):
     d.heading(10,18,'DC input and local energy storage')
-    d.put('J101',18,33)
+    d.put('J101',18,33,180)
+    d.field('J101',24,25)
     d.put('D101',28,36,90)
     d.field('D101',29,27)
     caps=['C'+str(n) for n in [101,102,103,104,105,106,107,108,115,116]]
     for i,r in enumerate(caps):d.put(r,40+10*i,36)
     d.put('R101',144,36)
-    d.bus(['J101.1','D101.1','R101.1']+[r+'.1' for r in caps],level=29,label=True)
-    d.bus(['J101.2','D101.2','R101.2']+[r+'.2' for r in caps],level=43)
+    d.bus(['J101.2','D101.1','R101.1']+[r+'.1' for r in caps],level=29,label=True)
+    d.bus(['J101.1','D101.2','R101.2']+[r+'.2' for r in caps],level=43)
     d.power_sites.append(('GND',xy(144,43),0))
     d.note(10,52,'12-30 V operating bus. External DC-rated fuse required close to the source. No electronic reverse-polarity protection.')
     d.note(10,57,'C101-C108, C115-C116: 10 x 100 uF / 63 V hybrid, 1,000 uF total. Bulk bank does not absorb sustained regeneration.')
@@ -348,7 +355,7 @@ def bridge(d):
         out=d.point(amp+'.5');r=d.point('R'+str(b+5)+'.1')
         d.wire(amp+'.5',(x+12,out[1]/G),(x+12,77),(r[0]/G,77),'R'+str(b+5)+'.1')
         d.rc('R'+str(b+6),'C'+str(b+4),x+9,94)
-        if i==0:d.note(x-13,109,'Main CSA: 1.5 V zero, 20 mV/A\nGate probes need local source returns.\nHigh-side VGS: differential probe only.',1.1)
+        if i==0:d.note(x-13,109,'Main CSA: 1.25 V zero, 20 mV/A\nGate probes need local source returns.\nHigh-side VGS: differential probe only.',1.1)
 
 
 def power_usb(d):
@@ -380,17 +387,21 @@ def power_usb(d):
     d.bus(['U401.5','R404.2','C407.2'],level=60,label=True)
     d.put('R407',88,59)
     d.note(8,72,'68 uH / about 300 kHz. R406, C406, C407 provide type-3 ripple injection. Verify startup and load transients.')
-    d.heading(102,17,'Bus / USB selection and 3.3 V')
+    d.heading(102,17,'Bus / USB selection and logic supply')
     d.put('U402',122,31);d.put('C408',104,29);d.put('C409',103,43)
     d.divider('R408','R409',None,112,40)
     d.put('C410',139,36);d.put('R410',139,49)
     d.wire('U402.2',(139,29),'C410.1',label=True)
     d.wire('U402.3',(115,29),'C408.1',label=True)
     d.wire('U402.4',(115,30),(115,45),(112,45),'R408.2',label=True)
-    d.put('U403',122,64);d.put('C411',110,69);d.put('C412',137,69)
+    d.label('U402.5','l',7)
+    d.label('U402.6','l',3)
+    d.put('U403',122,64);d.put('C411',110,69);d.put('C412',158,69)
+    d.divider('R417','R418',None,145,69)
     d.bus(['U403.6','U403.4','C411.1'],axis='v',level=115,label=True)
-    d.bus(['U403.1','C412.1'],level=63,label=True)
-    d.note(102,79,'USB-only operation: bridge disarmed;\nsensor supplies disabled at boot.')
+    d.bus(['U403.1','R417.1','C412.1'],level=63,label=True)
+    d.wire('U403.2',(134,65),(134,74),'R417.2',label=True)
+    d.note(102,89,'3V3 net: 3.3605 V nominal (51.1k / 10k).\nUSB-only: bridge disarmed; sensor supplies off at boot.')
 
 
 def usb_status(d):
@@ -399,6 +410,7 @@ def usb_status(d):
     d.put('R411',9,104);d.put('R412',9,115)
     d.put('F401',44,84,90);d.put('C413',36,90)
     d.put('U404',53,102)
+    d.field('U404',53,91)
     d.put('R413',65,102,90);d.put('R414',77,103,90)
     d.wire('U404.6','R413.1',label=True)
     d.wire('U404.4','R414.1',label=True)
@@ -418,7 +430,8 @@ def mcu(d):
     d.put('U501',58,61)
     d.field('U501',48,24)
     vdd=['U501.'+str(n) for n in [6,24,49,64,75,100]]
-    d.bus(vdd,level=29,label=True)
+    d.bus(vdd,level=29)
+    d.power_sites.append(('3V3',(d.point(vdd[0])[0],29*G),0))
     d.bus(['U501.23','U501.35'],level=92)
     d.power_sites.append(('GND',xy(58,92),0))
     d.heading(88,17,'VDDA and reference')
@@ -448,6 +461,8 @@ def mcu(d):
     d.put('R504',15,70);d.put('C515',15,82);d.put('SW501',28,77)
     d.bus(['R504.2','C515.1','SW501.1'],level=77,label=True)
     d.put('R503',85,62);d.put('JP501',85,74)
+    d.label('JP501.1','l',6)
+    d.label('JP501.2','l',2)
     d.note(93,70,'PB8 is BOOT0. PA15 carries I2C1 SCL.',1.1)
     d.heading(93,78,'Nonvolatile configuration')
     d.put('U503',112,91);d.put('R506',135,80);d.put('R507',148,80)
@@ -458,7 +473,7 @@ def mcu(d):
     d.wire('R505.2',(175,64),'SW502.1',label=True)
     for i,r in enumerate(['TP501','TP502','TP503','TP504','TP505','TP506']):d.put(r,178,83+12*i)
     d.put('#FLG501',154,26)
-    d.note(94,114,'VREF+ = 3.0 V; current midpoint = 1.5 V.\nReference supply tracks VDDA during brownout.')
+    d.note(94,114,'VREF+ = 2.5 V; current midpoint = 1.25 V.\nReference supply tracks VDDA during brownout.')
     d.note(10,134,'Injected ADC conversions use TIM1 TRGO. Configure break inputs, deadtime and safe GPIO states before requesting bridge arm.')
 
 
@@ -533,7 +548,7 @@ def voltage_sensing(d):
         d.wire('U801.'+str(neg),(x+41,y+2),(x+41,y+9),(x+51,y+9),(x+51,y+1),'U801.'+str(out))
         d.wire('R'+str(n+3)+'.2',(x+68,y+1),'C'+str(n+1)+'.1',label=True)
     d.put('U801',32,103,unit=5);d.decap('C840',45,103)
-    d.note(65,99,'21:1 dividers; 3.0 V ADC full scale = 63 V at the input.\nBuffers isolate the dividers from ADC sampling transients.\nNormal operation remains limited to a 12-30 V bus.')
+    d.note(65,99,'21:1 dividers; 2.5 V ADC full scale = 52.5 V at the input.\nBuffers isolate the dividers from ADC sampling transients.\nNormal operation remains limited to a 12-30 V bus.')
 
 
 def current_protection(d):
@@ -559,13 +574,15 @@ def current_protection(d):
     d.bus(['U102.14','U102.13','R117.2'],level=80,label=True)
     d.divider('R114','R115','C112',142,68)
     d.field('C112',146,82)
+    d.divider('R118','R119','C117',165,68)
+    d.field('C117',169,82)
 
 
 def analog_inputs(d):
     d.heading(8,17,'Analog controls / 0-5 V input')
     for i in range(2):
         x=10+110*i;n=850+5*i;j='J'+str(801+i)
-        d.put(j,x+5,30);d.put('R'+str(n),x+27,33,90)
+        d.put(j,x+21,24);d.put('R'+str(n),x+27,33,90)
         d.put('R'+str(n+1),x+42,40);d.put('C'+str(n),x+55,40);d.put('D'+str(n),x+30,48,90)
         plus,minus,out=[(3,2,1),(5,6,7)][i]
         d.put('U803',x+69,34,unit=i+1)
@@ -672,9 +689,13 @@ def regen_safety(d):
     d.bus(['R311.2','D302.2','D303.2'],level=100,label=True)
     d.put('R313',52,122,90);d.put('C310',66,130)
     d.put('U306',87,122);d.put('U307',105,122)
+    d.bus(['U307.8','U307.2'],axis='v',level=98)
+    d.power_sites.append(('5V_BUS',(98*G,d.point('U307.8')[1]),0))
+    d.label('U307.7','d',3)
     d.bus(['R313.2','C310.1','U306.2'],level=122,label=True)
     d.wire('U306.4','U307.1',label=True)
     d.put('R314',118,133);d.decap('C311',118,110)
+    d.field('R314',125,133)
     d.bus(['U307.5','R314.1'],axis='v',level=118,label=True)
 
 
@@ -682,6 +703,8 @@ def supervisor(d):
     d.heading(8,17,'Power-on reset and watchdog')
     d.put('U701',30,32);d.put('C702',16,43);d.decap('C701',13,26);d.put('R701',48,23)
     d.put('U702',83,32);d.put('R702',63,26);d.put('R703',101,24);d.put('R704',65,46);d.decap('C703',99,43)
+    d.label('U701.1','l',6)
+    d.label('U702.3','l',5)
     d.note(8,55,'Open-drain reset outputs share NRST through zero-ohm links.\nR504 on the MCU sheet provides the pull-up.',1.1)
     d.heading(148,17,'Service and hardware enable')
     d.put('JP704',161,31);d.put('R722',178,26)
@@ -698,6 +721,9 @@ def supervisor(d):
 def safety(d):
     d.heading(8,66,'Arm interlock / fault removal does not re-arm the bridge')
     d.put('U703',27,84);d.put('U711',60,84);d.put('U704',94,84);d.put('U705',131,83)
+    d.bus(['U705.8','U705.2'],axis='v',level=124)
+    d.power_sites.append(('3V3',(124*G,d.point('U705.8')[1]),0))
+    d.label('U705.7','d',3)
     d.wire('U703.4','U711.1',label=True)
     d.wire('U711.4',(78,84),'U704.1',label=True)
     d.wire('U704.4',(110,84),'U705.6',label=True)
@@ -728,7 +754,7 @@ def prepare(c):
     for n in [801,811,821,831]:
         voltage.update('R'+str(v) for v in range(n,n+4))
         voltage.update(['C'+str(n),'C'+str(n+1),'D'+str(n)])
-    protection={'U101','U102',*['R'+str(n) for n in range(110,118)],*['C'+str(n) for n in range(110,115)]}
+    protection={'U101','U102',*['R'+str(n) for n in range(110,120)],*['C'+str(n) for n in range(110,115)],'C117'}
     driver={'U201','#FLG201',*['R'+str(n) for n in range(201,206)],*['C'+str(n) for n in range(201,208)]}
     usb={'J401','F401','U404','C413',*['R'+str(n) for n in range(411,417)],*['R'+str(n) for n in range(511,514)],*['D'+str(n) for n in range(511,514)],*['TP'+str(n) for n in range(401,405)],*['#FLG'+str(n) for n in range(401,404)]}
     temperatures={'TH801','TH802','J805','J806','U804','C848',*['R'+str(n) for n in range(880,900)],*['C'+str(n) for n in range(880,900)],*['D'+str(n) for n in range(880,900)]}

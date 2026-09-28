@@ -1520,7 +1520,7 @@
     )
     (uuid "24c8bcef-19fb-5a23-bbd2-16e92db9e508")
   )
-  (text "Main CSA: 1.5 V zero, 20 mV/A\nGate probes need local source returns.\nHigh-side VGS: differential probe only."
+  (text "Main CSA: 1.25 V zero, 20 mV/A\nGate probes need local source returns.\nHigh-side VGS: differential probe only."
     (at 30.48 259.08 0)
     (effects
       (font
@@ -1560,19 +1560,21 @@
     (dnp no)
     (uuid "5cbdd4cb-bfdb-5342-b0ea-aa05826db56e")
     (property "Reference" "Q201"
-      (at 69.85 57.15 0)
+      (at 72.39 55.88 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 69.85 59.69 0)
+      (at 72.39 58.42 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -1581,6 +1583,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1590,6 +1593,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1599,6 +1603,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1608,6 +1613,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1630,19 +1636,21 @@
     (dnp no)
     (uuid "8d78ddc1-7829-507a-b396-00cc7508dbd5")
     (property "Reference" "Q202"
-      (at 69.85 92.71 0)
+      (at 72.39 91.44 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 69.85 95.25 0)
+      (at 72.39 93.98 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -1651,6 +1659,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1660,6 +1669,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1669,6 +1679,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -1678,6 +1689,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -2358,7 +2370,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 91.44 49.53 0)
       (effects
         (font
@@ -2434,7 +2446,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 119.38 49.53 0)
       (effects
         (font
@@ -2586,7 +2598,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 111.76 113.03 0)
       (effects
         (font
@@ -2622,7 +2634,7 @@
         )
       )
     )
-    (property "Value" "INA241A2DR"
+    (property "Value" "INA241A2IDR"
       (at 90.17 157.48 0)
       (effects
         (font
@@ -2648,7 +2660,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "INA241A2DR"
+    (property "MPN" "INA241A2IDR"
       (at 81.28 163.83 0)
       (effects
         (font
@@ -2722,7 +2734,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 38.1 151.13 0)
       (effects
         (font
@@ -2732,7 +2744,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 38.1 151.13 0)
       (effects
         (font
@@ -2884,7 +2896,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 111.76 207.01 0)
       (effects
         (font
@@ -3113,7 +3125,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 104.14 236.22 0)
       (effects
         (font
@@ -3142,19 +3154,21 @@
     (dnp no)
     (uuid "34ba12f9-8f13-5967-b4e5-5a4166dd3876")
     (property "Reference" "Q203"
-      (at 195.58 57.15 0)
+      (at 198.12 55.88 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 195.58 59.69 0)
+      (at 198.12 58.42 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -3163,6 +3177,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3172,6 +3187,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3181,6 +3197,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3190,6 +3207,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3212,19 +3230,21 @@
     (dnp no)
     (uuid "b429f2ec-32b6-5785-a0c3-95e5336da3e7")
     (property "Reference" "Q204"
-      (at 195.58 92.71 0)
+      (at 198.12 91.44 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 195.58 95.25 0)
+      (at 198.12 93.98 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -3233,6 +3253,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3242,6 +3263,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3251,6 +3273,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3260,6 +3283,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -3940,7 +3964,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 217.17 49.53 0)
       (effects
         (font
@@ -4016,7 +4040,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 245.11 49.53 0)
       (effects
         (font
@@ -4168,7 +4192,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 237.49 113.03 0)
       (effects
         (font
@@ -4204,7 +4228,7 @@
         )
       )
     )
-    (property "Value" "INA241A2DR"
+    (property "Value" "INA241A2IDR"
       (at 215.9 157.48 0)
       (effects
         (font
@@ -4230,7 +4254,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "INA241A2DR"
+    (property "MPN" "INA241A2IDR"
       (at 207.01 163.83 0)
       (effects
         (font
@@ -4304,7 +4328,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 163.83 151.13 0)
       (effects
         (font
@@ -4314,7 +4338,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 163.83 151.13 0)
       (effects
         (font
@@ -4466,7 +4490,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 237.49 207.01 0)
       (effects
         (font
@@ -4695,7 +4719,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 229.87 236.22 0)
       (effects
         (font
@@ -4724,19 +4748,21 @@
     (dnp no)
     (uuid "ce0191c1-3bb1-586e-9a58-c9f81ff73d45")
     (property "Reference" "Q205"
-      (at 321.31 57.15 0)
+      (at 323.85 55.88 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 321.31 59.69 0)
+      (at 323.85 58.42 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -4745,6 +4771,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4754,6 +4781,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4763,6 +4791,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4772,6 +4801,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4794,19 +4824,21 @@
     (dnp no)
     (uuid "aa5cfb9a-4286-5655-a02e-2a8edff10dd7")
     (property "Reference" "Q206"
-      (at 321.31 92.71 0)
+      (at 323.85 91.44 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 321.31 95.25 0)
+      (at 323.85 93.98 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -4815,6 +4847,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4824,6 +4857,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4833,6 +4867,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4842,6 +4877,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -5522,7 +5558,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 342.9 49.53 0)
       (effects
         (font
@@ -5598,7 +5634,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "TDK"
       (at 370.84 49.53 0)
       (effects
         (font
@@ -5750,7 +5786,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 363.22 113.03 0)
       (effects
         (font
@@ -5786,7 +5822,7 @@
         )
       )
     )
-    (property "Value" "INA241A2DR"
+    (property "Value" "INA241A2IDR"
       (at 341.63 157.48 0)
       (effects
         (font
@@ -5812,7 +5848,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "INA241A2DR"
+    (property "MPN" "INA241A2IDR"
       (at 332.74 163.83 0)
       (effects
         (font
@@ -5886,7 +5922,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 289.56 151.13 0)
       (effects
         (font
@@ -5896,7 +5932,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 289.56 151.13 0)
       (effects
         (font
@@ -6048,7 +6084,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 363.22 207.01 0)
       (effects
         (font
@@ -6277,7 +6313,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 355.6 236.22 0)
       (effects
         (font
@@ -9343,7 +9379,7 @@
     )
     (uuid "0947ce84-33de-5809-bd06-11c1c06674bf")
   )
-  (global_label "VBIAS_1V5"
+  (global_label "VBIAS_1V25"
     (shape bidirectional)
     (at 83.82 179.07 0)
     (effects
@@ -9492,7 +9528,7 @@
     )
     (uuid "7e33643c-c10d-5fdd-bb44-f2f3e76354ad")
   )
-  (global_label "VBIAS_1V5"
+  (global_label "VBIAS_1V25"
     (shape bidirectional)
     (at 209.55 179.07 0)
     (effects
@@ -9641,7 +9677,7 @@
     )
     (uuid "a9984e89-39e4-5a80-8732-ec968d714883")
   )
-  (global_label "VBIAS_1V5"
+  (global_label "VBIAS_1V25"
     (shape bidirectional)
     (at 335.28 179.07 0)
     (effects

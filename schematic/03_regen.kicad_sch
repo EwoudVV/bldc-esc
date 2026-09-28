@@ -2691,7 +2691,7 @@
         )
       )
     )
-    (property "Value" "TLV3011BDBVR"
+    (property "Value" "TLV3011BIDBVR"
       (at 92.71 73.66 0)
       (effects
         (font
@@ -2717,7 +2717,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "TLV3011BDBVR"
+    (property "MPN" "TLV3011BIDBVR"
       (at 92.71 81.28 0)
       (effects
         (font
@@ -3029,7 +3029,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 46.99 102.87 0)
       (effects
         (font
@@ -3323,7 +3323,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 120.65 143.51 0)
       (effects
         (font
@@ -3333,7 +3333,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 120.65 143.51 0)
       (effects
         (font
@@ -3399,7 +3399,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 59.69 45.72 0)
       (effects
         (font
@@ -3409,7 +3409,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 59.69 45.72 0)
       (effects
         (font
@@ -3545,7 +3545,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 16.51 151.13 0)
       (effects
         (font
@@ -3555,7 +3555,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 16.51 151.13 0)
       (effects
         (font
@@ -3621,7 +3621,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71C105KA12D"
+    (property "MPN" "C0603C105K4RACTU"
       (at 80.01 173.99 0)
       (effects
         (font
@@ -3631,7 +3631,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 80.01 173.99 0)
       (effects
         (font
@@ -3660,7 +3660,7 @@
     (dnp no)
     (uuid "c48879b1-952e-5dff-8c5f-131e369d57c8")
     (property "Reference" "Q302"
-      (at 167.64 158.75 0)
+      (at 170.18 157.48 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -3669,7 +3669,7 @@
       )
     )
     (property "Value" "2N7002"
-      (at 167.64 161.29 0)
+      (at 170.18 160.02 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4034,19 +4034,21 @@
     (dnp no)
     (uuid "870c4cae-370e-5202-abef-8649925a4db4")
     (property "Reference" "Q301"
-      (at 281.94 54.61 0)
+      (at 284.48 53.34 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Value" "ISC011N06LM5"
-      (at 281.94 57.15 0)
+      (at 284.48 55.88 0)
       (effects
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
     )
     (property "Footprint" "Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm"
@@ -4055,6 +4057,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4064,6 +4067,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4073,6 +4077,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4082,6 +4087,7 @@
         (font
           (size 1.15 1.15)
         )
+        (justify left)
       )
       (hide yes)
     )
@@ -4293,7 +4299,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
+    (property "MPN" "C0603C104K5RACTU"
       (at 184.15 90.17 0)
       (effects
         (font
@@ -4303,7 +4309,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
+    (property "Manufacturer" "KEMET"
       (at 184.15 90.17 0)
       (effects
         (font
@@ -4369,7 +4375,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71C105KA12D"
+    (property "MPN" "C0603C105K4RACTU"
       (at 214.63 90.17 0)
       (effects
         (font
@@ -4379,7 +4385,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
+    (property "Manufacturer" "KEMET"
       (at 214.63 90.17 0)
       (effects
         (font
@@ -4400,7 +4406,7 @@
   )
   (symbol
     (lib_id "Connector_Generic:Conn_01x02")
-    (at 328.93 34.29 0)
+    (at 337.82 34.29 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
@@ -4408,7 +4414,7 @@
     (dnp no)
     (uuid "f0876ece-af3f-56c2-b70f-e8c8082c4eaf")
     (property "Reference" "J301"
-      (at 332.74 31.75 0)
+      (at 341.63 31.75 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4417,7 +4423,7 @@
       )
     )
     (property "Value" "DUMP RESISTOR"
-      (at 332.74 34.29 0)
+      (at 341.63 34.29 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4426,7 +4432,7 @@
       )
     )
     (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
-      (at 328.93 34.29 0)
+      (at 337.82 34.29 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4436,7 +4442,7 @@
       (hide yes)
     )
     (property "Datasheet" ""
-      (at 328.93 34.29 0)
+      (at 337.82 34.29 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4446,7 +4452,7 @@
       (hide yes)
     )
     (property "MPN" "1711725"
-      (at 328.93 34.29 0)
+      (at 337.82 34.29 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4455,8 +4461,8 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" ""
-      (at 328.93 34.29 0)
+    (property "Manufacturer" "Phoenix Contact"
+      (at 337.82 34.29 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4476,7 +4482,7 @@
   )
   (symbol
     (lib_id "Device:D_Schottky")
-    (at 298.45 64.77 90)
+    (at 304.8 64.77 90)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
@@ -4484,60 +4490,60 @@
     (dnp no)
     (uuid "134da2cc-75e5-5ac6-b62b-c8f9f7433f5c")
     (property "Reference" "D301"
-      (at 306.07 46.99 90)
+      (at 312.42 46.99 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Value" "STPS5H100AF"
-      (at 306.07 49.53 90)
+      (at 312.42 49.53 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
     )
     (property "Footprint" "Diode_SMD:D_SOD-128"
-      (at 298.45 64.77 90)
+      (at 304.8 64.77 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stps5h100af.pdf"
-      (at 298.45 64.77 90)
+      (at 304.8 64.77 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
     (property "MPN" "STPS5H100AF"
-      (at 298.45 64.77 90)
+      (at 304.8 64.77 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
     (property "Manufacturer" "STMicroelectronics"
-      (at 298.45 64.77 90)
+      (at 304.8 64.77 90)
       (effects
         (font
           (size 1.15 1.15)
         )
-        (justify left)
+        (justify right)
       )
       (hide yes)
     )
@@ -4630,7 +4636,7 @@
   )
   (symbol
     (lib_id "Amplifier_Current:INA180A1")
-    (at 331.47 130.81 0)
+    (at 340.36 130.81 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
@@ -4638,7 +4644,7 @@
     (dnp no)
     (uuid "05973778-2574-59ed-924a-641f4aa9216f")
     (property "Reference" "U303"
-      (at 340.36 121.92 0)
+      (at 349.25 121.92 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4646,7 +4652,7 @@
       )
     )
     (property "Value" "INA180A1IDBVR"
-      (at 340.36 124.46 0)
+      (at 349.25 124.46 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4654,7 +4660,7 @@
       )
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-      (at 331.47 130.81 0)
+      (at 340.36 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4663,7 +4669,7 @@
       (hide yes)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-      (at 331.47 130.81 0)
+      (at 340.36 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4672,7 +4678,7 @@
       (hide yes)
     )
     (property "MPN" "INA180A1IDBVR"
-      (at 331.47 130.81 0)
+      (at 340.36 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4681,7 +4687,7 @@
       (hide yes)
     )
     (property "Manufacturer" "Texas Instruments"
-      (at 331.47 130.81 0)
+      (at 340.36 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4700,7 +4706,7 @@
   )
   (symbol
     (lib_id "Device:C")
-    (at 295.91 135.89 0)
+    (at 302.26 135.89 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom yes)
@@ -4708,7 +4714,7 @@
     (dnp no)
     (uuid "aa42993d-9104-5122-a5a9-b3b158bfb977")
     (property "Reference" "C306"
-      (at 299.72 133.35 0)
+      (at 306.07 133.35 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4717,7 +4723,7 @@
       )
     )
     (property "Value" "100n 50V"
-      (at 299.72 135.89 0)
+      (at 306.07 135.89 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4726,7 +4732,7 @@
       )
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-      (at 295.91 135.89 0)
+      (at 302.26 135.89 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4736,7 +4742,7 @@
       (hide yes)
     )
     (property "Datasheet" ""
-      (at 295.91 135.89 0)
+      (at 302.26 135.89 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4745,8 +4751,8 @@
       )
       (hide yes)
     )
-    (property "MPN" "GRM188R71H104KA93D"
-      (at 295.91 135.89 0)
+    (property "MPN" "C0603C104K5RACTU"
+      (at 302.26 135.89 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4755,8 +4761,8 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Murata"
-      (at 295.91 135.89 0)
+    (property "Manufacturer" "KEMET"
+      (at 302.26 135.89 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4776,7 +4782,7 @@
   )
   (symbol
     (lib_id "Connector:TestPoint")
-    (at 365.76 130.81 0)
+    (at 374.65 130.81 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -4785,7 +4791,7 @@
     (uuid "304d54a3-6aea-560b-bcf9-c172e3364ca5")
     (in_pos_files no)
     (property "Reference" "TP301"
-      (at 369.57 128.27 0)
+      (at 378.46 128.27 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4794,7 +4800,7 @@
       )
     )
     (property "Value" "DUMP_CURRENT"
-      (at 369.57 130.81 0)
+      (at 378.46 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4803,7 +4809,7 @@
       )
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-      (at 365.76 130.81 0)
+      (at 374.65 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4813,7 +4819,7 @@
       (hide yes)
     )
     (property "Datasheet" ""
-      (at 365.76 130.81 0)
+      (at 374.65 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4823,7 +4829,7 @@
       (hide yes)
     )
     (property "MPN" "TESTPOINT"
-      (at 365.76 130.81 0)
+      (at 374.65 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4833,7 +4839,7 @@
       (hide yes)
     )
     (property "Manufacturer" ""
-      (at 365.76 130.81 0)
+      (at 374.65 130.81 0)
       (effects
         (font
           (size 1.15 1.15)
@@ -4993,7 +4999,7 @@
   )
   (symbol
     (lib_id "power:VCC")
-    (at 295.91 127.0 0)
+    (at 302.26 127.0 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5001,7 +5007,7 @@
     (dnp no)
     (uuid "3d3e5c52-8edf-5e4c-8024-8884d2ba157c")
     (property "Reference" "#PWR030005"
-      (at 295.91 127.0 0)
+      (at 302.26 127.0 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5010,7 +5016,7 @@
       )
     )
     (property "Value" "5V_BUS"
-      (at 295.91 123.19 0)
+      (at 302.26 123.19 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5028,7 +5034,7 @@
   )
   (symbol
     (lib_id "power:GND")
-    (at 295.91 144.78 0)
+    (at 302.26 144.78 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5036,7 +5042,7 @@
     (dnp no)
     (uuid "574534a1-87db-50e2-b9db-e8d186815145")
     (property "Reference" "#PWR030006"
-      (at 295.91 144.78 0)
+      (at 302.26 144.78 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5045,7 +5051,7 @@
       )
     )
     (property "Value" "GND"
-      (at 295.91 148.59 0)
+      (at 302.26 148.59 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5658,7 +5664,7 @@
   )
   (symbol
     (lib_id "power:VCC")
-    (at 318.77 34.29 0)
+    (at 327.66 34.29 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5666,7 +5672,7 @@
     (dnp no)
     (uuid "dab793ea-ea65-56b9-929c-ab4e22f55726")
     (property "Reference" "#PWR030024"
-      (at 318.77 34.29 0)
+      (at 327.66 34.29 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5675,7 +5681,7 @@
       )
     )
     (property "Value" "VBUS"
-      (at 318.77 30.48 0)
+      (at 327.66 30.48 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5693,7 +5699,7 @@
   )
   (symbol
     (lib_id "power:VCC")
-    (at 298.45 73.66 180)
+    (at 304.8 73.66 180)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5701,7 +5707,7 @@
     (dnp no)
     (uuid "1dae6618-9b9a-5bb7-b17f-6f83737fb481")
     (property "Reference" "#PWR030025"
-      (at 298.45 73.66 0)
+      (at 304.8 73.66 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5710,7 +5716,7 @@
       )
     )
     (property "Value" "VBUS"
-      (at 298.45 77.47 0)
+      (at 304.8 77.47 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5728,7 +5734,7 @@
   )
   (symbol
     (lib_id "power:GND")
-    (at 328.93 143.51 0)
+    (at 337.82 143.51 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5736,7 +5742,7 @@
     (dnp no)
     (uuid "d1b206ad-18ae-555b-9ef3-b7276fb3efd7")
     (property "Reference" "#PWR030026"
-      (at 328.93 143.51 0)
+      (at 337.82 143.51 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5745,7 +5751,7 @@
       )
     )
     (property "Value" "GND"
-      (at 328.93 147.32 0)
+      (at 337.82 147.32 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5763,7 +5769,7 @@
   )
   (symbol
     (lib_id "power:GND")
-    (at 318.77 133.35 0)
+    (at 327.66 133.35 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5771,7 +5777,7 @@
     (dnp no)
     (uuid "40a4a8a2-7705-5825-9f4f-7e8093ed82e7")
     (property "Reference" "#PWR030027"
-      (at 318.77 133.35 0)
+      (at 327.66 133.35 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5780,7 +5786,7 @@
       )
     )
     (property "Value" "GND"
-      (at 318.77 137.16 0)
+      (at 327.66 137.16 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5798,7 +5804,7 @@
   )
   (symbol
     (lib_id "power:VCC")
-    (at 328.93 118.11 0)
+    (at 337.82 118.11 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -5806,7 +5812,7 @@
     (dnp no)
     (uuid "5e25b591-c3df-59ae-81b7-8b9f721e1485")
     (property "Reference" "#PWR030028"
-      (at 328.93 118.11 0)
+      (at 337.82 118.11 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5815,7 +5821,7 @@
       )
     )
     (property "Value" "5V_BUS"
-      (at 328.93 114.3 0)
+      (at 337.82 114.3 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -5932,8 +5938,8 @@
   )
   (wire
     (pts
-      (xy 295.91 127.0)
-      (xy 295.91 132.08)
+      (xy 302.26 127.0)
+      (xy 302.26 132.08)
     )
     (stroke
       (width 0)
@@ -5943,8 +5949,8 @@
   )
   (wire
     (pts
-      (xy 328.93 118.11)
-      (xy 328.93 123.19)
+      (xy 337.82 118.11)
+      (xy 337.82 123.19)
     )
     (stroke
       (width 0)
@@ -5965,8 +5971,8 @@
   )
   (wire
     (pts
-      (xy 339.09 130.81)
-      (xy 365.76 130.81)
+      (xy 347.98 130.81)
+      (xy 374.65 130.81)
     )
     (stroke
       (width 0)
@@ -6339,8 +6345,8 @@
   )
   (wire
     (pts
-      (xy 318.77 128.27)
-      (xy 323.85 128.27)
+      (xy 327.66 128.27)
+      (xy 332.74 128.27)
     )
     (stroke
       (width 0)
@@ -6362,7 +6368,7 @@
   (wire
     (pts
       (xy 278.13 41.91)
-      (xy 298.45 41.91)
+      (xy 304.8 41.91)
     )
     (stroke
       (width 0)
@@ -6372,8 +6378,8 @@
   )
   (wire
     (pts
-      (xy 298.45 41.91)
-      (xy 298.45 60.96)
+      (xy 304.8 41.91)
+      (xy 304.8 60.96)
     )
     (stroke
       (width 0)
@@ -6383,8 +6389,8 @@
   )
   (wire
     (pts
-      (xy 298.45 41.91)
-      (xy 323.85 41.91)
+      (xy 304.8 41.91)
+      (xy 332.74 41.91)
     )
     (stroke
       (width 0)
@@ -6394,8 +6400,8 @@
   )
   (wire
     (pts
-      (xy 323.85 36.83)
-      (xy 323.85 41.91)
+      (xy 332.74 36.83)
+      (xy 332.74 41.91)
     )
     (stroke
       (width 0)
@@ -6592,8 +6598,8 @@
   )
   (wire
     (pts
-      (xy 295.91 139.7)
-      (xy 295.91 144.78)
+      (xy 302.26 139.7)
+      (xy 302.26 144.78)
     )
     (stroke
       (width 0)
@@ -6603,8 +6609,8 @@
   )
   (wire
     (pts
-      (xy 318.77 133.35)
-      (xy 323.85 133.35)
+      (xy 327.66 133.35)
+      (xy 332.74 133.35)
     )
     (stroke
       (width 0)
@@ -6614,8 +6620,8 @@
   )
   (wire
     (pts
-      (xy 328.93 138.43)
-      (xy 328.93 143.51)
+      (xy 337.82 138.43)
+      (xy 337.82 143.51)
     )
     (stroke
       (width 0)
@@ -6636,8 +6642,8 @@
   )
   (wire
     (pts
-      (xy 298.45 68.58)
-      (xy 298.45 73.66)
+      (xy 304.8 68.58)
+      (xy 304.8 73.66)
     )
     (stroke
       (width 0)
@@ -6647,8 +6653,8 @@
   )
   (wire
     (pts
-      (xy 318.77 34.29)
-      (xy 323.85 34.29)
+      (xy 327.66 34.29)
+      (xy 332.74 34.29)
     )
     (stroke
       (width 0)
@@ -6760,7 +6766,7 @@
     (uuid "e3dafc69-b35f-54aa-9cac-31e378a517f5")
   )
   (junction
-    (at 298.45 41.91)
+    (at 304.8 41.91)
     (diameter 0)
     (color 0 0 0 0)
     (uuid "c10124b5-807b-5054-b806-53bc345b2f11")
@@ -6879,7 +6885,7 @@
   )
   (global_label "DUMP_CURRENT"
     (shape bidirectional)
-    (at 350.52 130.81 0)
+    (at 359.41 130.81 0)
     (effects
       (font
         (size 0.95 0.95)
@@ -7006,7 +7012,7 @@
     (uuid "e7cf0a84-9b94-5622-bc1b-fdacc1490347")
   )
   (label "DUMP_SOURCE"
-    (at 318.77 128.27 0)
+    (at 327.66 128.27 0)
     (effects
       (font
         (size 0.95 0.95)

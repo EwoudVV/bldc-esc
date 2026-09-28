@@ -1,5 +1,7 @@
 # schematic review
 
+Historical devlog 03 checkpoint. The current design changes and limits are in [review_m04.md](review_m04.md). In particular, the old J101 input polarity was wrong and must not be manufactured. The reference, logic regulator and supervisor have also changed.
+
 Sep 28, 2026. This is the schematic review checkpoint, not a fabrication release. No hardware measurements yet. The current ratings are still targets.
 
 ## changes from devlog 02

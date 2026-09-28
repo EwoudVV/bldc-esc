@@ -1,0 +1,524 @@
+{
+  "1711725": {
+    "url": "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-3-2-508-1711725",
+    "basis": "MKDS3_2_5p08_24A"
+  },
+  "2N7002P,215": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/2N7002P.pdf",
+    "basis": "SOT23_1gate_2source_3drain"
+  },
+  "ABM3-8.000MHZ-D2Y-T": {
+    "url": "https://abracon.com/Resonators/ABM3.pdf",
+    "basis": "8MHz_18pF_140ohm_5032_two_pad"
+  },
+  "BAT54H,115": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf",
+    "basis": "SOD123F_30V_pin1_cathode"
+  },
+  "BAV199,215": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+    "basis": "SOT23_1anode_2cathode_3junction"
+  },
+  "BLM18KG601SN1D": {
+    "url": "https://www.murata.com/products/productdata/8796738650142/ENFA0003.pdf",
+    "basis": "600ohm_0603_DCR_0p15_initial_0p165_after_test"
+  },
+  "BM02B-GHS-TBT(LF)(SN)": {
+    "url": "https://www.jst.com/wp-content/uploads/2021/08/eGH.pdf",
+    "basis": "top_entry_GH_1p25_pad_geometry_and_pin1_orientation"
+  },
+  "BM03B-GHS-TBT(LF)(SN)": {
+    "url": "https://www.jst.com/wp-content/uploads/2021/08/eGH.pdf",
+    "basis": "top_entry_GH_1p25_pad_geometry_and_pin1_orientation"
+  },
+  "BM04B-GHS-TBT(LF)(SN)": {
+    "url": "https://www.jst.com/wp-content/uploads/2021/08/eGH.pdf",
+    "basis": "top_entry_GH_1p25_pad_geometry_and_pin1_orientation"
+  },
+  "BM05B-GHS-TBT(LF)(SN)": {
+    "url": "https://www.jst.com/wp-content/uploads/2021/08/eGH.pdf",
+    "basis": "top_entry_GH_1p25_pad_geometry_and_pin1_orientation"
+  },
+  "C0603C101J5GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C101J5GACTU",
+    "pdf": "part-specs/C0603C101J5GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C102J5GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C102J5GACTU",
+    "pdf": "part-specs/C0603C102J5GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C103K5RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C103K5RACTU",
+    "pdf": "part-specs/C0603C103K5RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C104K1RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K1RACTU",
+    "pdf": "part-specs/C0603C104K1RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C104K5RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+    "pdf": "part-specs/C0603C104K5RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C105K4RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C105K4RACTU",
+    "pdf": "part-specs/C0603C105K4RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C221J5GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C221J5GACTU",
+    "pdf": "part-specs/C0603C221J5GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C222J5GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C222J5GACTU",
+    "pdf": "part-specs/C0603C222J5GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C270J5GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C270J5GACTU",
+    "pdf": "part-specs/C0603C270J5GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C473K5RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C473K5RACTU",
+    "pdf": "part-specs/C0603C473K5RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0603C820J5GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C820J5GACTU",
+    "pdf": "part-specs/C0603C820J5GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0805C102J1GACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C102J1GACTU",
+    "pdf": "part-specs/C0805C102J1GACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0805C105K3RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C105K3RACTU",
+    "pdf": "part-specs/C0805C105K3RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0805C473K1RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C473K1RACTU",
+    "pdf": "part-specs/C0805C473K1RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C0805C475K3RACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C475K3RACTU",
+    "pdf": "part-specs/C0805C475K3RACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C1206C472KDRACTU": {
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1206C472KDRACTU",
+    "pdf": "part-specs/C1206C472KDRACTU.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "C3216X7R1H105K160AB": {
+    "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R1H105K160AB",
+    "basis": "production_1uF_50V_1206_X7R"
+  },
+  "C3216X7R2A105K160AA": {
+    "url": "https://product.tdk.com/info/en/documents/chara_sheet/C3216X7R2A105K160AA.pdf",
+    "basis": "production_1uF_100V_1206_X7R"
+  },
+  "CGA6N3X7R2A225K230AB": {
+    "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CGA6N3X7R2A225K230AB",
+    "basis": "2u2_100V_1210"
+  },
+  "CSS4J-4026R-1L00F": {
+    "url": "https://www.bourns.com/docs/product-datasheets/css4j-4026.pdf",
+    "basis": "1mohm_8W_four_terminal_custom_land_pattern"
+  },
+  "DRV8353SRTAT": {
+    "url": "https://www.ti.com/lit/ds/symlink/drv8353.pdf",
+    "pdf": "drv8353.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "EEUFC1J220": {
+    "url": "https://industrial.panasonic.com/sa/products/pt/aluminum-cap-lead/models/EEUFC1J220",
+    "basis": "22uF_63V_6p3x11p2_P2p5"
+  },
+  "FTSH-105-01-L-DV-007-K": {
+    "url": "https://www.samtec.com/products/ftsh-105-01-l-dv-007-k",
+    "basis": "9contacts_pin7_omitted_DV_land_revH"
+  },
+  "GXC1J101MCW1GS": {
+    "url": "https://www.nichicon.com/getmedia/80ac7576-2849-44de-b0a7-72796c2034f3/e-gxc.pdf",
+    "basis": "63V_100uF_10x12p5_ripple_row"
+  },
+  "INA180A1IDBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/ina180.pdf",
+    "pdf": "ina180.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "INA241A2IDR": {
+    "url": "https://www.ti.com/lit/ds/symlink/ina241a.pdf",
+    "pdf": "ina241a.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "ISC011N06LM5ATMA1": {
+    "url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-isc011n06lm5-datasheet-en.pdf",
+    "basis": "60V_PG_TDSON8_pinout_and_ratings"
+  },
+  "LM5164DDAR": {
+    "url": "https://www.ti.com/lit/ds/symlink/lm5164.pdf",
+    "pdf": "lm5164.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "LTST-C190KGKT": {
+    "url": "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF",
+    "basis": "green_LED_0603_pin1_cathode"
+  },
+  "M20-9990245": {
+    "url": "https://www.harwin.com/products/M20-9990245",
+    "basis": "2pin_2p54_THT_0p64_square_posts"
+  },
+  "M20-9990345": {
+    "url": "https://www.harwin.com/products/M20-9990345",
+    "basis": "3pin_2p54_THT_0p64_square_posts"
+  },
+  "M24C64-RMN6TP": {
+    "url": "https://www.st.com/en/memories/m24c64-r.html",
+    "basis": "active_SO8_1V8_to5V5_industrial85C"
+  },
+  "MF-PSMF050X-2": {
+    "url": "https://www.bourns.com/docs/product-datasheets/mfpsmf.pdf",
+    "basis": "0805_0A5_6V_custom_recommended_land"
+  },
+  "MSAST32MSB7226KPNB25": {
+    "url": "https://ds.yuden.co.jp/TYCOMPAS/ap/detail?pn=MSAST32MSB7226KPNB25&u=M",
+    "basis": "preferred_22uF_25V_1210_X7R"
+  },
+  "MSS1246T-683MLC": {
+    "url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/ferrite-drum/mss-mos/mss1246t/mss1246t-683/",
+    "basis": "68uH_ordering_code_and_land_pattern"
+  },
+  "MT60-M": {
+    "url": "https://www.china-amass.com/biao/174.html",
+    "basis": "wire_connector_custom_12AWG_pigtail_not_board_mount"
+  },
+  "NCP18XH103F03RB": {
+    "url": "https://www.murata.com/en-sg/products/productdetail?cate=luNTCforTempeSenso&partno=NCP18XH103F03RB",
+    "basis": "0603_10k_1pct_B25_50_3380K"
+  },
+  "PESD2CANFD24V-T,215": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf",
+    "basis": "SOT23_pin3_common_pin1_2_bus"
+  },
+  "PESD5V0S1BA,115": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA.pdf",
+    "basis": "production_5V_bidirectional_SOD323"
+  },
+  "PMEG2010ER,115": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+    "basis": "SOD123W_pin1_cathode_20V_1A"
+  },
+  "RC0603FR-07100KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+    "pdf": "part-specs/RC0603FR-07100KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-07100RL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100RL",
+    "pdf": "part-specs/RC0603FR-07100RL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-0710KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+    "pdf": "part-specs/RC0603FR-0710KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-0712K1L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0712K1L",
+    "pdf": "part-specs/RC0603FR-0712K1L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-07150KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07150KL",
+    "pdf": "part-specs/RC0603FR-07150KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-0715KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0715KL",
+    "pdf": "part-specs/RC0603FR-0715KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-071KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+    "pdf": "part-specs/RC0603FR-071KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-071ML": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071ML",
+    "pdf": "part-specs/RC0603FR-071ML.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-071RL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-071RL",
+    "pdf": "part-specs/RC0603FR-071RL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-07200KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07200KL",
+    "pdf": "part-specs/RC0603FR-07200KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-0722RL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0722RL",
+    "pdf": "part-specs/RC0603FR-0722RL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-072M49L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-072M49L",
+    "pdf": "part-specs/RC0603FR-072M49L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-072R2L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-072R2L",
+    "pdf": "part-specs/RC0603FR-072R2L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-07300KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07300KL",
+    "pdf": "part-specs/RC0603FR-07300KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-07301KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07301KL",
+    "pdf": "part-specs/RC0603FR-07301KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-073R3L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-073R3L",
+    "pdf": "part-specs/RC0603FR-073R3L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-0742K2L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0742K2L",
+    "pdf": "part-specs/RC0603FR-0742K2L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-0747KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL",
+    "pdf": "part-specs/RC0603FR-0747KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-074K7L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L",
+    "pdf": "part-specs/RC0603FR-074K7L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603FR-075K1L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-075K1L",
+    "pdf": "part-specs/RC0603FR-075K1L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0603JR-070RL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603JR-070RL",
+    "pdf": "part-specs/RC0603JR-070RL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0805FR-0710RL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-0710RL",
+    "pdf": "part-specs/RC0805FR-0710RL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0805FR-07120RL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-07120RL",
+    "pdf": "part-specs/RC0805FR-07120RL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC0805FR-072R2L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-072R2L",
+    "pdf": "part-specs/RC0805FR-072R2L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RC1206FR-0710KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0710KL",
+    "pdf": "part-specs/RC1206FR-0710KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "REF2025AIDDCR": {
+    "url": "https://www.ti.com/lit/ds/symlink/ref2030.pdf",
+    "pdf": "ref2030.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "RT0603BRD07100KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD07100KL",
+    "pdf": "part-specs/RT0603BRD07100KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD0710KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0710KL",
+    "pdf": "part-specs/RT0603BRD0710KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD0715KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0715KL",
+    "pdf": "part-specs/RT0603BRD0715KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD0716K9L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0716K9L",
+    "pdf": "part-specs/RT0603BRD0716K9L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD07324KL": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD07324KL",
+    "pdf": "part-specs/RT0603BRD07324KL.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD0740K2L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0740K2L",
+    "pdf": "part-specs/RT0603BRD0740K2L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD0751K1L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0751K1L",
+    "pdf": "part-specs/RT0603BRD0751K1L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD078K45L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD078K45L",
+    "pdf": "part-specs/RT0603BRD078K45L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "RT0603BRD0790K9L": {
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0790K9L",
+    "pdf": "part-specs/RT0603BRD0790K9L.pdf",
+    "basis": "manufacturer_part_spec_value_voltage_case"
+  },
+  "SMCJ30A": {
+    "url": "https://www.littelfuse.com/assetdocs/littelfuse_tvs_diode_smcj_datasheet.pdf?assetguid=37388813-0d6d-4329-969b-1aa8b7614ac1",
+    "basis": "manufacturer_SMCJ30A_row_unidirectional_SMC"
+  },
+  "SN74LVC1G11DBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+    "pdf": "sn74lvc1g11.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "SN74LVC1G14DBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf",
+    "pdf": "sn74lvc1g14.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "SN74LVC1G17DBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "pdf": "sn74lvc1g17.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "SN74LVC1G74DCTR": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+    "pdf": "sn74lvc1g74.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "SN74LVC244APWR": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf",
+    "pdf": "sn74lvc244a.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "SN74LVC3G17DCTR": {
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf",
+    "pdf": "sn74lvc3g17.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "STM32G474VET6": {
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g474ve.html",
+    "basis": "active_LQFP100_DS12288_pinmap"
+  },
+  "STPS5H100AF": {
+    "url": "https://www.st.com/resource/en/datasheet/stps5h100af.pdf",
+    "basis": "SOD128_100V_5A"
+  },
+  "TCAN3403DRQ1": {
+    "url": "https://www.ti.com/lit/ds/symlink/tcan3403-q1.pdf",
+    "pdf": "tcan3403.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TL3342F160QG": {
+    "url": "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3342F160QG.pdf",
+    "basis": "P010632_revJ_pad8p0x4p8_and_switch_poles"
+  },
+  "TLV3011BIDBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tlv3012.pdf",
+    "pdf": "tlv3012.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TLV3201AIDBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tlv3201.pdf",
+    "pdf": "tlv3201.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TLV75801PDRVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tlv758p.pdf",
+    "pdf": "tlv758p.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TLV9024PWR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tlv9024.pdf",
+    "pdf": "tlv9024.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TLV9062IDR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tlv9064.pdf",
+    "pdf": "tlv9064.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TLV9064IPWR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tlv9064.pdf",
+    "pdf": "tlv9064.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TPS2116DRLR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps2116.pdf",
+    "pdf": "tps2116.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TPS2553DBVR-1": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+    "pdf": "tps2553.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TPS3431SDRBR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
+    "pdf": "tps3431.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TPS3808G50DBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "pdf": "tps3808.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "TPS389033DSER": {
+    "url": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+    "pdf": "tps3890.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "UCC27511ADBVR": {
+    "url": "https://www.ti.com/lit/ds/symlink/ucc27511a.pdf",
+    "pdf": "ucc27511a.pdf",
+    "basis": "manufacturer_orderable_table_and_package_pin_audit"
+  },
+  "USB4105-GF-A": {
+    "url": "https://gct.co/connector/usb4105",
+    "basis": "drawing_B4_16pads_NPTH_custom_ground_corner_variant"
+  },
+  "USBLC6-2SC6": {
+    "url": "https://www.st.com/en/protections-and-emi-filters/usblc6-2.html",
+    "basis": "active_SOT23_6_USB_ESD_pinout"
+  },
+  "WSLP2512R0030FEA": {
+    "url": "https://www.vishay.com/docs/30122/wslp.pdf",
+    "basis": "WSLP2512_3mohm_1pct_3W_FEA_order_decode"
+  },
+  "XT60PW-M": {
+    "url": "https://www.china-amass.com/public/upload/20260207/7fa24f5a6f35ec66c7a115c07a34ab06.pdf",
+    "basis": "manufacturer_catalog_and_KiCad_polarity_marks"
+  }
+}

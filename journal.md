@@ -82,3 +82,22 @@ split the bigger pages again so everything fits on A3 or A4. there's 16 subsheet
 ERC is still at 0 errors and 0 warnings. checked the exported connections, a separate set of 425 pin connections, and 4096 combinations of the shutdown logic. the pcb has 444 footprints in the staging grid, with no placement or routing done
 
 stopping here for a review checkpoint. the reference supply headroom still needs a closer look, and the final BOM and connector fit checks aren't finished. the current ratings, regen behavior and fault timing all still need real hardware tests
+
+### Devlog 04: reference supply and BOM
+
+Date: Sep 28, 2026
+
+Time spent: 3 hours
+Lapse: no lapse
+
+finished checking the reference supply and went through the part numbers and connectors
+
+found a pretty bad mistake with the XT60. the footprint has pad 1 as negative and pad 2 as positive, but the nets were the other way around. fixed that in the schematic and pcb, and added a check against the actual footprint markings. nothing has been built yet. the devlog 03 files should not be used to make a board
+
+the 3V reference didnt have enough guaranteed supply headroom. changed it to 2.5V, with 1.25V for the current sensing. also changed the regulator to an adjustable one set to about 3.36V and used a better supervisor on the analog rail. adjusted the current and voltage thresholds and the throttle dividers to match. the main current amplifiers still use gain 20, but the drivers diagnostic ones need gain 10
+
+checked 112 different part numbers. fixed the missing characters in two TI part numbers and the chassis capacitor's order code. the sub polyfuse was actually an 0805 part, not 1206. the SWD connector now has the proper longer pads and pin 7 missing for the key
+
+ERC has 0 errors and 0 warnings. the connection checks, 426 separate pin checks and 4096 shutdown logic cases pass too. there's 449 footprints on the pcb now. the existing positions stayed where they were and there's still no routing or outline
+
+some images of the schematics: ![img1](image.png) ![img2](image-1.png) ![img3](image-2.png) ![img4](image-3.png) ![img5](image-4.png) ![img6](image-5.png) ![img7](image-6.png) ![img8](image-7.png) ![img9](image-8.png) ![img10](image-9.png) ![img11](image-10.png) ![img12](image-11.png) ![img13](image-12.png) ![img14](image-13.png) ![img15](image-14.png) ![img16](image-15.png) ![img17](image-16.png)
