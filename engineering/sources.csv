@@ -33,3 +33,17 @@ JST_GH,JST,GH,series,https://www.jst-mfg.com/product/index.php?lang=2&series=105
 PHOENIX_1707630,Phoenix_Contact,1707630,product,https://www.phoenixcontact.com/us/products/1707630/pdf,24A_7mm62,2026-09-27,web_pdf
 IFX_6EDL7141,Infineon,6EDL7141,1.20,https://www.infineon.com/assets/row/public/documents/24/49/infineon-6edl7141-datasheet-en.pdf?fileId=8ac78c8c8e7ead30018ec7bd6aac46f3,60V_operating_70V_absolute,2026-09-27,web_pdf
 TI_DRV8363,Texas_Instruments,DRV8363,2025-12,https://www.ti.com/product/DRV8363,external_12V_bootstrap,2026-09-27,web
+TI_TLV1704,Texas_Instruments,TLV1704,D,https://www.ti.com/lit/ds/symlink/tlv1704.pdf,pinout_limits,2026-09-27,web_or_local_pdf
+TI_INA180,Texas_Instruments,INA180,H,https://www.ti.com/lit/ds/symlink/ina180.pdf,A1_pinout_gain,2026-09-27,web_or_local_pdf
+TI_TLV3201,Texas_Instruments,TLV3201,C,https://www.ti.com/lit/ds/symlink/tlv3201.pdf,pinout_delay,2026-09-27,web_or_local_pdf
+TI_TLV9064,Texas_Instruments,TLV9064,N,https://www.ti.com/lit/ds/symlink/tlv9064.pdf,quad_pinout,2026-09-27,web_or_local_pdf
+TI_TPS3808,Texas_Instruments,TPS3808,N,https://www.ti.com/lit/ds/symlink/tps3808.pdf,G33_G50_reset_CT,2026-09-27,web_or_local_pdf
+TI_LVC1G74,Texas_Instruments,SN74LVC1G74,G,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf,pins3_5_nQ_Q,2026-09-27,web_or_local_pdf
+TI_LVC244,Texas_Instruments,SN74LVC244A,AG,https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf,PW_pinout,2026-09-27,web_or_local_pdf
+NXP_CAN_ESD,Nexperia,PESD2CANFD24V-T,2020-08,https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf,pins1_2_lines_pin3_common,2026-09-27,web_or_local_pdf
+NXP_PMEG2010,Nexperia,PMEG2010ER,2023-07,https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf,CFP3_SOD123W,2026-09-27,web_or_local_pdf
+MURATA_NCP18,Murata,NCP18,2023-12,https://www.murata.com/-/media/webrenewal/products/thermistor/ntc/ncp/ncp18.ashx?cvid=20231225010000000000&la=en,10k_B25_50_3380,2026-09-27,web_or_local_pdf
+PHOENIX_1711725,Phoenix_Contact,1711725,product,https://www.phoenixcontact.com/us/products/1711725/pdf,24A_5p08,2026-09-27,web_or_local_pdf
+ST_G4_LL_ADC,STMicroelectronics,stm32g4xx_ll_adc.h,master_snapshot_2026-09-27,https://github.com/STMicroelectronics/stm32g4xx-hal-driver/blob/master/Inc/stm32g4xx_ll_adc.h,trigger_and_interconnect_macros,2026-09-27,local_vendor_header
+ST_G4_LL_COMP,STMicroelectronics,stm32g4xx_ll_comp.h,master_snapshot_2026-09-27,https://github.com/STMicroelectronics/stm32g4xx-hal-driver/blob/master/Inc/stm32g4xx_ll_comp.h,trigger_and_interconnect_macros,2026-09-27,local_vendor_header
+ST_G4_LL_TIM,STMicroelectronics,stm32g4xx_ll_tim.h,master_snapshot_2026-09-27,https://github.com/STMicroelectronics/stm32g4xx-hal-driver/blob/master/Inc/stm32g4xx_ll_tim.h,trigger_and_interconnect_macros,2026-09-27,local_vendor_header

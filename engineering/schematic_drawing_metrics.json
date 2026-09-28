@@ -1,0 +1,498 @@
+{
+  "01_dc_link": {
+    "paper_before": "A3",
+    "paper_after": "A4",
+    "content_width_mm": 217.17,
+    "content_height_mm": 135.89,
+    "blocks": {
+      "input": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 118.11,
+        "removed_y_mm": 34.29,
+        "content_width_mm": 229.87,
+        "content_height_mm": 81.28
+      },
+      "chassis": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 63.5,
+        "removed_y_mm": 26.67,
+        "content_width_mm": 76.2,
+        "content_height_mm": 66.04
+      },
+      "motor": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 54.61,
+        "removed_y_mm": 26.67,
+        "content_width_mm": 114.3,
+        "content_height_mm": 74.93
+      }
+    }
+  },
+  "02_bridge": {
+    "paper_before": "A2",
+    "paper_after": "A3",
+    "content_width_mm": 364.49,
+    "content_height_mm": 232.79,
+    "blocks": {
+      "phase_a": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 0,
+        "removed_y_mm": 5.08,
+        "content_width_mm": 130.81,
+        "content_height_mm": 245.49
+      },
+      "phase_b": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 0.0,
+        "removed_y_mm": 2.54,
+        "content_width_mm": 130.81,
+        "content_height_mm": 234.95
+      },
+      "phase_c": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 0.0,
+        "removed_y_mm": 2.54,
+        "content_width_mm": 130.81,
+        "content_height_mm": 234.95
+      }
+    }
+  },
+  "04_power_usb": {
+    "paper_before": "A2",
+    "paper_after": "A3",
+    "content_width_mm": 297.18,
+    "content_height_mm": 141.42,
+    "blocks": {
+      "buck": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 13.97,
+        "removed_y_mm": 6.35,
+        "content_width_mm": 199.39,
+        "content_height_mm": 149.86
+      },
+      "mux": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 0.0,
+        "removed_y_mm": 20.32,
+        "content_width_mm": 118.11,
+        "content_height_mm": 154.12
+      }
+    }
+  },
+  "05_mcu": {
+    "paper_before": "A2",
+    "paper_after": "A3",
+    "content_width_mm": 387.35,
+    "content_height_mm": 247.65,
+    "blocks": {
+      "core": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 10.16,
+        "removed_y_mm": 53.34,
+        "content_width_mm": 199.39,
+        "content_height_mm": 260.35
+      },
+      "reference": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 25.4,
+        "removed_y_mm": 5.08,
+        "content_width_mm": 138.43,
+        "content_height_mm": 133.35
+      },
+      "eeprom": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 46.99,
+        "removed_y_mm": 12.7,
+        "content_width_mm": 114.3,
+        "content_height_mm": 103.32
+      },
+      "debug": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 0.0,
+        "removed_y_mm": 146.05,
+        "content_width_mm": 77.47,
+        "content_height_mm": 139.7
+      }
+    }
+  },
+  "06_sensors": {
+    "paper_before": "A2",
+    "paper_after": "A3",
+    "content_width_mm": 360.68,
+    "content_height_mm": 234.95,
+    "blocks": {
+      "hall": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 5.08,
+        "removed_y_mm": 22.86,
+        "content_width_mm": 191.77,
+        "content_height_mm": 247.65
+      },
+      "encoder": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 7.62,
+        "removed_y_mm": 12.7,
+        "content_width_mm": 189.23,
+        "content_height_mm": 237.87
+      }
+    }
+  },
+  "07_io_can": {
+    "paper_before": "A3",
+    "paper_after": "A4",
+    "content_width_mm": 198.12,
+    "content_height_mm": 144.78,
+    "blocks": {
+      "can": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 110.49,
+        "removed_y_mm": 39.37,
+        "content_width_mm": 210.82,
+        "content_height_mm": 124.46
+      },
+      "uart": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 0,
+        "removed_y_mm": 17.78,
+        "content_width_mm": 121.23,
+        "content_height_mm": 40.64
+      }
+    }
+  },
+  "03_regen": {
+    "paper_before": "A2",
+    "paper_after": "A2",
+    "content_width_mm": 417.83,
+    "content_height_mm": 260.35,
+    "blocks": {
+      "control": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 10.16,
+        "removed_y_mm": 3.81,
+        "content_width_mm": 161.29,
+        "content_height_mm": 188.41
+      },
+      "monitors": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 33.02,
+        "removed_y_mm": 33.02,
+        "content_width_mm": 43.18,
+        "content_height_mm": 68.58
+      },
+      "trip": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 16.51,
+        "removed_y_mm": 0,
+        "content_width_mm": 276.86,
+        "content_height_mm": 146.05
+      },
+      "power": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 26.67,
+        "removed_y_mm": 0,
+        "content_width_mm": 214.63,
+        "content_height_mm": 134.62
+      }
+    }
+  },
+  "08_analog_inputs": {
+    "paper_before": "A2",
+    "paper_after": "A3",
+    "content_width_mm": 351.86,
+    "content_height_mm": 232.41,
+    "blocks": {
+      "throttle": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 48.26,
+        "removed_y_mm": 24.13,
+        "content_width_mm": 123.19,
+        "content_height_mm": 87.63
+      },
+      "ports": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 0,
+        "removed_y_mm": 64.77,
+        "content_width_mm": 52.5,
+        "content_height_mm": 44.45
+      },
+      "bridge_ntc": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 8.89,
+        "removed_y_mm": 53.34,
+        "content_width_mm": 101.67,
+        "content_height_mm": 80.01
+      },
+      "aux": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 48.26,
+        "removed_y_mm": 6.35,
+        "content_width_mm": 124.46,
+        "content_height_mm": 78.74
+      },
+      "rc": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 16.51,
+        "removed_y_mm": 1.27,
+        "content_width_mm": 99.06,
+        "content_height_mm": 77.47
+      },
+      "brake": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 16.51,
+        "removed_y_mm": 1.27,
+        "content_width_mm": 99.06,
+        "content_height_mm": 81.28
+      },
+      "direction": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 16.51,
+        "removed_y_mm": 1.27,
+        "content_width_mm": 97.79,
+        "content_height_mm": 81.28
+      },
+      "buffer_power": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 25.4,
+        "removed_y_mm": 0,
+        "content_width_mm": 43.18,
+        "content_height_mm": 54.61
+      },
+      "pcb_ntc": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 7.62,
+        "removed_y_mm": 11.43,
+        "content_width_mm": 52.07,
+        "content_height_mm": 62.23
+      },
+      "motor_ntc": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 26.67,
+        "removed_y_mm": 6.35,
+        "content_width_mm": 101.6,
+        "content_height_mm": 91.44
+      },
+      "dump_ntc": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 29.21,
+        "removed_y_mm": 6.35,
+        "content_width_mm": 97.79,
+        "content_height_mm": 91.44
+      },
+      "rail_adc": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 8.89,
+        "removed_y_mm": 3.81,
+        "content_width_mm": 41.91,
+        "content_height_mm": 63.5
+      }
+    }
+  },
+  "09_safety": {
+    "paper_before": "A2",
+    "paper_after": "A2",
+    "content_width_mm": 438.15,
+    "content_height_mm": 270.51,
+    "blocks": {
+      "reset": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 86.36,
+        "removed_y_mm": 0,
+        "content_width_mm": 227.33,
+        "content_height_mm": 102.87
+      },
+      "service": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 20.32,
+        "removed_y_mm": 1.27,
+        "content_width_mm": 149.86,
+        "content_height_mm": 168.96
+      },
+      "arm": {
+        "paper_before": "A2",
+        "paper_after": "A3",
+        "removed_x_mm": 62.23,
+        "removed_y_mm": 0,
+        "content_width_mm": 308.61,
+        "content_height_mm": 81.28
+      },
+      "wake": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 77.47,
+        "removed_y_mm": 1.27,
+        "content_width_mm": 231.14,
+        "content_height_mm": 114.3
+      },
+      "buffer": {
+        "paper_before": "A2",
+        "paper_after": "A4",
+        "removed_x_mm": 0,
+        "removed_y_mm": 20.32,
+        "content_width_mm": 147.32,
+        "content_height_mm": 105.41
+      }
+    }
+  },
+  "10_voltage_sensing": {
+    "paper_before": "A3",
+    "paper_after": "A3",
+    "content_width_mm": 328.93,
+    "content_height_mm": 189.23,
+    "blocks": {
+      "bus": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 26.67,
+        "removed_y_mm": 10.16,
+        "content_width_mm": 171.45,
+        "content_height_mm": 83.82
+      },
+      "phase_a": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 27.94,
+        "removed_y_mm": 10.16,
+        "content_width_mm": 173.99,
+        "content_height_mm": 83.82
+      },
+      "phase_b": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 26.67,
+        "removed_y_mm": 10.16,
+        "content_width_mm": 175.26,
+        "content_height_mm": 83.82
+      },
+      "phase_c": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 27.94,
+        "removed_y_mm": 10.16,
+        "content_width_mm": 173.99,
+        "content_height_mm": 83.82
+      },
+      "power": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 20.32,
+        "removed_y_mm": 0,
+        "content_width_mm": 125.73,
+        "content_height_mm": 49.53
+      }
+    }
+  },
+  "11_current_protection": {
+    "paper_before": "A3",
+    "paper_after": "A4_portrait",
+    "content_width_mm": 182.88,
+    "content_height_mm": 184.15,
+    "blocks": {
+      "current": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 210.82,
+        "removed_y_mm": 15.24,
+        "content_width_mm": 124.46,
+        "content_height_mm": 90.17
+      },
+      "thresholds": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 33.02,
+        "removed_y_mm": 3.81,
+        "content_width_mm": 82.55,
+        "content_height_mm": 68.58
+      },
+      "power": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 83.82,
+        "removed_y_mm": 0,
+        "content_width_mm": 107.13,
+        "content_height_mm": 49.53
+      },
+      "bus": {
+        "paper_before": "A3",
+        "paper_after": "A4",
+        "removed_x_mm": 101.6,
+        "removed_y_mm": 2.54,
+        "content_width_mm": 120.65,
+        "content_height_mm": 72.39
+      }
+    }
+  },
+  "12_gate_driver": {
+    "paper_before": "A4",
+    "paper_after": "A4_portrait",
+    "content_width_mm": 151.13,
+    "content_height_mm": 199.39,
+    "blocks": {
+      "driver": {
+        "paper_before": "A4",
+        "paper_after": "A3",
+        "removed_x_mm": 7.62,
+        "removed_y_mm": 48.26,
+        "content_width_mm": 163.83,
+        "content_height_mm": 212.09
+      }
+    }
+  },
+  "13_usb_status": {
+    "paper_before": "A4",
+    "paper_after": "A3",
+    "content_width_mm": 287.02,
+    "content_height_mm": 130.81,
+    "blocks": {
+      "usb": {
+        "paper_before": "A4",
+        "paper_after": "A4",
+        "removed_x_mm": 13.97,
+        "removed_y_mm": 6.35,
+        "content_width_mm": 208.28,
+        "content_height_mm": 143.51
+      },
+      "leds": {
+        "paper_before": "A4",
+        "paper_after": "A4",
+        "removed_x_mm": 25.4,
+        "removed_y_mm": 12.7,
+        "content_width_mm": 99.06,
+        "content_height_mm": 96.52
+      }
+    }
+  }
+}

@@ -1,39 +1,78 @@
 {
-  "milestone": "M01",
+  "milestone": "M02",
+  "state": "draft_complete_review_pending",
   "date": "2026-09-27",
   "kicad_version": "10.0.4",
   "schematic": {
-    "sheets": 8,
-    "child_sheets": 7,
-    "electrical_symbols": 0,
-    "erc_violations": 0,
-    "erc_scope": "empty_hierarchy_only",
-    "svg_export": "passed",
-    "root_visual_review": "passed",
-    "circuit_validation": "not_started"
+    "sheets": 14,
+    "child_sheets": 13,
+    "physical_footprints": 407,
+    "erc_errors": 0,
+    "erc_warnings": 0,
+    "intended_pin_connections": 1194,
+    "netlist_pin_connections": 1211,
+    "nets": 244,
+    "netlist_mismatches": 0,
+    "generated_files_match": true,
+    "hardware_signoff": false,
+    "presentation": "compact_circuit_blocks_reviewed",
+    "page_formats": {
+      "A4": 2,
+      "A3": 7,
+      "A2": 2,
+      "A4_portrait": 2
+    }
   },
   "pcb": {
     "native_reload": "passed",
     "copper_layers": 4,
-    "footprints": 0,
+    "footprints": 407,
+    "connected_pads": 1253,
+    "pad_net_mismatches": 0,
+    "schematic_parity_issues": 0,
     "tracks": 0,
     "zones": 0,
-    "drawings": 0,
-    "fabrication_stackup": "pending"
+    "outline": "absent",
+    "placement": "staging_grid_only",
+    "fabrication_stackup": "pending",
+    "drc_counts": {
+      "hole_clearance": 4,
+      "drill_out_of_range": 6,
+      "invalid_outline": 1,
+      "silk_overlap": 19
+    },
+    "unconnected_items": 499,
+    "placement_changes": 0
   },
-  "engineering": {
-    "csv_files_checked": 12,
-    "mcu_pin_rows": 100,
-    "library_pin_function_check": "passed",
-    "ST_AF_number_trigger_DAC_route_audit": "pending",
-    "calculation_reproduction": "passed",
-    "architecture_visual_review": "passed"
-  },
+  "pending": [
+    "critical_schematic_review",
+    "USB_locator_hole_clearance",
+    "buck_EP_via_drill_and_fab_stackup",
+    "orderable_BOM_audit",
+    "thermal_validation",
+    "motor_OEM_pinout",
+    "firmware",
+    "physical_bringup"
+  ],
   "bench_measurements": "none",
-  "git": {
-    "branch": "main",
-    "commits": 0,
-    "remotes": 0,
-    "staged_files": 0
+  "git_action": "no_stage_commit_or_push",
+  "native_editor_open": "bldc-esc",
+  "file_sha256": {
+    "bldc-esc.kicad_sch": "54f066400eab15509b927208b17c1c157dd19b82c904ccf4981609fcdfc19b5d",
+    "bldc-esc.kicad_pcb": "08a8cf46a747719febbb89f82bbd4896bd02a039f70c42b2b60fb7e7a923b68d",
+    "bldc-esc.kicad_sym": "96f423672930786bde28470f7073c6986d42a56ddb4c74db50acdc15f33919da",
+    "schematic/01_dc_link.kicad_sch": "e6f3ad2dc963f578b8bd8100ab1cf08ce38b3903c2aebe4bfc74d9fb85fa7f34",
+    "schematic/02_bridge.kicad_sch": "e0f7f080373b406b4380210d61e0249bec3cfdfd624ef783def11d4f3d093c49",
+    "schematic/03_regen.kicad_sch": "c127c925d2d5ef93b239e010c7ce356c3a4f1719d16b0e6698eec36c3590ea03",
+    "schematic/04_power_usb.kicad_sch": "91af2483acf4ad9942b72a15d8cf432c56f48105f867d58deca0d1d34bc502d8",
+    "schematic/05_mcu.kicad_sch": "7b76a657faf6b91ef240a41b3a4e31f9243638b8d4c203f2011d8d0d6edccdb0",
+    "schematic/06_sensors.kicad_sch": "a9b3c7dc730e831313236a390bafcd7c7fa681a1ef349267d991720ab80f2711",
+    "schematic/07_io_can.kicad_sch": "70eb4e83be40e47c7f1be4959a363b6924504628e3b1f771ccb427a6c78d9024",
+    "schematic/08_analog_inputs.kicad_sch": "2c54368fd4f62e53a193adc6835e3a784a4a8e3b5f68b7f8bcefd3e91385de99",
+    "schematic/09_safety.kicad_sch": "800a27bb3e682aa11d8abc8af8b68d81006c8c827a2c4d3b73654adc4341e630",
+    "schematic/10_voltage_sensing.kicad_sch": "b08a861f8cc2d8afe38e4a82ca7ded48cf1a76324cb9bb91fb0824bdaef38afa",
+    "schematic/11_current_protection.kicad_sch": "74ce71300b3cc0a00e3496af7537d969a1b9de0c708838ade71c0ebd4c4f05a2",
+    "schematic/12_gate_driver.kicad_sch": "ab18d13b631529a8f7c9192a9278f86ae2839b7abe53ca43ba239d0db18e3c00",
+    "schematic/13_usb_status.kicad_sch": "cb8b376999771662f29e7d8f1a3a0d82d36458dcb81776f950fbd9cb80609fca"
   }
 }

@@ -4,86 +4,511 @@
   (uuid "10000000-0000-4000-8000-000000000000")
   (paper "A3")
   (lib_symbols)
-  (text "BLDC-ESC / v1 / M01 / DRAFT" (at 35 22 0)
-    (effects (font (size 2 2)) (justify left))
-    (uuid "10000000-0000-4000-8000-000000000010"))
-  (sheet (at 35 40) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (text "BLDC-ESC / v1 / schematic draft"
+    (at 35 22 0)
+    (effects
+      (font
+        (size 2 2)
+      )
+      (justify left)
+    )
+    (uuid "fa5c338a-3e4e-5491-97be-33c0f6afbd9a")
+  )
+  (sheet
+    (at 25 42)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000001")
-    (property "Sheetname" "01_dc_link" (at 35 39 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/01_dc_link.kicad_sch" (at 35 71 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "2"))))
+    (property "Sheetname" "01_dc_link"
+      (at 25 41 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/01_dc_link.kicad_sch"
+      (at 25 81 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "2")
+        )
+      )
+    )
   )
-  (sheet (at 140 40) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (sheet
+    (at 119 42)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000002")
-    (property "Sheetname" "02_bridge" (at 140 39 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/02_bridge.kicad_sch" (at 140 71 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "3"))))
+    (property "Sheetname" "02_bridge"
+      (at 119 41 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/02_bridge.kicad_sch"
+      (at 119 81 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "3")
+        )
+      )
+    )
   )
-  (sheet (at 245 40) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (sheet
+    (at 213 42)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000003")
-    (property "Sheetname" "03_regen" (at 245 39 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/03_regen.kicad_sch" (at 245 71 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "4"))))
+    (property "Sheetname" "03_regen"
+      (at 213 41 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/03_regen.kicad_sch"
+      (at 213 81 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "4")
+        )
+      )
+    )
   )
-  (sheet (at 35 95) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (sheet
+    (at 307 42)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000004")
-    (property "Sheetname" "04_power_usb" (at 35 94 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/04_power_usb.kicad_sch" (at 35 126 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "5"))))
+    (property "Sheetname" "04_power_usb"
+      (at 307 41 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/04_power_usb.kicad_sch"
+      (at 307 81 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "5")
+        )
+      )
+    )
   )
-  (sheet (at 140 95) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (sheet
+    (at 25 100)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000005")
-    (property "Sheetname" "05_mcu" (at 140 94 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/05_mcu.kicad_sch" (at 140 126 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "6"))))
+    (property "Sheetname" "05_mcu"
+      (at 25 99 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/05_mcu.kicad_sch"
+      (at 25 139 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "6")
+        )
+      )
+    )
   )
-  (sheet (at 245 95) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (sheet
+    (at 119 100)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000006")
-    (property "Sheetname" "06_sensors" (at 245 94 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/06_sensors.kicad_sch" (at 245 126 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "7"))))
+    (property "Sheetname" "06_sensors"
+      (at 119 99 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/06_sensors.kicad_sch"
+      (at 119 139 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "7")
+        )
+      )
+    )
   )
-  (sheet (at 140 150) (size 82 30)
-    (stroke (width 0.254) (type default))
-    (fill (color 0 0 0 0))
+  (sheet
+    (at 213 100)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
     (uuid "10000000-0000-4000-8000-000000000007")
-    (property "Sheetname" "07_io_can" (at 140 149 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom)))
-    (property "Sheetfile" "schematic/07_io_can.kicad_sch" (at 140 181 0)
-      (effects (font (size 1.0 1.0)) (justify left top)))
-    (instances (project "bldc-esc"
-      (path "/10000000-0000-4000-8000-000000000000" (page "8"))))
+    (property "Sheetname" "07_io_can"
+      (at 213 99 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/07_io_can.kicad_sch"
+      (at 213 139 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "8")
+        )
+      )
+    )
   )
-  (sheet_instances (path "/" (page "1")))
+  (sheet
+    (at 307 100)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000008")
+    (property "Sheetname" "08_analog_inputs"
+      (at 307 99 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/08_analog_inputs.kicad_sch"
+      (at 307 139 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "9")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 25 158)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000009")
+    (property "Sheetname" "09_safety"
+      (at 25 157 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/09_safety.kicad_sch"
+      (at 25 197 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "10")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 119 158)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000010")
+    (property "Sheetname" "10_voltage_sensing"
+      (at 119 157 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/10_voltage_sensing.kicad_sch"
+      (at 119 197 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "11")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 213 158)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000011")
+    (property "Sheetname" "11_current_protection"
+      (at 213 157 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/11_current_protection.kicad_sch"
+      (at 213 197 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "12")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 307 158)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000012")
+    (property "Sheetname" "12_gate_driver"
+      (at 307 157 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/12_gate_driver.kicad_sch"
+      (at 307 197 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "13")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 25 216)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000013")
+    (property "Sheetname" "13_usb_status"
+      (at 25 215 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/13_usb_status.kicad_sch"
+      (at 25 255 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "14")
+        )
+      )
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
   (embedded_fonts no)
+  (text "X = DNP / not fitted. v1 draft; electrical review and bench validation pending."
+    (at 25 279 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "d3a63dbf-1adb-5ccd-9e4b-578343a21099")
+  )
 )

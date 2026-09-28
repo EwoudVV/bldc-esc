@@ -6,9 +6,11 @@ I want to build a small vesc like controller, with hall sensors, current sensing
 
 ## status
 
-Research and project setup is done. there is a component shortlist, a draft mcu pinmap, calculations, and a Kicad project with seven subsheets
+The first full schematic is done, with 13 subsheets. the footprints are assigned and on the pcb in a staging grid
 
-The actual schematics still need to be done
+cleaned up the drawings too. local circuits have wires instead of a label on every pin. the gate driver, USB, voltage sensing and current protection have their own pages, and most sheets now fit on A4 or A3
+
+ERC is clean and the schematic and pcb connections match. still need to do the power/protection review before starting placement and routing
 
 Progress is in [journal.md](journal.md).
 
@@ -20,6 +22,8 @@ Progress is in [journal.md](journal.md).
 - 60V MOSFETs and 63V DC-link capacitors
 - 4 layers, 2 oz outer copper and 1 oz inner copper
 - XT60 power input, MT60 motor connection, and JST-GH signal connectors
+
+the current ratings are targets until thermal testing is done
 
 ## planned hardware
 
@@ -56,7 +60,7 @@ motor data and measurements are in [engineering/motor.csv](engineering/motor.csv
 
 - [x] Research the motor family and choose the initial architecture
 - [x] Set up the repo, KiCad project, calculations, and draft pinmap
-- [ ] Draw the complete schematic and assign footprints
+- [x] Draw the complete schematic and assign footprints
 - [ ] Review protection, power-up behavior, current sensing, and regen
 - [ ] Place and route the PCB
 - [ ] Review the layout and make production files
@@ -68,7 +72,7 @@ motor data and measurements are in [engineering/motor.csv](engineering/motor.csv
 ## repo structure
 
 - `bldc-esc.kicad_pro` / `.kicad_sch` / `.kicad_pcb`: main KiCad project
-- `schematic/`: 7 circuit subsheets
+- `schematic/`: 13 circuit subsheets
 - `engineering/`: requirements, parts, sources, calculations, pinmap, and review checks
 - `journal.md`: devlogs
 - `production/`: will be added when there are fabrication files

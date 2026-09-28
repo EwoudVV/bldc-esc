@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bldc-esc")(type "KiCad")(uri "${KIPRJMOD}/bldc-esc.pretty")(options "")(descr ""))
+)
