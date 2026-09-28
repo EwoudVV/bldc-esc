@@ -55,15 +55,15 @@ emit("DIVIDER_AT_50V", 50 / 21, "V", "200k_top_10k_bottom")
 emit("DIVIDER_AT_60V", 60 / 21, "V", "200k_top_10k_bottom")
 emit("DIVIDER_ADC_BUS_STEP", 3.0 / 4096 * 21, "V_per_LSB", "12bit_raw")
 
-for label, cap in (("LEGACY", 792e-6), ("CANDIDATE", 1260e-6)):
+for label, cap in (("LEGACY", 792e-6), ("CURRENT", 1000e-6)):
     emit("DC_LINK_C_" + label, cap, "F", "nominal")
     emit("DC_LINK_DV_20A_" + label, 20 / (cap * 20000), "V", "constant_current_full_period_upper_screen", "screening")
     energy = 0.5 * cap * (31**2 - 26**2)
     emit("REGEN_ENERGY_26_TO_31_" + label, energy, "J", "capacitor_only")
     emit("REGEN_TIME_100W_" + label, energy / 100, "s", "capacitor_only")
-emit("DC_LINK_CANDIDATE_MIN_C", 1260e-6 * 0.8, "F", "minus20pct_tolerance")
-emit("HYBRID_BANK_IRMS_100KHZ_SUM", 6 * 3.3, "A_rms", "nameplate_sum_not_sharing_qualification", "screening")
-emit("HYBRID_BANK_IRMS_125C_10KHZ_SUM", 6 * 4.6 * 0.75, "A_rms", "10kHz_coefficient_not_sharing_qualification", "screening")
+emit("DC_LINK_CURRENT_MIN_C", 1000e-6 * 0.8, "F", "minus20pct_tolerance")
+emit("HYBRID_BANK_IRMS_135C_100KHZ_SUM", 10 * 3.3, "A_rms", "nameplate_sum_not_sharing_qualification", "screening")
+emit("HYBRID_BANK_IRMS_125C_10KHZ_SUM", 10 * 4.6 * 0.75, "A_rms", "10kHz_coefficient_not_sharing_qualification", "screening")
 emit("CAP_PWM_SQUARE_WAVE_SCREEN_20ARMS", math.sqrt(2) * 20 / 2, "A_rms", "Iphase_peak_over2_50pct_pulse", "screening")
 
 for resistance in (2, 5, 10, 25):

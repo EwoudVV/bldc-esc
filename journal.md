@@ -55,3 +55,30 @@ the first pass was still way too spread out. moved the circuit groups closer tog
 ERC has 0 errors and 0 warnings. the exported connections and pcb pad nets were checked too, with no schematic/pcb mismatches
 
 next is going through the power and protection circuits again before layout. the usb connector hole clearance and buck regulator thermal vias still need checking against the fab rules
+
+### Devlog 03: schematic review
+
+Date: Sep 28, 2026
+
+Time spent: 4 hours
+Lapse: no lapse
+
+went back through the schematic with the datasheets. found some things that erc wouldnt find
+
+the dump resistor diode had the wrong package assigned, the buck input capacitors needed 1210 footprints instead of 1206, and the crystal family didn't actually support 8MHz. fixed those and some of the part numbers. also changed the 3.3V regulator to the exposed-pad version because the little SOT-23 package would get too hot at the planned load
+
+changed the hardware comparators too. the old ones didnt have a good enough guaranteed low output for the logic gates after them. the reset outputs now connect through 0 ohm links instead of diodes, so they don't lose voltage margin there either
+
+the bridge now checks that the brake chopper is ready before it can turn on. that matters if USB keeps the mcu alive but the bus-powered 5V supply stops working. added dump current telemetry and isolated the hardware fault signals from the mcu pins too. found an annoying STM32 detail where the USB dead-battery pull-down can affect the pin used for the driver fault signal, so that needs to be disabled in firmware
+
+the chopper has its own more accurate reference now. the calculated turn-on range is about 30.7-31.8V, with the nominal point around 31.3V. thats still just the emergency clamp, not a safe charging limit for a 6S battery
+
+added buffers and low-leakage clamps for the external analog and temperature inputs. the NTC conversion also needs to account for the 1k series resistor, otherwise it can read the temperature wrong
+
+using PCBWay for the fab checks. changed the corner shape on the USB connector ground pads to get enough clearance around its locating holes. the buck's 0.2mm thermal vias are okay with the selected rules too. still need the actual 2oz/1oz stackup before working out the USB routing dimensions
+
+split the bigger pages again so everything fits on A3 or A4. there's 16 subsheets now. cleaned up the added buffers, protection circuits and labels, and fixed a project-rule setting that was hiding the wires in exports
+
+ERC is still at 0 errors and 0 warnings. checked the exported connections, a separate set of 425 pin connections, and 4096 combinations of the shutdown logic. the pcb has 444 footprints in the staging grid, with no placement or routing done
+
+stopping here for a review checkpoint. the reference supply headroom still needs a closer look, and the final BOM and connector fit checks aren't finished. the current ratings, regen behavior and fault timing all still need real hardware tests

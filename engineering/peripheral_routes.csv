@@ -25,3 +25,5 @@ EEPROM,PA15_PB9,I2C1,WP_PB7_high_at_reset,ST_G474,verified_function
 BOOT0,PB8,BOOT0,100k_pulldown_boot_jumper,ST_G474,verified_pin
 NRST,PG10,NRST,reset_mode_not_GPIO,ST_G474,verified_pin
 ADC_CLOCK,,ADC12_ADC345,common_42M5_clock_and_equal_sample_times,ST_G4_LL_ADC,firmware_constraint
+DUMP_I_ADC,PA6,ADC2_IN3,regular_long_acquisition_36mV_per_A,ST_G474,verified_function
+DRV_nFAULT_SENSE,PB4,GPIO,PWR_CR3_UCPD1_DBDIS_required_before_read,ST_G474,firmware_constraint

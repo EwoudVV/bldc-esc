@@ -17,7 +17,8 @@ def text_size(node):
     size=child(font,'size',[None,1.15,1.15])
     value=node[2] if node[0]=='property' else node[1]
     rows=str(value).splitlines() or ['']
-    return max(len(row) for row in rows)*float(size[1])*0.62+1.27, len(rows)*float(size[2])*1.5
+    factor,padding=(.67,2.54) if node[0]=='global_label' else (.62,1.27)
+    return max(len(row) for row in rows)*float(size[1])*factor+padding, len(rows)*float(size[2])*1.5
 
 
 def axis_map(intervals, gap, margin):
@@ -60,7 +61,8 @@ def compact(tree):
                 if not isinstance(prop,list) or not prop or prop[0]!='property' or not visible(prop):continue
                 px,py=map(float,child(prop,'at')[1:3]);w,h=text_size(prop)
                 justify=child(child(prop,'effects',[]),'justify',[])
-                left=px if 'left' in justify else px-w if 'right' in justify else px-w/2
+                flipped=float(child(prop,'at')[3])%360==90
+                left=(px-w if flipped else px) if 'left' in justify else (px if flipped else px-w) if 'right' in justify else px-w/2
                 protect(left,py-h/2,left+w,py+h/2,pad=0.635)
         elif kind in ('label','global_label'):
             x,y=map(float,child(item,'at')[1:3]);w,h=text_size(item)
@@ -112,18 +114,24 @@ def block_for(sheet,x,y,ref=''):
     if sheet=='12_gate_driver':return 'driver'
     if sheet=='13_usb_status':return 'usb' if x<96 else 'leds'
     if sheet=='03_regen':
+        if x>=176:return 'monitors'
         if y>=88:return 'trip'
-        return 'control' if x<77 else 'power' if x<176 else 'monitors'
+        return 'control' if x<77 else 'power'
+    if sheet=='15_regen_safety':return 'monitors' if x>=176 else 'trip'
+    if sheet=='16_supervisor':return 'service' if x>=146 else 'reset'
     if sheet=='04_power_usb':return 'buck' if x<96 else 'mux'
     if sheet=='05_mcu':return 'core' if x<88 else 'debug' if x>=171 else 'reference' if y<75 else 'eeprom'
     if sheet=='06_sensors':return 'hall' if x<82 else 'encoder'
     if sheet=='07_io_can':return 'can' if y<86 else 'uart'
     if sheet=='08_analog_inputs':
-        if y<60:return 'throttle' if x<85 else 'aux'
+        if y<60:
+            if (ref=='U803' and y>=50) or ref=='C847':return 'buffer_power'
+            return 'throttle' if x<110 else 'aux'
         if y<110:
             return 'ports' if x<27 else 'rc' if x<76 else 'brake' if x<126 else 'direction' if x<172 else 'buffer_power'
         return 'bridge_ntc' if x<41 else 'pcb_ntc' if x<86 else 'motor_ntc' if x<133 else 'dump_ntc' if x<190 else 'rail_adc'
     if sheet=='09_safety':
+        if ref in ('R707','R708','R709','R723','R724','R725') or (x>=140 and y>=139):return 'monitor'
         if ref=='R706':return 'arm'
         if y>=144:return 'bypass'
         if x>=160 and y>=80:return 'buffer'
@@ -133,6 +141,12 @@ def block_for(sheet,x,y,ref=''):
         return 'wake'
     if sheet=='10_voltage_sensing':return 'power' if y>=94 else ('bus' if x<83 else 'phase_a') if y<60 else ('phase_b' if x<83 else 'phase_c')
     if sheet=='11_current_protection':return 'current' if y<56 else 'power' if y>=85 else 'thresholds' if x<70 else 'bus'
+    if sheet=='14_temperature':
+        if ref in ('R898','R899','C899') or x>=310:return 'rail_adc'
+        if ref=='C848' or x>=270:return 'buffer_power'
+        if ref in ('J805','R886','R887','R888','C886','C888','D886','D888'):return 'motor_ntc'
+        if ref in ('J806','R889','R890','R891','C889','C891','D889','D891'):return 'dump_ntc'
+        return 'bridge_ntc' if x<41 else 'pcb_ntc' if x<86 else 'motor_ntc' if x<175 else 'dump_ntc'
     raise ValueError(sheet)
 
 
@@ -141,13 +155,16 @@ PACKING={
     '02_bridge':['row','phase_a','phase_b','phase_c'],
     '12_gate_driver':'driver',
     '13_usb_status':['row','usb','leds'],
-    '03_regen':['row',['col','control','monitors'],['col','power','trip']],
+    '03_regen':['row','control','power'],
+    '15_regen_safety':['row','trip','monitors'],
+    '16_supervisor':['row','reset','service'],
     '04_power_usb':['row','buck','mux'],
     '05_mcu':['row','core',['col','reference','eeprom'],'debug'],
     '06_sensors':['row','hall','encoder'],
     '07_io_can':['col','can','uart'],
-    '08_analog_inputs':['col',['row','throttle','aux'],['row','ports','rc','brake','direction','buffer_power'],['row','bridge_ntc','pcb_ntc','motor_ntc','dump_ntc','rail_adc']],
-    '09_safety':['row',['col','reset','arm','wake'],['col','service','buffer']],
+    '08_analog_inputs':['col',['row','throttle','aux'],['row',['col','ports','buffer_power'],'rc','brake','direction']],
+    '14_temperature':['col',['row','bridge_ntc','pcb_ntc','rail_adc','buffer_power'],['row','motor_ntc','dump_ntc']],
+    '09_safety':['col','arm',['row','wake','buffer'],'monitor'],
     '10_voltage_sensing':['col',['row','bus','phase_a'],['row','phase_b','phase_c'],'power'],
     '11_current_protection':['col','current',['row','thresholds','bus'],'power'],
 }
@@ -221,10 +238,12 @@ def compact_blocks(tree,sheet):
                 for prop in item:
                     if isinstance(prop,list) and prop and prop[0]=='property':
                         a=child(prop,'at');a[1]=round(a[1]+dx,4);a[2]=round(a[2]+dy,4)
+    placed_boxes=[]
     def arrange(node,x,y):
         if isinstance(node,str):
             dx=round(round((x-12.7)/GRID)*GRID,4);dy=round(round((y-12.7)/GRID)*GRID,4)
             for item in groups.get(node,[]):move_item(item,dx,dy)
+            bw,bh=sizes.get(node,(0,0));placed_boxes.append((x,y,x+bw,y+bh))
             return
         for sub in node[1:]:
             w,h=size(sub)
@@ -235,8 +254,23 @@ def compact_blocks(tree,sheet):
     layout=PACKING[sheet];w,h=size(layout)
     arrange(layout,12.7,27.94)
     if title:child(title,'at')[1:3]=[15.24,17.78]
+    content_boxes=[]
+    for item in objects:
+        kind=item[0]
+        if kind=='wire':
+            points=child(item,'pts')[1:]
+            content_boxes.append((min(p[1] for p in points),min(p[2] for p in points),max(p[1] for p in points),max(p[2] for p in points)))
+        elif kind=='symbol':
+            for prop in item:
+                if not isinstance(prop,list) or not prop or prop[0]!='property' or not visible(prop):continue
+                px,py=map(float,child(prop,'at')[1:3]);tw,th=text_size(prop)
+                content_boxes.append((px-tw/2,py-th/2,px+tw,py+th/2))
+        elif kind in ('text','label','global_label'):
+            px,py=map(float,child(item,'at')[1:3]);tw,th=text_size(item)
+            content_boxes.append((px,py-th/2,px+tw,py+th/2))
     paper='A2';portrait=False
     for name,pw,ph,orientation in [('A4',297,210,False),('A4',210,297,True),('A3',420,297,False),('A3',297,420,True),('A2',594,420,False),('A2',420,594,True)]:
-        if w+22.86<=pw and h+27.94+12.7<=ph:paper=name;portrait=orientation;break
+        footer_overlap=any(x1>pw-120 and y1>ph-45 for x0,y0,x1,y1 in content_boxes)
+        if w+22.86<=pw and h+27.94+12.7<=ph and not footer_overlap:paper=name;portrait=orientation;break
     old=child(tree,'paper')[1];child(tree,'paper')[1:]=[paper,*([A('portrait')] if portrait else [])]
     return {'paper_before':old,'paper_after':paper+('_portrait' if portrait else ''),'content_width_mm':round(w,2),'content_height_mm':round(h,2),'blocks':metrics}

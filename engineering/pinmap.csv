@@ -26,7 +26,7 @@ pin,pad_name,net,function,secondary_function,domain,state,source_id
 25,PA3,V_PHASE_B,ADC1_IN4,,analog_3V0,captured_m02,KICAD_G474
 26,PA4,DAC1_CH1_TP,DAC1_OUT1,,3V3,captured_m02,KICAD_G474
 27,PA5,DAC1_CH2_TP,DAC1_OUT2,,3V3,captured_m02,KICAD_G474
-28,PA6,NC,NC,,,reserved,KICAD_G474
+28,PA6,DUMP_I_ADC,ADC2_IN3,,3V0_ADC,captured_m03,ST_G474
 29,PA7,I_PHASE_B,ADC2_IN4,COMP2_INP,analog_3V0,captured_m02,KICAD_G474
 30,PC4,V_3V3_ADC,ADC2_IN5,,analog_3V0,captured_m02,KICAD_G474
 31,PC5,I_DRV_B,ADC2_IN11,,analog_3V3,captured_m02,KICAD_G474
@@ -44,7 +44,7 @@ pin,pad_name,net,function,secondary_function,domain,state,source_id
 43,PE12,PWM_CL,TIM1_CH3N,,3V3,captured_m02,KICAD_G474
 44,PE13,PWM_CH,TIM1_CH3,,3V3,captured_m02,KICAD_G474
 45,PE14,ADC_TRIG_SCOPE,TIM1_CH4,,3V3,captured_m02,KICAD_G474
-46,PE15,nFAULT_LATCH,TIM1_BKIN,,3V3,captured_m02,KICAD_G474
+46,PE15,nFAULT_LATCH_SENSE,TIM1_BKIN,,3V3,captured_m03,ST_G474
 47,PB10,nHW_ENABLE_SENSE,GPIO_IN,,3V3,captured_m02,KICAD_G474
 48,VSS,GND,POWER,,GND,captured_m02,ST_G474
 49,VDD,3V3,POWER,,3V3,captured_m02,ST_G474
@@ -66,8 +66,8 @@ pin,pad_name,net,function,secondary_function,domain,state,source_id
 65,PC6,HALL_1,TIM3_CH1,,3V3_buffered,captured_m02,KICAD_G474
 66,PC7,HALL_2,TIM3_CH2,,3V3_buffered,captured_m02,KICAD_G474
 67,PC8,HALL_3,TIM3_CH3,,3V3_buffered,captured_m02,KICAD_G474
-68,PC9,BUS_OK,GPIO_IN,,3V3,captured_m02,KICAD_G474
-69,PA8,NC,NC,,,reserved,KICAD_G474
+68,PC9,BUS_OK_SENSE,GPIO_IN,,3V3,captured_m03,ST_G474
+69,PA8,nOC_HW_SENSE,GPIO_IN,,3V3,captured_m03,ST_G474
 70,PA9,USB_VBUS_SENSE,GPIO_IN,,3V3_divided,captured_m02,KICAD_G474
 71,PA10,CAN_STB,GPIO_OUT,,3V3,captured_m02,KICAD_G474
 72,PA11,USB_DM,USB_DM,,USB_FS,captured_m02,KICAD_G474
@@ -89,8 +89,8 @@ pin,pad_name,net,function,secondary_function,domain,state,source_id
 88,PD6,NC,NC,,,reserved,KICAD_G474
 89,PD7,ENC_Z,GPIO_IN,,3V3_buffered,captured_m02,KICAD_G474
 90,PB3,SWO,SYS_JTDO-SWO,,3V3,captured_m02,KICAD_G474
-91,PB4,DRV_nFAULT,GPIO_IN,,3V3,captured_m02,KICAD_G474
-92,PB5,WD_RUN,GPIO_IN,,3V3,captured_m02,KICAD_G474
+91,PB4,DRV_nFAULT_SENSE,GPIO_IN,,3V3,captured_m03,ST_G474
+92,PB5,WD_RUN_SENSE,GPIO_IN,,3V3,captured_m03,ST_G474
 93,PB6,NC,NC,,,reserved,KICAD_G474
 94,PB7,EEPROM_WP,GPIO_OUT,,3V3,captured_m02,KICAD_G474
 95,PB8,BOOT0,GPIO_IN,,3V3,captured_m02,KICAD_G474

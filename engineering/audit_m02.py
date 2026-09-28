@@ -67,8 +67,10 @@ for safe,clock,expected_q in [(0,0,0),(1,0,0),(1,1,1),(0,1,0),(1,1,0),(1,0,0),(1
     if q!=expected_q:fail('ARM_LATCH_SEQUENCE',safe,clock)
     previous_clock=clock
 
-for ref,pin,net in [('U702','5','WD_RUN'),('U711','1','SYSTEM_GOOD_PRE'),('U711','2','WD_RUN'),
-    ('U711','4','SYSTEM_GOOD'),('U712','1','DRV_ENABLE_PRE'),('U712','2','WD_RUN'),('U712','4','DRV_ENABLE')]:
+for ref,pin,net in [('U702','5','WD_RUN'),('U711','1','SYSTEM_GOOD_PRE'),('U711','3','WD_RUN'),
+    ('U711','6','BRK_ARMED'),('U711','4','SYSTEM_GOOD'),('U712','1','DRV_ENABLE_PRE'),('U712','3','WD_RUN'),
+    ('U712','6','BRK_ARMED'),('U712','4','DRV_ENABLE'),('U501','28','DUMP_I_ADC'),
+    ('U403','6','5V_SYS'),('U403','4','5V_SYS'),('U403','1','3V3'),('U403','7','GND')]:
     if actual.get((ref,pin))!=net:fail('SERVICE_INTERLOCK',ref,pin,net)
 
 for sheet in sorted((root/'schematic').glob('*.kicad_sch')):

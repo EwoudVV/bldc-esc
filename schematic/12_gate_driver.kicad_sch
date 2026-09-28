@@ -1896,7 +1896,7 @@
       )
       (hide yes)
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://industrial.panasonic.com/sa/products/pt/aluminum-cap-lead/models/EEUFC1J220"
       (at 50.8 63.5 0)
       (effects
         (font
@@ -1906,7 +1906,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "UPW1J220MED"
+    (property "MPN" "EEUFC1J220"
       (at 50.8 63.5 0)
       (effects
         (font
@@ -1916,7 +1916,7 @@
       )
       (hide yes)
     )
-    (property "Manufacturer" "Nichicon"
+    (property "Manufacturer" "Panasonic"
       (at 50.8 63.5 0)
       (effects
         (font
@@ -2774,8 +2774,8 @@
     )
   )
   (symbol
-    (lib_id "power:GND")
-    (at 50.8 72.39 0)
+    (lib_id "power:VCC")
+    (at 31.75 101.6 0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
@@ -2783,6 +2783,76 @@
     (dnp no)
     (uuid "e264e2cb-4a8f-55f4-9f4c-29f9649161ea")
     (property "Reference" "#PWR120001"
+      (at 31.75 101.6 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "VBUS"
+      (at 31.75 97.79 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
+          (reference "#PWR120001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:VCC")
+    (at 39.37 104.14 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "f1ddbbf4-45f9-5833-bdc4-f436d48e117f")
+    (property "Reference" "#PWR120002"
+      (at 39.37 104.14 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "3V3_A"
+      (at 39.37 100.33 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
+          (reference "#PWR120002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 50.8 72.39 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "a2ecac40-8333-5d97-830e-5bc50745f81b")
+    (property "Reference" "#PWR120003"
       (at 50.8 72.39 0)
       (effects
         (font
@@ -2802,7 +2872,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120001")
+          (reference "#PWR120003")
           (unit 1)
         )
       )
@@ -2816,8 +2886,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "f1ddbbf4-45f9-5833-bdc4-f436d48e117f")
-    (property "Reference" "#PWR120002"
+    (uuid "45266a76-6045-510a-bed8-0c912e94274f")
+    (property "Reference" "#PWR120004"
       (at 71.12 72.39 0)
       (effects
         (font
@@ -2837,7 +2907,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120002")
+          (reference "#PWR120004")
           (unit 1)
         )
       )
@@ -2851,8 +2921,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "a2ecac40-8333-5d97-830e-5bc50745f81b")
-    (property "Reference" "#PWR120003"
+    (uuid "21560390-e706-5943-8798-085bd8930b48")
+    (property "Reference" "#PWR120005"
       (at 139.7 115.57 0)
       (effects
         (font
@@ -2872,7 +2942,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120003")
+          (reference "#PWR120005")
           (unit 1)
         )
       )
@@ -2886,8 +2956,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "45266a76-6045-510a-bed8-0c912e94274f")
-    (property "Reference" "#PWR120004"
+    (uuid "c9c297f2-2b78-5354-856b-b625e117d334")
+    (property "Reference" "#PWR120006"
       (at 139.7 148.59 0)
       (effects
         (font
@@ -2907,7 +2977,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120004")
+          (reference "#PWR120006")
           (unit 1)
         )
       )
@@ -2921,8 +2991,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "21560390-e706-5943-8798-085bd8930b48")
-    (property "Reference" "#PWR120005"
+    (uuid "e1c4ac63-2e70-5f74-be15-72a283fa0d57")
+    (property "Reference" "#PWR120007"
       (at 30.48 130.81 0)
       (effects
         (font
@@ -2942,7 +3012,7 @@
     (instances
       (project "bldc-esc"
         (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120005")
+          (reference "#PWR120007")
           (unit 1)
         )
       )
@@ -2956,8 +3026,8 @@
     (in_bom no)
     (on_board yes)
     (dnp no)
-    (uuid "c9c297f2-2b78-5354-856b-b625e117d334")
-    (property "Reference" "#PWR120006"
+    (uuid "57212773-6c31-52a5-9f14-366923aac539")
+    (property "Reference" "#PWR120008"
       (at 43.18 147.32 0)
       (effects
         (font
@@ -2968,76 +3038,6 @@
     )
     (property "Value" "GND"
       (at 43.18 151.13 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "bldc-esc"
-        (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120006")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol
-    (lib_id "power:VCC")
-    (at 46.99 101.6 0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board yes)
-    (dnp no)
-    (uuid "e1c4ac63-2e70-5f74-be15-72a283fa0d57")
-    (property "Reference" "#PWR120007"
-      (at 46.99 101.6 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
-      )
-    )
-    (property "Value" "VBUS"
-      (at 46.99 97.79 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "bldc-esc"
-        (path "/10000000-0000-4000-8000-000000000000/10000000-0000-4000-8000-000000000012"
-          (reference "#PWR120007")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol
-    (lib_id "power:VCC")
-    (at 46.99 104.14 0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board yes)
-    (dnp no)
-    (uuid "57212773-6c31-52a5-9f14-366923aac539")
-    (property "Reference" "#PWR120008"
-      (at 46.99 104.14 0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
-      )
-    )
-    (property "Value" "3V3_A"
-      (at 46.99 100.33 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -3344,7 +3344,7 @@
   )
   (wire
     (pts
-      (xy 46.99 104.14)
+      (xy 39.37 104.14)
       (xy 52.07 104.14)
     )
     (stroke
@@ -3586,8 +3586,8 @@
   )
   (wire
     (pts
-      (xy 30.48 76.2)
-      (xy 30.48 81.28)
+      (xy 24.13 99.06)
+      (xy 52.07 99.06)
     )
     (stroke
       (width 0)
@@ -3597,8 +3597,8 @@
   )
   (wire
     (pts
-      (xy 31.75 48.26)
-      (xy 50.8 48.26)
+      (xy 30.48 76.2)
+      (xy 30.48 81.28)
     )
     (stroke
       (width 0)
@@ -3608,8 +3608,8 @@
   )
   (wire
     (pts
-      (xy 46.99 99.06)
-      (xy 52.07 99.06)
+      (xy 31.75 48.26)
+      (xy 50.8 48.26)
     )
     (stroke
       (width 0)
@@ -4114,7 +4114,7 @@
   )
   (wire
     (pts
-      (xy 46.99 101.6)
+      (xy 31.75 101.6)
       (xy 52.07 101.6)
     )
     (stroke
@@ -4153,6 +4153,16 @@
     (uuid "f216a4d6-37f6-530d-9192-da503d73469e")
   )
   (label "DRV_VM"
+    (at 24.13 99.06 0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right bottom)
+    )
+    (uuid "ccbbc919-ec46-545e-b271-39dd52797939")
+  )
+  (label "DRV_VM"
     (at 40.64 48.26 0)
     (effects
       (font
@@ -4160,7 +4170,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ccbbc919-ec46-545e-b271-39dd52797939")
+    (uuid "1c9b293e-587b-5e20-9fd8-4f87649aff5a")
   )
   (label "DRV_CPL"
     (at 111.76 78.74 0)
@@ -4170,7 +4180,7 @@
       )
       (justify left bottom)
     )
-    (uuid "1c9b293e-587b-5e20-9fd8-4f87649aff5a")
+    (uuid "ec4f0b55-ca94-5ec0-86f1-0ee831d1f7c1")
   )
   (label "DRV_CPH"
     (at 116.84 76.2 0)
@@ -4180,7 +4190,7 @@
       )
       (justify left bottom)
     )
-    (uuid "ec4f0b55-ca94-5ec0-86f1-0ee831d1f7c1")
+    (uuid "7c093bfa-413f-5d16-9e42-56dc6903af52")
   )
   (label "DRV_VCP"
     (at 142.24 74.93 0)
@@ -4190,7 +4200,7 @@
       )
       (justify left bottom)
     )
-    (uuid "7c093bfa-413f-5d16-9e42-56dc6903af52")
+    (uuid "e1230d58-31c4-5e52-942b-e4268e337d1f")
   )
   (label "DRV_VGLS"
     (at 111.76 106.68 0)
@@ -4200,7 +4210,7 @@
       )
       (justify left bottom)
     )
-    (uuid "e1230d58-31c4-5e52-942b-e4268e337d1f")
+    (uuid "5a2b10f1-da40-51a6-b19a-8b3da8e665b6")
   )
   (label "DRV_DVDD"
     (at 113.03 109.22 0)
@@ -4209,16 +4219,6 @@
         (size 0.95 0.95)
       )
       (justify left bottom)
-    )
-    (uuid "5a2b10f1-da40-51a6-b19a-8b3da8e665b6")
-  )
-  (label "DRV_VM"
-    (at 46.99 99.06 0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right bottom)
     )
     (uuid "aa1d752f-7bc0-530c-aac8-6df5642330c7")
   )

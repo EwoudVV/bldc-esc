@@ -70,7 +70,7 @@ def define_symbols():
            (17,'SHC','input'),(18,'GLC','output'),(19,'SPC','input'),(20,'SNC','input'),
            (23,'SOA','output'),(22,'SOB','output'),(21,'SOC','output')]
     box_symbol('DRV8353S', drv, out, 35.56)
-    box_symbol('TLV1704', [(3,'V+','power_in'),(5,'IN1+','input'),(4,'IN1-','input'),
+    box_symbol('TLV9024', [(3,'V+','power_in'),(5,'IN1+','input'),(4,'IN1-','input'),
         (7,'IN2+','input'),(6,'IN2-','input'),(9,'IN3+','input'),(8,'IN3-','input'),
         (11,'IN4+','input'),(10,'IN4-','input')], [(2,'OUT1','open_collector'),(1,'OUT2','open_collector'),
         (14,'OUT3','open_collector'),(13,'OUT4','open_collector'),(12,'V-','power_in')])
@@ -131,7 +131,7 @@ def part(sheet, ref, lib_id, value, x, y, nets, footprint='', mpn='', manufactur
     if set(nets)!=numbers:
         raise ValueError((ref,lib_id,sorted(numbers-set(nets)),sorted(set(nets)-numbers)))
     urls={'DRV8353S':'https://www.ti.com/lit/ds/symlink/drv8353.pdf',
-        'TLV1704':'https://www.ti.com/lit/ds/symlink/tlv1704.pdf',
+        'TLV9024':'https://www.ti.com/lit/ds/symlink/tlv9024.pdf',
         'SN74LVC1G74':'https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf',
         'SN74LVC244A':'https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf',
         'TPS3431':'https://www.ti.com/lit/ds/symlink/tps3431.pdf',
@@ -142,17 +142,26 @@ def part(sheet, ref, lib_id, value, x, y, nets, footprint='', mpn='', manufactur
         'SN74LVC3G17':'https://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf',
         'M24C64_R':'https://www.st.com/en/memories/m24c64-r.html',
         'TLV9064':'https://www.ti.com/lit/ds/symlink/tlv9064.pdf',
+        'TLV9062':'https://www.ti.com/lit/ds/symlink/tlv9064.pdf',
         'TLV3201':'https://www.ti.com/lit/ds/symlink/tlv3201.pdf',
         'PESD2CANFD24V_T':'https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf',
         'ISC011N06LM5':'https://www.infineon.com/part/ISC011N06LM5',
         'USB_C_16P':'https://gct.co/connector/usb4105'}
     name=lib_id.split(':')[1]
-    if name in urls:
+    if (mpn or value).startswith('BAV199'):urls[name]='https://assets.nexperia.com/documents/data-sheet/BAV199.pdf'
+    if value=='STPS5H100AF':urls[name]='https://www.st.com/resource/en/datasheet/stps5h100af.pdf'
+    if mpn.startswith('ABM3-'):urls[name]='https://abracon.com/Resonators/ABM3.pdf'
+    if mpn=='EEUFC1J220':urls[name]='https://industrial.panasonic.com/sa/products/pt/aluminum-cap-lead/models/EEUFC1J220'
+    if mpn=='MSAST32MSB7226KPNB25':
+        urls[name]='https://ds.yuden.co.jp/TYCOMPAS/ap/detail?pn=MSAST32MSB7226KPNB25&u=M'
+        manufacturer='Taiyo Yuden'
+    if name in urls and lib_id.startswith('bldc-esc:'):
         for prop in node:
             if isinstance(prop,list) and prop[0]=='property' and prop[1]=='Datasheet':prop[2]=urls[name]
         if name in custom:custom[name]=copy.deepcopy(node)
     p={'sheet':sheet,'ref':ref,'lib_id':lib_id,'node':node,'value':value,'x':x,'y':y,'nets':nets,
-       'footprint':footprint,'mpn':mpn or value,'manufacturer':manufacturer,'angle':angle,'dnp':dnp}
+       'footprint':footprint,'mpn':mpn or value,'manufacturer':manufacturer,'angle':angle,'dnp':dnp,
+       'datasheet':urls.get(name,next((v[2] for v in node if isinstance(v,list) and v[0]=='property' and v[1]=='Datasheet'),''))}
     parts.append(p)
     return p
 
@@ -173,7 +182,8 @@ def C(sheet, ref, value, x, y, n1, n2='GND', package='0603', mpn='', dnp=False):
 
 
 def D(sheet, ref, value, x, y, anode, cathode, footprint='Diode_SMD:D_SOD-123', lib='Device:D', dnp=False):
-    return part(sheet,ref,lib,value,x,y,{1:cathode,2:anode},footprint,value,angle=90,dnp=dnp)
+    maker='Nexperia' if value.startswith(('PESD','BAT','PMEG')) else 'STMicroelectronics' if value.startswith('STPS') else ''
+    return part(sheet,ref,lib,value,x,y,{1:cathode,2:anode},footprint,value,maker,angle=90,dnp=dnp)
 
 
 def TP(sheet, ref, net, x, y):
@@ -324,6 +334,14 @@ def footprint(name,pads,bounds):
 
 def footprints():
     output={}
+    usb=parse((FP_ROOT/'Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod').read_text())
+    usb[1]='USB4105_PCBWay'
+    for node in usb:
+        if isinstance(node,list) and node and node[0]=='pad' and node[1] in ('A1','A12','B1','B12'):
+            child(node,'roundrect_rratio')[1]=0.5
+    usb.append(tag('property','Source','KiCad10:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal',tag('at',0,0,0),tag('layer','F.Fab'),tag('hide',A('yes')),effect()))
+    usb.append(tag('property','Modification','GND pad corner radius 0.30mm; holes and pad extents unchanged',tag('at',0,0,0),tag('layer','F.Fab'),tag('hide',A('yes')),effect()))
+    output['bldc-esc.pretty/USB4105_PCBWay.kicad_mod']=dump(usb)+'\n'
     pads=[]
     for i in range(10):
         pads.extend([(i+1,-2.9,-2.25+0.5*i,0.6,0.22,'smd'),(i+11,-2.25+0.5*i,2.9,0.22,0.6,'smd'),
@@ -363,13 +381,18 @@ def files():
     result={}
     root=tag('kicad_sch',tag('version',20260306),tag('generator','bldc-esc'),tag('uuid',ROOT_ID),tag('paper','A3'),tag('lib_symbols'))
     root.append(tag('text','BLDC-ESC / v1 / schematic draft',tag('at',35,22,0),effect(2,'left'),tag('uuid',uid('root:heading'))))
+    captions=['XT60 / DC-link / TVS / MT60','MOSFETs / shunts / INA241','Bus clamp / dump switch','Buck / power mux / 3V3',
+              'STM32G474 / reference / SWD','Hall / encoder / sensor power','CAN FD / UART','Throttle / RC PWM / digital I/O',
+              'Arm latch / PWM buffer / interlocks','Bus and phase ADC buffers','Hardware current and bus windows','DRV8353 / gate supplies / SPI',
+              'USB-C / ESD / status LEDs','NTCs / analog rail monitor','Chopper OCP / latch / telemetry','Reset / watchdog / service mode']
     for i,name in enumerate(SHEETS):
-        x=25+94*(i%4);y=42+58*(i//4)
+        x=25+94*(i%4);y=40+51*(i//4)
         root.append(tag('sheet',tag('at',x,y),tag('size',82,38),tag('stroke',tag('width',0.254),tag('type',A('default'))),
             tag('fill',tag('color',0,0,0,0)),tag('uuid','10000000-0000-4000-8000-%012d'%(i+1)),
             tag('property','Sheetname',name,tag('at',x,y-1,0),effect(1.27,'left bottom')),
             tag('property','Sheetfile','schematic/'+name+'.kicad_sch',tag('at',x,y+39,0),effect(1.0,'left top')),
             tag('instances',tag('project','bldc-esc',tag('path','/'+ROOT_ID,tag('page',str(i+2)))))))
+        root.append(tag('text',captions[i],tag('at',x+5,y+17,0),effect(1.45,'left'),tag('uuid',uid('root:caption:'+name))))
     root.extend([tag('sheet_instances',tag('path','/',tag('page','1'))),tag('embedded_fonts',A('no'))])
     root.append(tag('text','X = DNP / not fitted. v1 draft; electrical review and bench validation pending.',tag('at',25,279,0),effect(1.27,'left'),tag('uuid',uid('root:dnp-key'))))
     result['bldc-esc.kicad_sch']=dump(root)+'\n'

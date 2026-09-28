@@ -6,11 +6,15 @@ I want to build a small vesc like controller, with hall sensors, current sensing
 
 ## status
 
-The first full schematic is done, with 13 subsheets. the footprints are assigned and on the pcb in a staging grid
+went through the power, protection and sensing circuits again. there's 16 subsheets now, all on A3 or A4. the footprints are assigned and on the pcb in a staging grid
 
-cleaned up the drawings too. local circuits have wires instead of a label on every pin. the gate driver, USB, voltage sensing and current protection have their own pages, and most sheets now fit on A4 or A3
+fixed some part/footprint mismatches, changed the hardware comparators, added buffers for the external analog inputs, and made the bridge depend on the brake chopper being ready. the temperature, brake protection and reset circuits have their own pages too
 
-ERC is clean and the schematic and pcb connections match. still need to do the power/protection review before starting placement and routing
+ERC is clean and the schematic and pcb connections match. PCBWay is the planned fab. the usb hole clearance and buck thermal-via checks pass with the project rules now
+
+this is still a review checkpoint, not a finished board. the reference's low-voltage headroom, final BOM and connector fit checks are still open before freezing the schematic. placement, routing, firmware and bench testing haven't started
+
+the detailed checks and remaining limits are in [engineering/review_m03.md](engineering/review_m03.md)
 
 Progress is in [journal.md](journal.md).
 
@@ -61,7 +65,8 @@ motor data and measurements are in [engineering/motor.csv](engineering/motor.csv
 - [x] Research the motor family and choose the initial architecture
 - [x] Set up the repo, KiCad project, calculations, and draft pinmap
 - [x] Draw the complete schematic and assign footprints
-- [ ] Review protection, power-up behavior, current sensing, and regen
+- [x] First review of protection, power-up behavior, current sensing, and regen
+- [ ] Close the remaining reference/BOM/connector checks and freeze the schematic
 - [ ] Place and route the PCB
 - [ ] Review the layout and make production files
 - [ ] Bring up the MCU, telemetry, Hall inputs, and gate driver
@@ -72,7 +77,7 @@ motor data and measurements are in [engineering/motor.csv](engineering/motor.csv
 ## repo structure
 
 - `bldc-esc.kicad_pro` / `.kicad_sch` / `.kicad_pcb`: main KiCad project
-- `schematic/`: 13 circuit subsheets
+- `schematic/`: 16 circuit subsheets
 - `engineering/`: requirements, parts, sources, calculations, pinmap, and review checks
 - `journal.md`: devlogs
 - `production/`: will be added when there are fabrication files

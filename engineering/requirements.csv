@@ -15,8 +15,8 @@ R013,V_BUCK_IN,6,,100,V,recommended_operating,verified,TI_LM5164
 R014,V_BUS_TRANSIENT_ACCEPT,,,50,V,scope_at_MOSFET_DS_target,unvalidated,CALC
 R015,V_TVS_STANDOFF,,30,,V,SMCJ30A,verified,LF_SMCJ
 R016,V_TVS_CLAMP,,,48.4,V,31A_10_1000us_25C,verified,LF_SMCJ
-R017,V_CHOPPER_ON,,31,,V,component_tolerance_budget,provisional,CALC
-R018,V_CHOPPER_OFF,,30.5,,V,component_tolerance_budget,provisional,CALC
+R017,V_CHOPPER_ON,30.7268,31.2798,31.8109,V,component_tolerance_budget,static_corner_model,CALC
+R018,V_CHOPPER_OFF,30.1431,30.6483,31.1798,V,component_tolerance_budget,static_corner_model,CALC
 R019,V_REGEN_SOFT_DEFAULT,,28.5,,V,26V_bench_profile_only,provisional,USER_PLAN
 R020,V_REGEN_6S_MAX,,,25.2,V,pack_BMS_charge_limit,profile_dependent,USER_PLAN
 R021,F_PWM,,20000,,Hz,center_aligned_TIM1,accepted,USER_PLAN
@@ -65,6 +65,12 @@ R063,CHOPPER_MCU_INDEPENDENCE,,1,,bool,bus_powered_reference_and_comparator,requ
 R064,USB_CURRENT_PRE_ENUM,,,100,mA,sensors_off_default_no_1A_USB_assumption,required,USER_PLAN
 R065,PHASE_VOLTAGE_DIVIDER,,21,,ratio,100k_plus_100k_over_10k,provisional,CALC
 R066,BOARD_OUTLINE,,,,mm,user_placement_decision,unset,USER_PLAN
-R067,I_HW_WINDOW,-49.96,0,49.96,A,external_TLV1704_nominal,calculated_not_tested,TI_TLV1704
-R068,I_DUMP_OCP,,20.7,,A,3mohm_gain20_ref1V242,calculated_not_tested,TI_INA180
+R067,I_HW_WINDOW,-49.96,0,49.96,A,external_TLV9024_nominal,calculated_not_tested,TI_TLV9024
+R068,I_DUMP_OCP,,20.8333,,A,3mohm_gain20_REF2025_1V25,calculated_not_tested,TI_INA180
 R069,SERVICE_MODE_BRIDGE_ENABLE,,0,,bool,WD_RUN_LOW_hardware_interlock,captured_m02,USER_PLAN
+R070,PCB_FAB,,PCBWay,,name,user_selected_2026_09_28,specified,USER_PLAN
+R071,PCB_MIN_NPTH_CLEARANCE,,.2,,mm,nominal_design_rule,specified,PCBWAY_NPTH
+R072,PCB_MIN_DRILL,,.2,,mm,nominal_design_rule,specified,PCBWAY_CAP
+R073,PCB_MIN_VIA_ANNULUS,,.15,,mm,0p5_pad_0p2_drill,specified,PCBWAY_CAP
+R074,DUMP_ADC_SCALE,,.036,,V_per_A,PA6_ADC2_IN3,specified,CALC
+R075,UCPD_DEAD_BATTERY_DISABLE,,1,,bool,set_before_reading_PB4_fault,specified,ST_G474

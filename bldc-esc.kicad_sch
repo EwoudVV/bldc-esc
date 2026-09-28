@@ -15,7 +15,7 @@
     (uuid "fa5c338a-3e4e-5491-97be-33c0f6afbd9a")
   )
   (sheet
-    (at 25 42)
+    (at 25 40)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -26,7 +26,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000001")
     (property "Sheetname" "01_dc_link"
-      (at 25 41 0)
+      (at 25 39 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -35,7 +35,7 @@
       )
     )
     (property "Sheetfile" "schematic/01_dc_link.kicad_sch"
-      (at 25 81 0)
+      (at 25 79 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -51,8 +51,18 @@
       )
     )
   )
+  (text "XT60 / DC-link / TVS / MT60"
+    (at 30 57 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "be9a32b6-c4cb-53fc-80be-d082b66af95c")
+  )
   (sheet
-    (at 119 42)
+    (at 119 40)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -63,7 +73,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000002")
     (property "Sheetname" "02_bridge"
-      (at 119 41 0)
+      (at 119 39 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -72,7 +82,7 @@
       )
     )
     (property "Sheetfile" "schematic/02_bridge.kicad_sch"
-      (at 119 81 0)
+      (at 119 79 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -88,8 +98,18 @@
       )
     )
   )
+  (text "MOSFETs / shunts / INA241"
+    (at 124 57 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "96d159b2-059b-5a25-8d48-7a3f95cecd52")
+  )
   (sheet
-    (at 213 42)
+    (at 213 40)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -100,7 +120,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000003")
     (property "Sheetname" "03_regen"
-      (at 213 41 0)
+      (at 213 39 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -109,7 +129,7 @@
       )
     )
     (property "Sheetfile" "schematic/03_regen.kicad_sch"
-      (at 213 81 0)
+      (at 213 79 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -125,8 +145,18 @@
       )
     )
   )
+  (text "Bus clamp / dump switch"
+    (at 218 57 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "fdb724dc-9927-557e-9b5a-01cf76d550e5")
+  )
   (sheet
-    (at 307 42)
+    (at 307 40)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -137,7 +167,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000004")
     (property "Sheetname" "04_power_usb"
-      (at 307 41 0)
+      (at 307 39 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -146,7 +176,7 @@
       )
     )
     (property "Sheetfile" "schematic/04_power_usb.kicad_sch"
-      (at 307 81 0)
+      (at 307 79 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -162,8 +192,18 @@
       )
     )
   )
+  (text "Buck / power mux / 3V3"
+    (at 312 57 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "6b5dd6f6-1796-50d6-8a19-882d2200ce80")
+  )
   (sheet
-    (at 25 100)
+    (at 25 91)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -174,7 +214,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000005")
     (property "Sheetname" "05_mcu"
-      (at 25 99 0)
+      (at 25 90 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -183,7 +223,7 @@
       )
     )
     (property "Sheetfile" "schematic/05_mcu.kicad_sch"
-      (at 25 139 0)
+      (at 25 130 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -199,8 +239,18 @@
       )
     )
   )
+  (text "STM32G474 / reference / SWD"
+    (at 30 108 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "bce03614-9c33-5e21-9cc4-64b0e463c533")
+  )
   (sheet
-    (at 119 100)
+    (at 119 91)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -211,7 +261,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000006")
     (property "Sheetname" "06_sensors"
-      (at 119 99 0)
+      (at 119 90 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -220,7 +270,7 @@
       )
     )
     (property "Sheetfile" "schematic/06_sensors.kicad_sch"
-      (at 119 139 0)
+      (at 119 130 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -236,8 +286,18 @@
       )
     )
   )
+  (text "Hall / encoder / sensor power"
+    (at 124 108 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "3a46f715-807e-54e8-9501-c79a9dff590d")
+  )
   (sheet
-    (at 213 100)
+    (at 213 91)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -248,7 +308,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000007")
     (property "Sheetname" "07_io_can"
-      (at 213 99 0)
+      (at 213 90 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -257,7 +317,7 @@
       )
     )
     (property "Sheetfile" "schematic/07_io_can.kicad_sch"
-      (at 213 139 0)
+      (at 213 130 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -273,8 +333,18 @@
       )
     )
   )
+  (text "CAN FD / UART"
+    (at 218 108 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "a76a0f44-a7a7-5e6e-9251-e99865b45ce1")
+  )
   (sheet
-    (at 307 100)
+    (at 307 91)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -285,7 +355,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000008")
     (property "Sheetname" "08_analog_inputs"
-      (at 307 99 0)
+      (at 307 90 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -294,7 +364,7 @@
       )
     )
     (property "Sheetfile" "schematic/08_analog_inputs.kicad_sch"
-      (at 307 139 0)
+      (at 307 130 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -310,8 +380,18 @@
       )
     )
   )
+  (text "Throttle / RC PWM / digital I/O"
+    (at 312 108 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "c02803b3-16ea-5c1b-9551-35017c69fb65")
+  )
   (sheet
-    (at 25 158)
+    (at 25 142)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -322,7 +402,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000009")
     (property "Sheetname" "09_safety"
-      (at 25 157 0)
+      (at 25 141 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -331,7 +411,7 @@
       )
     )
     (property "Sheetfile" "schematic/09_safety.kicad_sch"
-      (at 25 197 0)
+      (at 25 181 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -347,8 +427,18 @@
       )
     )
   )
+  (text "Arm latch / PWM buffer / interlocks"
+    (at 30 159 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "c6b07234-1cd0-5b60-9836-b87aa8fe1244")
+  )
   (sheet
-    (at 119 158)
+    (at 119 142)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -359,7 +449,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000010")
     (property "Sheetname" "10_voltage_sensing"
-      (at 119 157 0)
+      (at 119 141 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -368,7 +458,7 @@
       )
     )
     (property "Sheetfile" "schematic/10_voltage_sensing.kicad_sch"
-      (at 119 197 0)
+      (at 119 181 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -384,8 +474,18 @@
       )
     )
   )
+  (text "Bus and phase ADC buffers"
+    (at 124 159 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "5bd41b2a-e399-59e8-b6f3-3aca6272e3f6")
+  )
   (sheet
-    (at 213 158)
+    (at 213 142)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -396,7 +496,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000011")
     (property "Sheetname" "11_current_protection"
-      (at 213 157 0)
+      (at 213 141 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -405,7 +505,7 @@
       )
     )
     (property "Sheetfile" "schematic/11_current_protection.kicad_sch"
-      (at 213 197 0)
+      (at 213 181 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -421,8 +521,18 @@
       )
     )
   )
+  (text "Hardware current and bus windows"
+    (at 218 159 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "ba7ae23b-4f7e-5ea5-90ed-5d61641437ea")
+  )
   (sheet
-    (at 307 158)
+    (at 307 142)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -433,7 +543,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000012")
     (property "Sheetname" "12_gate_driver"
-      (at 307 157 0)
+      (at 307 141 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -442,7 +552,7 @@
       )
     )
     (property "Sheetfile" "schematic/12_gate_driver.kicad_sch"
-      (at 307 197 0)
+      (at 307 181 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -458,8 +568,18 @@
       )
     )
   )
+  (text "DRV8353 / gate supplies / SPI"
+    (at 312 159 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "2831f445-d193-54e8-99f8-0ee69e192fa2")
+  )
   (sheet
-    (at 25 216)
+    (at 25 193)
     (size 82 38)
     (stroke
       (width 0.254)
@@ -470,7 +590,7 @@
     )
     (uuid "10000000-0000-4000-8000-000000000013")
     (property "Sheetname" "13_usb_status"
-      (at 25 215 0)
+      (at 25 192 0)
       (effects
         (font
           (size 1.27 1.27)
@@ -479,7 +599,7 @@
       )
     )
     (property "Sheetfile" "schematic/13_usb_status.kicad_sch"
-      (at 25 255 0)
+      (at 25 232 0)
       (effects
         (font
           (size 1.0 1.0)
@@ -494,6 +614,157 @@
         )
       )
     )
+  )
+  (text "USB-C / ESD / status LEDs"
+    (at 30 210 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "5ce4b669-ad2d-5730-82e5-02d01d92e576")
+  )
+  (sheet
+    (at 119 193)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000014")
+    (property "Sheetname" "14_temperature"
+      (at 119 192 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/14_temperature.kicad_sch"
+      (at 119 232 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "15")
+        )
+      )
+    )
+  )
+  (text "NTCs / analog rail monitor"
+    (at 124 210 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "5e2e81b8-dcab-5cd6-a74a-64f67271e43a")
+  )
+  (sheet
+    (at 213 193)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000015")
+    (property "Sheetname" "15_regen_safety"
+      (at 213 192 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/15_regen_safety.kicad_sch"
+      (at 213 232 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "16")
+        )
+      )
+    )
+  )
+  (text "Chopper OCP / latch / telemetry"
+    (at 218 210 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "5a669cb1-b431-5321-8533-93ad56e58813")
+  )
+  (sheet
+    (at 307 193)
+    (size 82 38)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "10000000-0000-4000-8000-000000000016")
+    (property "Sheetname" "16_supervisor"
+      (at 307 192 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/16_supervisor.kicad_sch"
+      (at 307 232 0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "bldc-esc"
+        (path "/10000000-0000-4000-8000-000000000000"
+          (page "17")
+        )
+      )
+    )
+  )
+  (text "Reset / watchdog / service mode"
+    (at 312 210 0)
+    (effects
+      (font
+        (size 1.45 1.45)
+      )
+      (justify left)
+    )
+    (uuid "ce686816-d661-507d-b631-4131b875fde1")
   )
   (sheet_instances
     (path "/"

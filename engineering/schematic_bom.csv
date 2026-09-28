@@ -24,7 +24,7 @@ TP104,01_dc_link,PHASE_B,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
 TP105,01_dc_link,PHASE_C,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
 U201,12_gate_driver,DRV8353SRTAT,DRV8353SRTAT,Texas Instruments,bldc-esc:DRV8353_RTA0040B,false,false
 R201,12_gate_driver,2.2,RC0805FR-072R2L,Yageo,Resistor_SMD:R_0805_2012Metric,false,false
-C201,12_gate_driver,22u 63V,UPW1J220MED,Nichicon,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,false,false
+C201,12_gate_driver,22u 63V,EEUFC1J220,Panasonic,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,false,false
 C202,12_gate_driver,100n 100V,GRM188R72A104KA35D,,Capacitor_SMD:C_0603_1608Metric,false,false
 C203,12_gate_driver,47n 100V,GRM21BR72A473KA01L,,Capacitor_SMD:C_0805_2012Metric,false,false
 C204,12_gate_driver,1u 50V,C3216X7R1H105K160AB,,Capacitor_SMD:C_1206_3216Metric,false,false
@@ -93,12 +93,12 @@ U401,04_power_usb,LM5164DDAR,LM5164DDAR,Texas Instruments,Package_SO:HSOP-8-1EP_
 R401,04_power_usb,300k,RC0603FR-07300KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R402,04_power_usb,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R403,04_power_usb,42.2k,RC0603FR-0742K2L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C401,04_power_usb,2.2u 100V,CGA6N3X7R2A225K230AB,,Capacitor_SMD:C_1206_3216Metric,false,false
-C402,04_power_usb,2.2u 100V,CGA6N3X7R2A225K230AB,,Capacitor_SMD:C_1206_3216Metric,false,false
+C401,04_power_usb,2.2u 100V,CGA6N3X7R2A225K230AB,,Capacitor_SMD:C_1210_3225Metric,false,false
+C402,04_power_usb,2.2u 100V,CGA6N3X7R2A225K230AB,,Capacitor_SMD:C_1210_3225Metric,false,false
 C403,04_power_usb,2.2n 50V,GCM188R71H222KA37D,,Capacitor_SMD:C_0603_1608Metric,false,false
-L401,04_power_usb,68uH / Isat>=1.8A,MSS1246T-683MLB,Coilcraft,Inductor_SMD:L_Coilcraft_MSS1246T-XXX,false,false
-C404,04_power_usb,22u 25V,TMK325B7226KMHT,,Capacitor_SMD:C_1210_3225Metric,false,false
-C405,04_power_usb,22u 25V,TMK325B7226KMHT,,Capacitor_SMD:C_1210_3225Metric,false,false
+L401,04_power_usb,68uH / Isat>=2.3A,MSS1246T-683MLC,Coilcraft,Inductor_SMD:L_Coilcraft_MSS1246T-XXX,false,false
+C404,04_power_usb,22u 25V,MSAST32MSB7226KPNB25,Taiyo Yuden,Capacitor_SMD:C_1210_3225Metric,false,false
+C405,04_power_usb,22u 25V,MSAST32MSB7226KPNB25,Taiyo Yuden,Capacitor_SMD:C_1210_3225Metric,false,false
 R404,04_power_usb,324k 0.1%,RT0603BRD07324KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R405,04_power_usb,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R406,04_power_usb,301k,RC0603FR-07301KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
@@ -112,10 +112,10 @@ R410,04_power_usb,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false
 C408,04_power_usb,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,false
 C409,04_power_usb,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,false
 C410,04_power_usb,4.7u 10V,GRM21BR71A475KA73L,,Capacitor_SMD:C_0805_2012Metric,false,false
-U403,04_power_usb,TLV75533PDBVR,TLV75533PDBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
+U403,04_power_usb,TLV75533PDRVR,TLV75533PDRVR,Texas Instruments,Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,false,false
 C411,04_power_usb,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,false
 C412,04_power_usb,4.7u 10V,GRM21BR71A475KA73L,,Capacitor_SMD:C_0805_2012Metric,false,false
-J401,13_usb_status,USB4105-GF-A,USB4105-GF-A,GCT,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,false,false
+J401,13_usb_status,USB4105-GF-A,USB4105-GF-A,GCT,bldc-esc:USB4105_PCBWay,false,false
 R411,13_usb_status,5.1k,RC0603FR-075K1L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R412,13_usb_status,5.1k,RC0603FR-075K1L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 F401,13_usb_status,0.5A / 6V,MF-PSMF050X-2,Bourns,Fuse:Fuse_1206_3216Metric,false,false
@@ -123,8 +123,8 @@ C413,13_usb_status,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608M
 U404,13_usb_status,USBLC6-2SC6,USBLC6-2SC6,STMicroelectronics,Package_TO_SOT_SMD:SOT-23-6,false,false
 R413,13_usb_status,22,RC0603FR-0722RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R414,13_usb_status,22,RC0603FR-0722RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R415,13_usb_status,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R416,13_usb_status,150k,RC0603FR-07150KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R415,13_usb_status,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R416,13_usb_status,15k,RC0603FR-0715KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 TP401,13_usb_status,5V_BUS,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
 TP402,13_usb_status,5V_SYS,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
 TP403,13_usb_status,3V3,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
@@ -145,8 +145,8 @@ C510,05_mcu,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,fal
 C511,05_mcu,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 C512,05_mcu,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 R501,05_mcu,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-D501,05_mcu,PMEG2010ER,PMEG2010ER,,Diode_SMD:Nexperia_CFP3_SOD-123W,false,false
-Y501,05_mcu,8MHz / CL18p,ABM8G-8.000MHZ-18-D2Y-T,Abracon,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,false,false
+D501,05_mcu,PMEG2010ER,PMEG2010ER,Nexperia,Diode_SMD:Nexperia_CFP3_SOD-123W,false,false
+Y501,05_mcu,8MHz / CL18p,ABM3-8.000MHZ-D2Y-T,Abracon,Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm,false,false
 R502,05_mcu,0,RC0603JR-070RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C513,05_mcu,27p 50V,C0603C270J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 C514,05_mcu,27p 50V,C0603C270J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
@@ -173,7 +173,10 @@ R305,03_regen,2.49M,RC0603FR-072M49L,Yageo,Resistor_SMD:R_0603_1608Metric,false,
 R306,03_regen,4.7k,RC0603FR-074K7L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C301,03_regen,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 C302,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-C303,03_regen,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+C303,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+U308,03_regen,REF2025AIDDCR,REF2025AIDDCR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
+C313,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+C314,03_regen,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,false
 U302,03_regen,UCC27511ADBVR,UCC27511ADBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
 R307,03_regen,2.2,RC0603FR-072R2L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R308,03_regen,1,RC0603FR-071RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
@@ -183,31 +186,34 @@ R310,03_regen,3m / 3W,WSLP2512R0030FEA,Vishay,Resistor_SMD:R_2512_6332Metric,fal
 C304,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 C305,03_regen,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,false
 J301,03_regen,DUMP RESISTOR,1711725,,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal,false,false
-D301,03_regen,STPS5H100B,STPS5H100B,,Diode_SMD:D_SMC,false,false
+D301,03_regen,STPS5H100AF,STPS5H100AF,STMicroelectronics,Diode_SMD:D_SOD-128,false,false
 U303,03_regen,INA180A1IDBVR,INA180A1IDBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
 C306,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-U304,03_regen,TLV3201AIDBVR,TLV3201AIDBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
-C307,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-R311,03_regen,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-U305,03_regen,TPS3808G50DBVR,TPS3808G50DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
-C308,03_regen,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-C309,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-R312,03_regen,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-D302,03_regen,BAT54H,BAT54H,,Diode_SMD:D_SOD-123F,false,false
-D303,03_regen,BAT54H,BAT54H,,Diode_SMD:D_SOD-123F,false,false
-R313,03_regen,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C310,03_regen,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-U306,03_regen,SN74LVC1G17DBVR,SN74LVC1G17DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
-U307,03_regen,SN74LVC1G74DCTR,SN74LVC1G74DCTR,Texas Instruments,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,false,false
-R314,03_regen,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C311,03_regen,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-R315,03_regen,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R316,03_regen,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R317,03_regen,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R318,03_regen,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+U304,15_regen_safety,TLV3201AIDBVR,TLV3201AIDBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
+C307,15_regen_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+R311,15_regen_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+U305,15_regen_safety,TPS3808G50DBVR,TPS3808G50DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
+C308,15_regen_safety,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+C309,15_regen_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+R312,15_regen_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+D302,15_regen_safety,BAT54H,BAT54H,Nexperia,Diode_SMD:D_SOD-123F,false,false
+D303,15_regen_safety,BAT54H,BAT54H,Nexperia,Diode_SMD:D_SOD-123F,false,false
+R313,15_regen_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C310,15_regen_safety,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+U306,15_regen_safety,SN74LVC1G17DBVR,SN74LVC1G17DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
+U307,15_regen_safety,SN74LVC1G74DCTR,SN74LVC1G74DCTR,Texas Instruments,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,false,false
+R314,15_regen_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C311,15_regen_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+R315,15_regen_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R316,15_regen_safety,150k,RC0603FR-07150KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R317,15_regen_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R318,15_regen_safety,150k,RC0603FR-07150KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 Q302,03_regen,2N7002,"2N7002P,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 R319,03_regen,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 TP301,03_regen,DUMP_CURRENT,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+R320,15_regen_safety,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R321,15_regen_safety,15k 0.1%,RT0603BRD0715KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C312,15_regen_safety,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 U601,06_sensors,TPS2553DBVR-1,TPS2553DBVR-1,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
 R601,06_sensors,200k,RC0603FR-07200KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R602,06_sensors,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
@@ -225,42 +231,40 @@ J602,06_sensors,ENCODER,BM05B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM05B-GHS
 R620,06_sensors,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R621,06_sensors,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C610,06_sensors,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D610,06_sensors,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D610,06_sensors,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 R623,06_sensors,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R624,06_sensors,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C611,06_sensors,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D611,06_sensors,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D611,06_sensors,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 R626,06_sensors,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R627,06_sensors,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C612,06_sensors,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D612,06_sensors,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D612,06_sensors,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 U603,06_sensors,SN74LVC3G17DCTR,SN74LVC3G17DCTR,Texas Instruments,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,false,false
 C605,06_sensors,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 R632,06_sensors,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R633,06_sensors,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C613,06_sensors,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D613,06_sensors,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D613,06_sensors,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 R635,06_sensors,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R636,06_sensors,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C614,06_sensors,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D614,06_sensors,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D614,06_sensors,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 R638,06_sensors,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R639,06_sensors,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C615,06_sensors,100p 50V,C0603C101J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D615,06_sensors,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D615,06_sensors,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 U604,06_sensors,SN74LVC3G17DCTR,SN74LVC3G17DCTR,Texas Instruments,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,false,false
 C606,06_sensors,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-U701,09_safety,TPS3808G33DBVR,TPS3808G33DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
-R701,09_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C701,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-C702,09_safety,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-U702,09_safety,TPS3431SDRBR,TPS3431SDRBR,Texas Instruments,Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm,false,false
-R702,09_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R703,09_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R704,09_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C703,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-D701,09_safety,BAT54H,BAT54H,,Diode_SMD:D_SOD-123F,false,false
-D702,09_safety,BAT54H,BAT54H,,Diode_SMD:D_SOD-123F,false,false
+U701,16_supervisor,TPS3808G33DBVR,TPS3808G33DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
+R701,16_supervisor,0,RC0603JR-070RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C701,16_supervisor,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+C702,16_supervisor,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+U702,16_supervisor,TPS3431SDRBR,TPS3431SDRBR,Texas Instruments,Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm,false,false
+R702,16_supervisor,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R703,16_supervisor,0,RC0603JR-070RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R704,16_supervisor,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C703,16_supervisor,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 U703,09_safety,SN74LVC1G11DBVR,SN74LVC1G11DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
 U704,09_safety,SN74LVC1G11DBVR,SN74LVC1G11DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
 U705,09_safety,SN74LVC1G74DCTR,SN74LVC1G74DCTR,Texas Instruments,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,false,false
@@ -282,8 +286,8 @@ C713,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metri
 C714,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 C715,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 C716,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-C717,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-C718,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+C717,16_supervisor,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+C718,16_supervisor,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 U709,07_io_can,TCAN3403DRQ1,TCAN3403DRQ1,Texas Instruments,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,false,false
 R717,07_io_can,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R718,07_io_can,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
@@ -293,8 +297,8 @@ R719,07_io_can,120,RC0805FR-07120RL,Yageo,Resistor_SMD:R_0805_2012Metric,false,f
 JP701,07_io_can,CAN TERM,M20-9990245,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,false,false
 D703,07_io_can,PESD2CANFD24V-T,"PESD2CANFD24V-T,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 J702,07_io_can,UART / 3V3,BM04B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,false,false
-U101,11_current_protection,TLV1704IPWR,TLV1704IPWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false
-U102,11_current_protection,TLV1704IPWR,TLV1704IPWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false
+U101,11_current_protection,TLV9024PWR,TLV9024PWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false
+U102,11_current_protection,TLV9024PWR,TLV9024PWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false
 R110,11_current_protection,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R111,11_current_protection,49.9k 0.1%,RT0603BRD0749K9L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R112,11_current_protection,49.9k 0.1%,RT0603BRD0749K9L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
@@ -320,37 +324,37 @@ R512,13_usb_status,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,
 D512,13_usb_status,COMM,LTST-C190KGKT,Lite-On,LED_SMD:LED_0603_1608Metric,false,false
 R513,13_usb_status,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 D513,13_usb_status,POWER,LTST-C190KGKT,Lite-On,LED_SMD:LED_0603_1608Metric,false,false
-U710,09_safety,SN74LVC1G14DBVR,SN74LVC1G14DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
-J703,09_safety,HW ENABLE,M20-9990245,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,false,false
-R720,09_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R721,09_safety,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C705,09_safety,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+U710,16_supervisor,SN74LVC1G14DBVR,SN74LVC1G14DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
+J703,16_supervisor,HW ENABLE,M20-9990245,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,false,false
+R720,16_supervisor,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R721,16_supervisor,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C705,16_supervisor,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 R801,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R802,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R803,10_voltage_sensing,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C801,10_voltage_sensing,220p 50V,C0603C221J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D801,10_voltage_sensing,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D801,10_voltage_sensing,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 R804,10_voltage_sensing,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C802,10_voltage_sensing,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 R811,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R812,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R813,10_voltage_sensing,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C811,10_voltage_sensing,220p 50V,C0603C221J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D811,10_voltage_sensing,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D811,10_voltage_sensing,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 R814,10_voltage_sensing,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C812,10_voltage_sensing,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 R821,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R822,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R823,10_voltage_sensing,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C821,10_voltage_sensing,220p 50V,C0603C221J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D821,10_voltage_sensing,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D821,10_voltage_sensing,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 R824,10_voltage_sensing,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C822,10_voltage_sensing,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 R831,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R832,10_voltage_sensing,100k 0.1%,RT0603BRD07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R833,10_voltage_sensing,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C831,10_voltage_sensing,220p 50V,C0603C221J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D831,10_voltage_sensing,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D831,10_voltage_sensing,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 R834,10_voltage_sensing,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C832,10_voltage_sensing,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
 U801,10_voltage_sensing,TLV9064IPWR,TLV9064IPWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false
@@ -359,50 +363,83 @@ J801,08_analog_inputs,THROTTLE_ADC,BM03B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_G
 R850,08_analog_inputs,8.2k,RC0603FR-078K2L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R851,08_analog_inputs,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C850,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D850,08_analog_inputs,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D850,08_analog_inputs,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 J802,08_analog_inputs,AUX_ANALOG_ADC,BM03B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical,false,false
 R855,08_analog_inputs,8.2k,RC0603FR-078K2L,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R856,08_analog_inputs,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C855,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D855,08_analog_inputs,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D855,08_analog_inputs,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 J803,08_analog_inputs,RC PWM,BM03B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical,false,false
 J804,08_analog_inputs,BRAKE / DIR,BM03B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical,false,false
 R865,08_analog_inputs,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R866,08_analog_inputs,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C865,08_analog_inputs,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D865,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D865,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 R868,08_analog_inputs,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R869,08_analog_inputs,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C868,08_analog_inputs,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D868,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D868,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 R871,08_analog_inputs,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 R872,08_analog_inputs,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 C871,08_analog_inputs,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-D871,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,,Diode_SMD:D_SOD-323,false,false
+D871,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
 U802,08_analog_inputs,SN74LVC3G17DCTR,SN74LVC3G17DCTR,Texas Instruments,Package_SO:SSOP-8_2.95x2.8mm_P0.65mm,false,false
 C845,08_analog_inputs,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
-R880,08_analog_inputs,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C880,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-TH801,08_analog_inputs,10k / B25-50=3380K,NCP18XH103F03RB,Murata,Resistor_SMD:R_0603_1608Metric,false,false
-R883,08_analog_inputs,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C883,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-TH802,08_analog_inputs,10k / B25-50=3380K,NCP18XH103F03RB,Murata,Resistor_SMD:R_0603_1608Metric,false,false
-R886,08_analog_inputs,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C886,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-J805,08_analog_inputs,NTC_MOTOR,BM02B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,false,false
-R887,08_analog_inputs,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-D886,08_analog_inputs,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
-R889,08_analog_inputs,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C889,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-J806,08_analog_inputs,NTC_DUMP,BM02B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,false,false
-R890,08_analog_inputs,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-D889,08_analog_inputs,BAT54S,"BAT54S,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
-R898,08_analog_inputs,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R899,08_analog_inputs,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-C899,08_analog_inputs,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
-U711,09_safety,SN74LVC1G08DBVR,SN74LVC1G08DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
-U712,09_safety,SN74LVC1G08DBVR,SN74LVC1G08DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,false,false
-R722,09_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-JP704,09_safety,RUN 1-2 / SERVICE 2-3,M20-9990345,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,false,false
+R880,14_temperature,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C880,14_temperature,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+TH801,14_temperature,10k / B25-50=3380K,NCP18XH103F03RB,Murata,Resistor_SMD:R_0603_1608Metric,false,false
+R883,14_temperature,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C883,14_temperature,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+TH802,14_temperature,10k / B25-50=3380K,NCP18XH103F03RB,Murata,Resistor_SMD:R_0603_1608Metric,false,false
+R886,14_temperature,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C886,14_temperature,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+J805,14_temperature,NTC_MOTOR,BM02B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,false,false
+R887,14_temperature,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+D886,14_temperature,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+R889,14_temperature,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C889,14_temperature,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+J806,14_temperature,NTC_DUMP,BM02B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,false,false
+R890,14_temperature,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+D889,14_temperature,BAV199,"BAV199,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+R898,14_temperature,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R899,14_temperature,10k 0.1%,RT0603BRD0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C899,14_temperature,10n 50V,C0603C103K5RACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+U711,09_safety,SN74LVC1G11DBVR,SN74LVC1G11DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
+U712,09_safety,SN74LVC1G11DBVR,SN74LVC1G11DBVR,Texas Instruments,Package_TO_SOT_SMD:SOT-23-6,false,false
+D704,16_supervisor,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
+R722,16_supervisor,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+JP704,16_supervisor,RUN 1-2 / SERVICE 2-3,M20-9990345,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,false,false
 C719,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
 C720,09_safety,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+R707,09_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R708,09_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R709,09_safety,1k,RC0603FR-071KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R723,09_safety,10k,RC0603FR-0710KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R724,09_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R725,09_safety,100k,RC0603FR-07100KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+R852,08_analog_inputs,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C852,08_analog_inputs,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+D852,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
+R857,08_analog_inputs,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C857,08_analog_inputs,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+D857,08_analog_inputs,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
+U803,08_analog_inputs,TLV9062IDR,TLV9062IDR,Texas Instruments,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,false,false
+C847,08_analog_inputs,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+R888,14_temperature,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C888,14_temperature,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+D888,14_temperature,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
+R891,14_temperature,100,RC0603FR-07100RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
+C891,14_temperature,1n 50V,C0603C102J5GACTU,,Capacitor_SMD:C_0603_1608Metric,false,false
+D891,14_temperature,PESD5V0S1BA,PESD5V0S1BA,Nexperia,Diode_SMD:D_SOD-323,false,false
+U804,14_temperature,TLV9062IDR,TLV9062IDR,Texas Instruments,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,false,false
+C848,14_temperature,100n 50V,GRM188R71H104KA93D,Murata,Capacitor_SMD:C_0603_1608Metric,false,false
+C706,07_io_can,1u 16V,GRM188R71C105KA12D,,Capacitor_SMD:C_0603_1608Metric,false,false
+TP220,02_bridge,GAH,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP221,02_bridge,GAL,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP222,02_bridge,SOURCE_A,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP240,02_bridge,GBH,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP241,02_bridge,GBL,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP242,02_bridge,SOURCE_B,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP260,02_bridge,GCH,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP261,02_bridge,GCL,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true
+TP262,02_bridge,SOURCE_C,TESTPOINT,,TestPoint:TestPoint_Pad_D1.5mm,false,true

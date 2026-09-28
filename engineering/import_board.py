@@ -19,10 +19,16 @@ metadata = {r['reference']:r for r in csv.DictReader((ROOT/'engineering/schemati
 components = {c.attrib['ref']:c for c in tree.findall('./components/comp')}
 existing = {f.GetReference():f for f in board.GetFootprints()}
 placement_before = {ref:(fp.GetPosition().x,fp.GetPosition().y,fp.GetOrientationDegrees()) for ref,fp in existing.items()}
-if set(existing)-set(components):
-    raise RuntimeError('UNEXPECTED_EXISTING_FOOTPRINTS')
+removed=set(existing)-set(components)
+if removed-{'D701','D702'}:
+    raise RuntimeError(('UNEXPECTED_EXISTING_FOOTPRINTS',sorted(removed)))
 if len(board.GetTracks()) or len(board.Zones()):
     raise RuntimeError('PCB_HAS_LAYOUT')
+detached=[]
+for reference in removed:
+    old=existing.pop(reference)
+    board.Remove(old)
+    detached.append(old)
 net_by_pin = {}
 net_map = {}
 for net in tree.findall('./nets/net'):
@@ -38,6 +44,8 @@ for net in tree.findall('./nets/net'):
 errors = []
 all_pads = 0
 connected_pads = 0
+occupied={(fp.GetPosition().x,fp.GetPosition().y) for fp in existing.values()}
+next_slot=0
 for index, (reference,component) in enumerate(sorted(components.items())):
     fp_id = component.findtext('footprint')
     library, name = fp_id.split(':',1)
@@ -49,13 +57,22 @@ for index, (reference,component) in enumerate(sorted(components.items())):
         saved_position=pcbnew.VECTOR2I(footprint.GetPosition())
         saved_angle=footprint.GetOrientation()
         board.Remove(footprint)
+        detached.append(footprint)
         footprint=None
     if footprint is None:
         footprint = pcbnew.FootprintLoad(str(directory),name)
         if footprint is None:
             errors.append([reference,'FOOTPRINT_LOAD',fp_id]);continue
         footprint.SetFPID(pcbnew.LIB_ID(library,name))
-        footprint.SetPosition(saved_position if saved_position is not None else pcbnew.VECTOR2I(pcbnew.FromMM(30+(index%18)*32),pcbnew.FromMM(30+(index//18)*32)))
+        if saved_position is not None:
+            footprint.SetPosition(saved_position)
+        else:
+            while True:
+                candidate=(pcbnew.FromMM(30+(next_slot%18)*32),pcbnew.FromMM(30+(next_slot//18)*32))
+                next_slot+=1
+                if candidate not in occupied:break
+            occupied.add(candidate)
+            footprint.SetPosition(pcbnew.VECTOR2I(*candidate))
         if saved_angle is not None:footprint.SetOrientation(saved_angle)
         board.Add(footprint)
     footprint.SetReference(reference)
@@ -100,7 +117,7 @@ for index, (reference,component) in enumerate(sorted(components.items())):
         else:pad.SetNetCode(0)
 
 result={'footprints':len(board.GetFootprints()),'copper_layers':board.GetCopperLayerCount(),
-        'numbered_pads':all_pads,'connected_pads':connected_pads,'errors':errors}
+        'numbered_pads':all_pads,'connected_pads':connected_pads,'removed_footprints':sorted(removed),'errors':errors}
 if errors:
     print(json.dumps(result,indent=2));sys.exit(1)
 pcbnew.SaveBoard(str(ROOT/'bldc-esc.kicad_pcb'),board)

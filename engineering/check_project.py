@@ -90,7 +90,7 @@ check(float(requirements["R028"]["target"]) < float(requirements["R030"]["target
 check(float(requirements["R029"]["target"]) > 3, "DRV_VREF_MIN_MARGIN")
 
 sch_paths = [root / "bldc-esc.kicad_sch", *sorted((root / "schematic").glob("*.kicad_sch"))]
-check(len(sch_paths) == 14, "SCHEMATIC_SHEET_COUNT")
+check(len(sch_paths) == 17, "SCHEMATIC_SHEET_COUNT")
 uuids = []
 root_sch = parse_one(sch_paths[0].read_text())
 for path in sch_paths:
@@ -102,12 +102,12 @@ for path in sch_paths:
 for node in walk(root_sch):
     if node and node[0] == "property" and node[1] == "Sheetfile":
         check((root / node[2]).exists(), "SHEET_PATH_" + node[2])
-check(len(set(uuids)) == 14, "SCHEMATIC_UUID_UNIQUE")
+check(len(set(uuids)) == 17, "SCHEMATIC_UUID_UNIQUE")
 pcb = parse_one((root / "bldc-esc.kicad_pcb").read_text())
 for item in pcb:
     if isinstance(item, list) and item:
         check(item[0] not in ("segment", "via", "zone", "gr_line", "gr_rect", "gr_arc"), "PCB_LAYOUT_NOT_STARTED_" + item[0])
-check(sum(isinstance(x,list) and x and x[0]=='footprint' for x in pcb)==407, "PCB_STAGED_FOOTPRINT_COUNT")
+check(sum(isinstance(x,list) and x and x[0]=='footprint' for x in pcb)==len(tables['schematic_bom']), "PCB_STAGED_FOOTPRINT_COUNT")
 
 print(json.dumps({"passed": not failures, "csv_files": len(tables), "pin_rows": len(pins), "schematic_sheets": len(sch_paths), "failures": failures}, indent=2))
 sys.exit(bool(failures))
