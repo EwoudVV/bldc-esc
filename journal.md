@@ -120,3 +120,5 @@ found a problem before placement: the PCB update had 61 wrong pad assignments. t
 went through the placement renders and DRC a few times. moved the snubbers and voltage pickup resistors closer to their own phases, kept space for the power connections, and cleaned up the reference labels. some of the crowded labels are on the back, but the components are all still on top
 
 there are no courtyard overlaps or copper-clearance errors, and the schematic and PCB match. two bits of the XT60 silkscreen stick over the edge. those still need trimming before making production files
+
+image: ![pcb placemnettn](image-17.png)
