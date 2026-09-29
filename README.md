@@ -6,7 +6,7 @@ I want to build a small vesc like controller, with hall sensors, current sensing
 
 ## status
 
-finished another pass through the reference supply, reset circuit, BOM and connectors. there's 16 subsheets, all on A3 or A4. the pcb has 449 footprints in the staging grid, still no placement or routing
+the first placement is done. the board is 116 x 112 mm for now, with all 449 parts on top. the power stage, shunts and current amplifiers are grouped together, with the capacitor bank on the left and the control connectors around the edges
 
 found a pretty important mistake: the XT60 nets were backwards compared to the footprint's polarity marks. thats fixed now, and there's a separate check for it. **don't manufacture the devlog 03 snapshot (`dcad1e4`) or use its old input wiring**
 
@@ -14,9 +14,13 @@ changed the ADC reference to 2.5V with a 1.25V current-sense bias. the logic sup
 
 ERC is clean and the schematic and pcb connections match. checked the 112 different part numbers and corrected the SWD header and USB fuse footprints. connector drawings are checked, but physical fit and stock still need checking before assembly
 
-this is a schematic freeze candidate, not a finished board. next is reviewing it and starting placement. PCBWay is the planned fab, but the exact copper/dielectric stackup is still needed. routing, firmware and bench testing haven't started
+the saved pcb matches the schematic again. a PCB update had introduced 61 wrong pad assignments, so those were corrected from a fresh schematic export before placing anything. reopen the saved project before doing another update from schematic
 
-the current checks and remaining limits are in [engineering/review_m04.md](engineering/review_m04.md). [engineering/review_m03.md](engineering/review_m03.md) is the older checkpoint
+there are no courtyard overlaps or copper-clearance errors. two XT60 silkscreen lines extend past the board edge and still need trimming for production. the temporary ground pour is removed. there are no tracks or vias yet
+
+next is placement review and routing. PCBWay is the planned fab, but the exact copper/dielectric stackup is still needed. the outline, mounting details and thermal design aren't a fabrication release
+
+placement notes are in [engineering/placement-review.md](engineering/placement-review.md), with the saved checks in [engineering/placement-checks.json](engineering/placement-checks.json). the electrical review is in [engineering/review_m04.md](engineering/review_m04.md)
 
 Progress is in [journal.md](journal.md).
 
@@ -70,7 +74,8 @@ motor data and measurements are in [engineering/motor.csv](engineering/motor.csv
 - [x] First review of protection, power-up behavior, current sensing, and regen
 - [x] Close the reference headroom, part-number and connector drawing checks
 - [ ] Review the updated schematic and freeze it for placement
-- [ ] Place and route the PCB
+- [x] Place the components and check the first board outline
+- [ ] Review placement and route the PCB
 - [ ] Review the layout and make production files
 - [ ] Bring up the MCU, telemetry, Hall inputs, and gate driver
 - [ ] Run sensored six-step with current limiting, then speed control

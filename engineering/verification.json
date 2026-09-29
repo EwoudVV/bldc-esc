@@ -1,4 +1,6 @@
 {
+  "historical_snapshot": true,
+  "superseded_for_PCB_by": "engineering/placement-checks.json",
   "milestone": "M03_CLOSEOUT",
   "devlog": "04",
   "state": "freeze_candidate_pending_user_review",

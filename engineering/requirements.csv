@@ -46,7 +46,7 @@ R044,C_DC_LINK_CANDIDATE,,1000,,uF,10x100_hybrid,captured_m02,CALC
 R045,I_DC_LINK_CAP_RIPPLE,,16,,A_rms,20kHz_and_temperature_derated,target_unvalidated,CALC
 R046,R_DUMP,2,10,25,ohm,external_load_resistor,provisional,USER_PLAN
 R047,P_DUMP_10R_AT31V,,96.1,,W,external_heatsink_derating_required,calculated,CALC
-R048,LAYER_COUNT,,4,,count,layout_user_owned,accepted,USER_PLAN
+R048,LAYER_COUNT,,4,,count,placement_assigned_routing_user_owned,accepted,USER_PLAN
 R049,COPPER_OUTER,,70,,um,2oz_fab_stackup_pending,target,USER_PLAN
 R050,COPPER_INNER,,35,,um,1oz_fab_stackup_pending,target,USER_PLAN
 R051,PCB_THICKNESS,,1.6,,mm,fab_stackup_pending,target,USER_PLAN
@@ -64,7 +64,7 @@ R062,ADC_CURRENT_SIMULTANEITY,,3,,channels,ADC1_ADC2_ADC3_trigger_route_pending,
 R063,CHOPPER_MCU_INDEPENDENCE,,1,,bool,bus_powered_reference_and_comparator,required,USER_PLAN
 R064,USB_CURRENT_PRE_ENUM,,,100,mA,sensors_off_default_no_1A_USB_assumption,required,USER_PLAN
 R065,PHASE_VOLTAGE_DIVIDER,,21,,ratio,100k_plus_100k_over_10k,provisional,CALC
-R066,BOARD_OUTLINE,,,,mm,user_placement_decision,unset,USER_PLAN
+R066,BOARD_OUTLINE,,116x112,,mm,placement_envelope_not_mechanical_release,provisional,CALC
 R067,I_HW_WINDOW,-50.1115,0,50.1115,A,external_TLV9024_nominal,calculated_not_tested,TI_TLV9024
 R068,I_DUMP_OCP,,20.8333,,A,3mohm_gain20_REF2025_1V25,calculated_not_tested,TI_INA180
 R069,SERVICE_MODE_BRIDGE_ENABLE,,0,,bool,WD_RUN_LOW_hardware_interlock,captured_m02,USER_PLAN

@@ -101,3 +101,22 @@ checked 112 different part numbers. fixed the missing characters in two TI part 
 ERC has 0 errors and 0 warnings. the connection checks, 426 separate pin checks and 4096 shutdown logic cases pass too. there's 449 footprints on the pcb now. the existing positions stayed where they were and there's still no routing or outline
 
 some images of the schematics: ![img1](image.png) ![img2](image-1.png) ![img3](image-2.png) ![img4](image-3.png) ![img5](image-4.png) ![img6](image-5.png) ![img7](image-6.png) ![img8](image-7.png) ![img9](image-8.png) ![img10](image-9.png) ![img11](image-10.png) ![img12](image-11.png) ![img13](image-12.png) ![img14](image-13.png) ![img15](image-14.png) ![img16](image-15.png) ![img17](image-16.png)
+
+### Devlog 05: placement
+
+Date: Sep 29, 2026
+
+Time spent: 4 hours
+Lapse:
+
+the first placement is done. its 116 x 112 mm right now, with all 449 parts on the top side.
+
+started with the bridge, shunts and local capacitors, then put the gate driver and current amplifiers around them. the amplifiers face the little Kelvin pads on the shunts. moved the driver again after checking the longer gate connections
+
+the capacitor bank is on the left, the motor connections are at the top, and the smaller control connectors go around the bottom and right. the buck is away from the reference and analog inputs. also checked which way the USB and brake connectors face
+
+found a problem before placement: the PCB update had 61 wrong pad assignments. the schematic export was correct, so the pcb was synchronized again before continuing. the old saved board is backed up, and the temporary ground pour is removed
+
+went through the placement renders and DRC a few times. moved the snubbers and voltage pickup resistors closer to their own phases, kept space for the power connections, and cleaned up the reference labels. some of the crowded labels are on the back, but the components are all still on top
+
+there are no courtyard overlaps or copper-clearance errors, and the schematic and PCB match. two bits of the XT60 silkscreen stick over the edge. those still need trimming before making production files

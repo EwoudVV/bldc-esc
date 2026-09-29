@@ -110,7 +110,8 @@ check(len(set(uuids)) == 17, "SCHEMATIC_UUID_UNIQUE")
 pcb = parse_one((root / "bldc-esc.kicad_pcb").read_text())
 for item in pcb:
     if isinstance(item, list) and item:
-        check(item[0] not in ("segment", "via", "zone", "gr_line", "gr_rect", "gr_arc"), "PCB_LAYOUT_NOT_STARTED_" + item[0])
+        forbidden=("segment", "via", "zone") if '--placement' in sys.argv else ("segment", "via", "zone", "gr_line", "gr_rect", "gr_arc")
+        check(item[0] not in forbidden, "PCB_STAGE_CONSTRAINT_" + item[0])
 check(sum(isinstance(x,list) and x and x[0]=='footprint' for x in pcb)==len(tables['schematic_bom']), "PCB_STAGED_FOOTPRINT_COUNT")
 
 print(json.dumps({"passed": not failures, "csv_files": len(tables), "pin_rows": len(pins), "schematic_sheets": len(sch_paths), "failures": failures}, indent=2))
