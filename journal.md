@@ -107,7 +107,7 @@ some images of the schematics: ![img1](image.png) ![img2](image-1.png) ![img3](i
 Date: Sep 29, 2026
 
 Time spent: 4 hours
-Lapse:
+Lapse: no lapse
 
 the first placement is done. its 116 x 112 mm right now, with all 449 parts on the top side.
 
@@ -122,3 +122,12 @@ went through the placement renders and DRC a few times. moved the snubbers and v
 there are no courtyard overlaps or copper-clearance errors, and the schematic and PCB match. two bits of the XT60 silkscreen stick over the edge. those still need trimming before making production files
 
 image: ![pcb placemnettn](image-17.png)
+
+### Devlog 06: routing
+
+Time spent: 40 mintes
+Lapse: [lapse](https://lapse.hackclub.com/timelapse/QfEX7GQmGbGK)
+
+routed the stm32 fanout, and some power stuff
+
+image: ![image](image-18.png)
