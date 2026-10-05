@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-05 — Devlog 01: research and project setup](#2026-10-05-devlog-01-research-and-project-setup)
-2. [2026-10-05 — ### Devlog 02: schematics](#2026-10-05-devlog-02-schematics)
+2. [2026-10-05 — Devlog 02: schematics](#2026-10-05-devlog-02-schematics)
 
 ## Design
 
@@ -56,11 +56,11 @@ files from this checkpoint:
 
 ![parts](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/3d95dabf06c65c58c0c28b57ce54ddcaeb6f755876aa08d220c6e9d5e297d034.png)
 
-### 2026-10-05 — ### Devlog 02: schematics
+### 2026-10-05 — Devlog 02: schematics
 
 **8h**
 
-### Devlog 02: schematics
+Devlog 02: schematics
 
 Date: Sep 28, 2026
 Time spent: 8 hours
