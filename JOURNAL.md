@@ -14,16 +14,16 @@
 
 ## Contents
 
-1. [2026-10-05 — ### Devlog 01: research and project setup](#2026-10-05-devlog-01-research-and-project-setup)
+1. [2026-10-05 — Devlog 01: research and project setup](#2026-10-05-devlog-01-research-and-project-setup)
 2. [2026-10-05 — ### Devlog 02: schematics](#2026-10-05-devlog-02-schematics)
 
 ## Design
 
-### 2026-10-05 — ### Devlog 01: research and project setup
+### 2026-10-05 — Devlog 01: research and project setup
 
 **4h**
 
-### Devlog 01: research and project setup
+Devlog 01: research and project setup
 
 Date: Sep 27, 2026
 Time spent: 4  hours
