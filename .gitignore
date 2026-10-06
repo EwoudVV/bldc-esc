@@ -7,8 +7,9 @@ fp-info-cache
 ~*.lck
 .DS_Store
 .history/
-.mcp-backups/
 work/
 __pycache__/
 *.pyc
 firmware/build/
+engineering/
+media/
