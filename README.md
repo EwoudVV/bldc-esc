@@ -4,7 +4,7 @@ i'm building a small vesc like controller for BLDC and PMSM motors. the first mo
 
 ## status
 
-the schematic and first placement are done. it's 116 x 112 mm, with all 449 parts on top. the stm32 fanout, current-sense connections, gate driver and bridge power paths are routed. the DC-link rails and capacitor returns are connected too. next are the brake and buck power loops, then the remaining signals
+the schematic and first placement are done. it's 116 x 112 mm, with all 449 parts on top. the stm32 fanout, current-sense connections, gate driver and bridge power paths are routed. the DC-link rails, capacitor returns and brake power loop are connected too. next is the buck converter, then the remaining signals
 
 the board hasn't been built yet. routing, mounting and cooling still need work before ordering it. PCBWay is the planned fab, but the exact layer stack isn't confirmed
 
