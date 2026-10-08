@@ -4,9 +4,9 @@ i'm building a small vesc like controller for BLDC and PMSM motors. the first mo
 
 ## status
 
-the schematic and first placement are done. it's 116 x 112 mm, with all 449 parts on top. the stm32 fanout, current-sense connections, gate-driver outputs and bridge power paths are routed. the DC-link, brake and buck loops, USB power, source mux and 3V3 regulator are connected too. the six PWM channels, driver SPI, enable and fault wiring are now connected. next are the remaining safety logic, power branches and peripheral connections
+the schematic and first placement are done. it's 116 x 112 mm, with all 449 parts on top. the stm32 fanout, current-sense connections, gate-driver outputs and bridge power paths are routed. the DC-link, brake and buck loops, USB power, source mux and 3V3 regulator are connected too. the six PWM channels, driver SPI, enable and fault wiring are connected. the main watchdog, reset, hardware-enable and arm-latch wiring is now routed, along with the core analog power feed. 389 connections remain unrouted, mainly around sensing, brake control, power branches and the interfaces
 
-the board hasn't been built yet. routing, mounting and cooling still need work before ordering it. PCBWay is the planned fab, but the exact layer stack isn't confirmed
+the board hasn't been built yet. routing, mounting and cooling still need work before ordering it. i'm comparing PCBWay and JLCPCB for bare boards to assemble myself. the fab and exact layer stack aren't confirmed
 
 **don't manufacture the devlog 03 snapshot (`dcad1e4`).** the XT60 connections were backwards in that version. the current design has pad 1 as GND and pad 2 as VBUS
 
