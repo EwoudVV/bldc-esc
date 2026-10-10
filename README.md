@@ -2,6 +2,8 @@
 
 i'm building a small vesc like controller for BLDC and PMSM motors. the first motor is a 26V Groschopp gearmotor, but i want the board to be useful for other motors too. Hall control first, then FOC later
 
+![PCB render](pcb-render.png)
+
 ## status
 
 the schematic and first placement are done. it's 116 x 112 mm, with all 449 parts on top. the stm32 fanout, current-sense connections, gate-driver outputs and bridge power paths are routed. the DC-link, brake and buck loops, USB power, source mux and 3V3 regulator are connected too. the six PWM channels, driver SPI, enable and fault wiring are connected. the main watchdog, reset, hardware-enable and arm-latch wiring is routed, along with the core analog power feed. the primary current feedback, reference rails and comparator thresholds are connected now too, along with the driver diagnostic outputs and shunt inputs. the voltage dividers, buffers and temperature inputs are connected, including their ADC filters, local supplies, USB voltage detection and the 3V3 monitor. the brake clamp, overcurrent latch, local reference and remaining 5V bus branches are connected. the USB ground pair, bus bleed resistor and bus test point are connected too. brake-active status and the brake-current ADC now reach the MCU. the Hall and encoder input channels, their buffers, switched 5V supplies and enable/fault signals are routed too. the throttle and auxiliary analog inputs, RC PWM, brake and direction channels are connected too. the boot jumper and user button are connected now, along with more 3V3 branches, local CAN pull-ups, LED resistors and EEPROM wiring. 62 connections remain unrouted, mostly communications, programming and the remaining local wiring
@@ -30,10 +32,6 @@ devlogs are on [Half Life](https://halflife.hackclub.com/projects/cmuveje4m00920
 - four layers, with 2 oz outer copper and 1 oz inner copper planned
 
 these current ratings are targets until thermal testing is done
-
-## block diagram
-
-![Controller block diagram](block-diagram.svg)
 
 ## test motor
 
