@@ -2110,7 +2110,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 50.8 54.61 0)
       (effects
         (font
@@ -2187,7 +2187,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 50.8 90.17 0)
       (effects
         (font
@@ -2264,7 +2264,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 91.44 118.11 0)
       (effects
         (font
@@ -3704,7 +3704,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 176.53 54.61 0)
       (effects
         (font
@@ -3781,7 +3781,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 176.53 90.17 0)
       (effects
         (font
@@ -3858,7 +3858,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 217.17 118.11 0)
       (effects
         (font
@@ -5298,7 +5298,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 302.26 54.61 0)
       (effects
         (font
@@ -5375,7 +5375,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 302.26 90.17 0)
       (effects
         (font
@@ -5452,7 +5452,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+    (property "Footprint" "bldc-esc:TestPoint_Pad_D1.5mm_NoSilk"
       (at 342.9 118.11 0)
       (effects
         (font
