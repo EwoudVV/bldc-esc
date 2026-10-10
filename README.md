@@ -8,9 +8,9 @@ i'm building a small vesc like controller for BLDC and PMSM motors. the first mo
 
 the schematic and first placement are done. it's 116 x 112 mm, with all 449 parts on top. the power stage, supplies, gate control, hardware protection, current and voltage sensing, temperature inputs, Hall/encoder inputs and analog controls are routed. the CAN connector and protection, bridge test points, optional snubbers and 8MHz clock are connected too
 
-the USB-C data pins now reach the ESD protection chip in both plug orientations. the USB shield, chassis connector and bond components are connected, and the remaining EEPROM supply pads have power. 20 connections are still open: the long USB data pair, SWD/SWO, UART, CAN logic, EEPROM signals, status LEDs, power-source status and three MCU test points
+all connections are now routed, including USB, SWD/SWO, UART, CAN logic, the EEPROM, status LEDs and test points. KiCad and a separate copper connectivity check both report zero open connections. the board now has six copper layers to make room for the remaining MCU routes
 
-the board hasn't been built yet. routing, mounting and cooling still need work before ordering it. i'm comparing PCBWay and JLCPCB for bare boards to assemble myself. the fab and exact layer stack aren't confirmed
+the board hasn't been built yet. i still need to review the six-layer stack, USB impedance, return paths, mounting and cooling before ordering. i'm comparing PCBWay and JLCPCB for bare boards to assemble myself, and the new layer count needs a fresh quote
 
 **don't manufacture the devlog 03 snapshot (`dcad1e4`).** the XT60 connections were backwards in that version. the current design has pad 1 as GND and pad 2 as VBUS
 
@@ -31,7 +31,7 @@ devlogs are on [Half Life](https://halflife.hackclub.com/projects/cmuveje4m00920
 - 12-30V input, mainly for 6S batteries and 24V systems
 - 15A RMS phase current with passive cooling, 20A with extra cooling
 - around 40A peak, with the allowed duration still to be worked out
-- four layers, with 2 oz outer copper and 1 oz inner copper planned
+- six layers, with 2 oz outer copper and 1 oz inner copper planned; exact stack pending a fab quote
 
 these current ratings are targets until thermal testing is done
 
