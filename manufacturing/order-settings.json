@@ -14,9 +14,6 @@
   "nominal_thickness_mm": 1.6,
   "outer_copper_oz": 2,
   "inner_copper_oz": 1,
-  "stackup": "JLC041621-7628",
-  "catalog_finished_thickness_mm": 1.64,
-  "finished_thickness_tolerance_percent": 10,
   "mask": "green",
   "silkscreen": "white",
   "usb_differential_impedance_ohm": 90,
@@ -28,8 +25,6 @@
   "minimum_inner_trace_width_mm": 0.127,
   "via_drill_mm": 0.2,
   "via_diameter_mm": 0.5,
-  "stackup_source": "https://jlcpcb.com/pcb-impedance-calculator",
-  "stackup_checked": "2026-10-11",
   "vendor_dfm_approved": false,
   "mounting": [
     {
@@ -72,5 +67,26 @@
       "copper_keepout_diameter_mm": 7,
       "maximum_screw_head_diameter_mm": 6.4
     }
-  ]
+  ],
+  "manufacturer": "PCBWay",
+  "stackup_status": "pending PCBWay stack and USB impedance verification",
+  "ready_to_order": false,
+  "surface_finish": "lead-free HASL",
+  "impedance_control_requested": true,
+  "stackup_source": "https://www.pcbway.com/multi-layer-laminated-structure.html",
+  "stackup_checked": "2026-10-11",
+  "pcbway_catalog_outer_dielectric_mm": [
+    0.1715,
+    0.1785,
+    0.1855
+  ],
+  "pcbway_catalog_outer_dielectric_dk": 4.74,
+  "pcbway_catalog_core_dielectric_mm": 0.93,
+  "quote_pcb_usd": 131.63,
+  "quote_quantity": 5,
+  "quote_shipping_estimate_usd": 26.55,
+  "quote_shipping_method": "DHL",
+  "quote_tax_duties_included": false,
+  "quote_date": "2026-10-11",
+  "quote_status": "provisional; files and impedance not yet approved by PCBWay"
 }
