@@ -1,0 +1,19 @@
+BLDC ESC fabrication review
+
+Board: 116 x 112 mm, 4 layers, 1.6 mm nominal FR-4.
+Copper: 2 oz finished outer layers, 1 oz inner layers.
+Layer sequence: F_Cu.gtl, In1_Cu.g1, In2_Cu.g2, B_Cu.gbl.
+Outer routing width and clearance: 0.200 mm. Inner logic: 0.127 mm.
+The online quote forces an 8 mil global setting for 2 oz copper.
+Review the actual per-layer requirements before approving this order.
+Minimum via drill 0.20 mm, pad diameter 0.50 mm. Do not enlarge drills.
+Four 3.20 mm non-plated mounting holes.
+USB: B.Cu, In2.Cu GND reference, 90 ohm differential target.
+Trace width 0.228 mm, pair gap 0.200 mm, coplanar GND gap 0.250 mm.
+Confirm the stackup and USB impedance before fabrication.
+No changes to routing, stack or drill sizes without approval.
+
+Stencil: top only, 0.10 mm, frameless, manual solder-paste printing.
+Use bldc-esc-F_Paste.gtp. DNP footprints are excluded in this file.
+Preserve the segmented thermal-pad apertures.
+Check aperture release and paste coverage before cutting.

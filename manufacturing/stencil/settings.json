@@ -1,0 +1,15 @@
+{
+  "side": "top",
+  "thickness_mm": 0.1,
+  "type": "frameless",
+  "excluded_DNP_references": [
+    "C215",
+    "C235",
+    "C255",
+    "R103",
+    "R217",
+    "R237",
+    "R257"
+  ],
+  "production_aperture_review": "pending PCBWay review"
+}

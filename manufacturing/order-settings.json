@@ -82,11 +82,16 @@
   ],
   "pcbway_catalog_outer_dielectric_dk": 4.74,
   "pcbway_catalog_core_dielectric_mm": 0.93,
-  "quote_pcb_usd": 131.63,
+  "quote_pcb_usd": 311.9,
   "quote_quantity": 5,
-  "quote_shipping_estimate_usd": 26.55,
+  "quote_shipping_estimate_usd": 28.95,
   "quote_shipping_method": "DHL",
   "quote_tax_duties_included": false,
   "quote_date": "2026-10-11",
-  "quote_status": "provisional; files and impedance not yet approved by PCBWay"
+  "quote_status": "provisional; actual 0.200mm outer and 0.127mm inner spacing require review against forced 8mil quote field; USB impedance pending",
+  "quote_stencil_usd": 10,
+  "quote_member_discount_usd": 6.44,
+  "quote_total_estimate_usd": 344.41,
+  "pcbway_product_number": "W907890ASB10",
+  "pcbway_stencil_number": "S-B11W907890A"
 }
