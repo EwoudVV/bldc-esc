@@ -58,7 +58,7 @@
 | [passives, LEDs, diodes and transistors (Mouser)](https://www.mouser.com/) | grouped parts from the purchasing CSV, including supplier minimum quantities. | 1 | $25.58 | $25.58 | [Mouser](https://www.mouser.com/) |
 | [XT60PW-M](https://www.tme.eu/en/details/xt60pw-m/dc-power-connectors/amass/) | battery connector. international reference price; US checkout and shipping not confirmed. | 1 | $1.05 | $1.05 | [TME](https://www.tme.eu/en/details/xt60pw-m/dc-power-connectors/amass/) |
 | **Parts subtotal** | — | — | — | **$501.69** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$501.69** | — |
+| **Tax & shipping** | — | — | — | **$42.23** | — |
+| **Total** | — | — | — | **$543.92** | — |
 
-**$401.69 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$443.92 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
