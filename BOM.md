@@ -62,3 +62,9 @@
 | **Total** | — | — | — | **$543.92** | — |
 
 **$443.92 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+
+## full purchasing details
+
+[manufacturing/BOM.md](manufacturing/BOM.md) has all 110 part numbers, quantities, vendor links, the PCB and stencil quotes, discounts and unresolved stock. it also explains what is included in the shipping allowance above. those notes are kept separately so the next Half Life sync does not overwrite them
+
+nothing has been purchased or submitted. the current list is an estimate; final tax, some shipping, part availability and PCBWay's review are still pending

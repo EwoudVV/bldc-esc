@@ -53,8 +53,18 @@
     "Resolve remaining backordered components before ordering",
     "PCBWay must confirm pricing, layer-specific routing limits, and USB impedance",
     "Final shipping and tax totals",
-    "Website BOM and final cart screenshots",
     "Closing reel narration and upload",
-    "Final submission review"
-  ]
+    "Resolve submission step 2 budget gate with organizers"
+  ],
+  "website_bom": {
+    "rows": 45,
+    "parts_subtotal_usd": 501.69,
+    "known_shipping_tariff_allowance_usd": 42.23,
+    "total_estimate_usd": 543.92,
+    "cart_screenshots_uploaded": 4,
+    "final_tax_included": false,
+    "coilcraft_and_tme_shipping_included": false,
+    "submitted": false,
+    "status": "paused; Next disabled at step 2 despite reported organizer permission for over-budget submission"
+  }
 }
