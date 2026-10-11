@@ -1,0 +1,111 @@
+MPN,manufacturer,fitted_quantity,references,vendor,vendor_part,order_quantity,unit_price_usd,extended_price_usd,stock_status,source_url,checked_date
+1711725,Phoenix Contact,1,J301,LCSC,C89120,1,1.10,1.10,in stock,https://www.lcsc.com/product-detail/C89120.html,2026-10-11
+"2N7002P,215",Nexperia,1,Q302,LCSC,C81488,20,0.0246,0.49,in stock,https://www.lcsc.com/product-detail/C81488.html,2026-10-11
+ABM3-8.000MHZ-D2Y-T,Abracon,1,Y501,LCSC,C144380,1,0.5656,0.57,in stock,https://www.lcsc.com/product-detail/C144380.html,2026-10-11
+"BAT54H,115",Nexperia,2,"D302, D303",LCSC,C426769,5,0.1452,0.73,in stock,https://www.lcsc.com/product-detail/C426769.html,2026-10-11
+"BAV199,215",Nexperia,8,"D801, D811, D821, D831, D850, D855, D886, D889",LCSC,C40919,10,0.0429,0.43,in stock,https://www.lcsc.com/product-detail/C40919.html,2026-10-11
+BLM18KG601SN1D,Murata,1,FB501,LCSC,C85833,50,0.018,0.90,in stock,https://www.lcsc.com/product-detail/C85833.html,2026-10-11
+BM02B-GHS-TBT(LF)(SN),JST,2,"J805, J806",Mouser,306-BM02BGHSTBTLFSNN,2,0.32,0.64,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/JST/BM02B-GHS-TBTLFSN?qs=cdbOS8ANM9BvfZxSeyCAhA%3D%3D,2026-10-11
+BM03B-GHS-TBT(LF)(SN),JST,5,"J701, J801, J802, J803, J804",LCSC,C161691,5,0.3825,1.91,in stock,https://www.lcsc.com/product-detail/C161691.html,2026-10-11
+BM04B-GHS-TBT(LF)(SN),JST,1,J702,LCSC,C161692,5,0.3962,1.98,in stock,https://www.lcsc.com/product-detail/C161692.html,2026-10-11
+BM05B-GHS-TBT(LF)(SN),JST,2,"J601, J602",Mouser,306-BM05BGHSTBTLFSNN,2,0.48,0.96,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/JST/BM05B-GHS-TBTLFSN?qs=cdbOS8ANM9B3tGFuHaxqMA%3D%3D,2026-10-11
+C0603C101J5GACTU,KEMET,7,"C312, C610, C611, C612, C613, C614, C615",LCSC,C2167328,50,0.0252,1.26,in stock,https://www.lcsc.com/product-detail/C2167328.html,2026-10-11
+C0603C102J5GACTU,KEMET,19,"C213, C214, C233, C234, C253, C254, C301, C308, C802, C812, C822, C832, C865, C868, C871, C852, C857, C888, C891",LCSC,C2181873,20,0.0267,0.53,in stock,https://www.lcsc.com/product-detail/C2181873.html,2026-10-11
+C0603C103K5RACTU,KEMET,13,"C310, C117, C110, C111, C112, C705, C850, C855, C880, C883, C886, C889, C899",Mouser,80-C0603C103K5R,13,0.068,0.88,in stock,https://www.mouser.com/en/ProductDetail/KEMET/C0603C103K5RACTU?qs=aZBT8IJKz4hu1X55tMAU6Q%3D%3D,2026-10-11
+C0603C104K1RACTU,KEMET,1,C202,Mouser,80-C0603C104K1RACTU,1,0.59,0.59,in stock,https://www.mouser.com/en/ProductDetail/KEMET/C0603C104K1RACTU?qs=ulEaXIWI0c%252BGZAOcX%252BBs5A%3D%3D,2026-10-11
+C0603C104K5RACTU,KEMET,48,"C207, C212, C232, C252, C413, C501, C502, C503, C504, C505, C508, C509, C511, C512, C515, C302, C303, C313, C304, C306, C307, C309, C311, C601, C603, C605, C606, C701, C703, C711, C712, C713, C714, C715, C716, C717, C718, C704, C113, C114, C516, C517, C840, C845, C719, C720, C847, C848",LCSC,C127833,50,0.0449,2.25,in stock,https://www.lcsc.com/product-detail/C127833.html,2026-10-11
+C0603C105K4RACTU,KEMET,10,"C206, C408, C409, C411, C510, C314, C305, C602, C604, C706",LCSC,C2167386,20,0.0423,0.85,in stock,https://www.lcsc.com/product-detail/C2167386.html,2026-10-11
+C0603C221J5GACTU,KEMET,4,"C801, C811, C821, C831",LCSC,C452747,20,0.0228,0.46,in stock,https://www.lcsc.com/product-detail/C452747.html,2026-10-11
+C0603C222J5GACTU,KEMET,2,"C403, C406",LCSC,C2167437,20,0.0387,0.77,in stock,https://www.lcsc.com/product-detail/C2167437.html,2026-10-11
+C0603C270J5GACTU,KEMET,2,"C513, C514",Mouser,80-C0603C270J5G,2,0.10,0.20,in stock,https://www.mouser.com/en/ProductDetail/KEMET/C0603C270J5GACTU?qs=tmo4rc6ZD9Wc1Km2xObD4A%3D%3D,2026-10-11
+C0603C473K5RACTU,KEMET,1,C702,LCSC,C3019600,20,0.0122,0.24,in stock,https://www.lcsc.com/product-detail/C3019600.html,2026-10-11
+C0603C820J5GACTU,KEMET,1,C407,LCSC,C2169253,50,0.0159,0.80,in stock,https://www.lcsc.com/product-detail/C2169253.html,2026-10-11
+C0805C105K3RACTU,KEMET,1,C205,LCSC,C2167365,10,0.068,0.68,in stock,https://www.lcsc.com/product-detail/C2167365.html,2026-10-11
+C0805C473K1RACTU,KEMET,1,C203,LCSC,C2174835,10,0.0394,0.39,in stock,https://www.lcsc.com/product-detail/C2174835.html,2026-10-11
+C0805C475K3RACTU,KEMET,4,"C410, C412, C506, C507",LCSC,C22409262,5,0.1956,0.98,in stock,https://www.lcsc.com/product-detail/C22409262.html,2026-10-11
+C1206C472KDRACTU,KEMET,1,C109,Mouser,80-C1206C472KDR,1,0.51,0.51,in stock,https://www.mouser.com/en/ProductDetail/KEMET/C1206C472KDRACTU?qs=4%252BoambldWwZLyeRVCG8sdw%3D%3D,2026-10-11
+C3216X7R1H105K160AB,TDK,1,C204,Mouser,810-C3216X7R1H105K,1,0.65,0.65,in stock,https://www.mouser.com/en/ProductDetail/TDK/C3216X7R1H105K160AB?qs=NRhsANhppD9o2v7nR8CCQg%3D%3D,2026-10-11
+C3216X7R2A105K160AA,TDK,6,"C210, C211, C230, C231, C250, C251",Mouser,810-C3216X7R2A105K,6,0.76,4.56,in stock,https://www.mouser.com/en/ProductDetail/TDK/C3216X7R2A105K160AA?qs=NRhsANhppD9a%252B8xqdqiZiQ%3D%3D,2026-10-11
+CGA6N3X7R2A225K230AB,TDK,2,"C401, C402",Mouser,810-CGA6N3X7R2A225K,2,1.16,2.32,in stock,https://www.mouser.com/en/ProductDetail/TDK/CGA6N3X7R2A225K230AB?qs=NRhsANhppD8IGlRP%252BrSh7w%3D%3D,2026-10-11
+CSS4J-4026R-1L00F,Bourns,3,"R214, R234, R254",LCSC,C2076400,3,1.7049,5.11,in stock,https://www.lcsc.com/product-detail/C2076400.html,2026-10-11
+DRV8353SRTAT,Texas Instruments,1,U201,LCSC,C2150480,1,5.2998,5.30,in stock,https://www.lcsc.com/product-detail/C2150480.html,2026-10-11
+EEUFC1J220,Panasonic,1,C201,Mouser,667-EEU-FC1J220,1,0.46,0.46,in stock,https://www.mouser.com/en/ProductDetail/Panasonic/EEU-FC1J220?qs=%2Fhqyh7o0k%2FVXxz3al1BEQA%3D%3D,2026-10-11
+FTSH-105-01-L-DV-007-K,Samtec,1,J501,LCSC,C5296739,1,2.4278,2.43,in stock,https://www.lcsc.com/product-detail/C5296739.html,2026-10-11
+GXC1J101MCW1GS,Nichicon,10,"C101, C102, C103, C104, C105, C106, C107, C115, C108, C116",Mouser,647-GXC1J101MCW1GS,10,1.52,15.20,in stock,https://www.mouser.com/en/ProductDetail/Nichicon/GXC1J101MCW1GS?qs=VVKQmw408U%252B1tvMYj%252BHCdw%3D%3D,2026-10-11
+INA180A1IDBVR,Texas Instruments,1,U303,LCSC,C122228,5,0.2782,1.39,in stock,https://www.lcsc.com/product-detail/C122228.html,2026-10-11
+INA241A2IDR,Texas Instruments,3,"U202, U203, U204",Mouser,595-INA241A2IDR,3,3.45,10.35,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/Texas-Instruments/INA241A2IDR?qs=ST9lo4GX8V2BJPaEYaZuzQ%3D%3D,2026-10-11
+ISC011N06LM5ATMA1,Infineon,7,"Q201, Q202, Q203, Q204, Q205, Q206, Q301",LCSC,C3288866,7,4.5575,31.90,in stock,https://www.lcsc.com/product-detail/C3288866.html,2026-10-11
+LM5164DDAR,Texas Instruments,1,U401,LCSC,C477928,1,1.9959,2.00,in stock,https://www.lcsc.com/product-detail/C477928.html,2026-10-11
+LTST-C190KGKT,Lite-On,3,"D511, D512, D513",LCSC,C125094,50,0.0168,0.84,in stock,https://www.lcsc.com/product-detail/C125094.html,2026-10-11
+M20-9990245,Harwin,4,"J103, JP501, JP701, J703",LCSC,C3338413,5,0.1248,0.62,in stock,https://www.lcsc.com/product-detail/C3338413.html,2026-10-11
+M20-9990345,Harwin,1,JP704,LCSC,C3337081,5,0.2406,1.20,in stock,https://www.lcsc.com/product-detail/C3337081.html,2026-10-11
+M24C64-RMN6TP,STMicroelectronics,1,U503,LCSC,C79988,5,0.151,0.76,in stock,https://www.lcsc.com/product-detail/C79988.html,2026-10-11
+MF-PSMF050X-2,Bourns,1,F401,LCSC,C116170,20,0.0587,1.17,in stock,https://www.lcsc.com/product-detail/C116170.html,2026-10-11
+MSAST32MSB7226KPNB25,Taiyo Yuden,2,"C404, C405",LCSC,C7235328,5,0.3621,1.81,in stock,https://www.lcsc.com/product-detail/C7235328.html,2026-10-11
+MSS1246T-683MLC,Coilcraft,1,L401,Coilcraft,MSS1246T-683MLC,1,2.41,2.41,588 in stock; US warehouse; shipping not yet quoted,https://www.coilcraft.com/en-us/products/power/shielded-inductors/ferrite-drum/mss-mos/mss1246t/mss1246t-683/,2026-10-11
+MT60-M,AMASS,1,J102,LCSC,C99176,1,0.4992,0.50,in stock,https://www.lcsc.com/product-detail/C99176.html,2026-10-11
+NCP18XH103F03RB,Murata,2,"TH801, TH802",LCSC,C13564,10,0.0467,0.47,in stock,https://www.lcsc.com/product-detail/C13564.html,2026-10-11
+PESD2CANFD24V-TR,Nexperia,1,D703,LCSC,C552486,5,0.2691,1.35,in stock; added after order-code correction,https://www.lcsc.com/product-detail/C552486.html,2026-10-11
+"PESD5V0S1BA,115",Nexperia,14,"D610, D611, D612, D613, D614, D615, D865, D868, D871, D704, D852, D857, D888, D891",LCSC,C19224,15,0.0861,1.29,in stock,https://www.lcsc.com/product-detail/C19224.html,2026-10-11
+"PMEG2010ER,115",Nexperia,1,D501,LCSC,C82288,5,0.1833,0.92,in stock,https://www.lcsc.com/product-detail/C82288.html,2026-10-11
+RC0603FR-07100KL,Yageo,17,"R204, R402, R409, R503, R314, R315, R317, R319, R602, R606, R704, R705, R716, R707, R708, R724, R725",LCSC,C14675,100,0.0026,0.26,in stock,https://www.lcsc.com/product-detail/C14675.html,2026-10-11
+RC0603FR-07100RL,Yageo,11,"R215, R235, R255, R804, R814, R824, R834, R852, R857, R888, R891",LCSC,C105588,100,0.0024,0.24,in stock,https://www.lcsc.com/product-detail/C105588.html,2026-10-11
+RC0603FR-0710KL,Yageo,38,"R203, R205, R407, R410, R415, R504, R505, R311, R312, R313, R603, R607, R621, R624, R627, R633, R636, R639, R702, R706, R710, R711, R712, R713, R714, R715, R717, R718, R117, R508, R720, R851, R856, R866, R869, R872, R722, R723",LCSC,C98220,100,0.0034,0.34,in stock,https://www.lcsc.com/product-detail/C98220.html,2026-10-11
+RC0603FR-0712K1L,Yageo,2,"R850, R855",LCSC,C123417,100,0.0031,0.31,in stock,https://www.lcsc.com/product-detail/C123417.html,2026-10-11
+RC0603FR-07150KL,Yageo,2,"R316, R318",LCSC,C114660,100,0.0036,0.36,in stock,https://www.lcsc.com/product-detail/C114660.html,2026-10-11
+RC0603FR-0715KL,Yageo,1,R416,LCSC,C114661,100,0.0044,0.44,in stock,https://www.lcsc.com/product-detail/C114661.html,2026-10-11
+RC0603FR-071KL,Yageo,20,"R216, R236, R256, R501, R620, R623, R626, R632, R635, R638, R511, R512, R513, R721, R865, R868, R871, R887, R890, R709",LCSC,C22548,100,0.0037,0.37,in stock,https://www.lcsc.com/product-detail/C22548.html,2026-10-11
+RC0603FR-071ML,Yageo,1,R102,LCSC,C105578,100,0.0042,0.42,in stock,https://www.lcsc.com/product-detail/C105578.html,2026-10-11
+RC0603FR-071RL,Yageo,1,R308,LCSC,C112305,100,0.0063,0.63,in stock,https://www.lcsc.com/product-detail/C112305.html,2026-10-11
+RC0603FR-07200KL,Yageo,2,"R601, R605",LCSC,C105574,100,0.004,0.40,in stock,https://www.lcsc.com/product-detail/C105574.html,2026-10-11
+RC0603FR-0722RL,Yageo,2,"R413, R414",LCSC,C107701,100,0.0037,0.37,in stock,https://www.lcsc.com/product-detail/C107701.html,2026-10-11
+RC0603FR-072M49L,Yageo,1,R305,Mouser,603-RC0603FR-072M49L,1,0.11,0.11,in stock,https://www.mouser.com/en/ProductDetail/YAGEO/RC0603FR-072M49L?qs=0yPvnVz5%2FmpCuPxzZx6xew%3D%3D,2026-10-11
+RC0603FR-072R2L,Yageo,1,R307,LCSC,C112307,100,0.0098,0.98,in stock,https://www.lcsc.com/product-detail/C112307.html,2026-10-11
+RC0603FR-07300KL,Yageo,2,"R401, R408",LCSC,C114667,100,0.0023,0.23,in stock,https://www.lcsc.com/product-detail/C114667.html,2026-10-11
+RC0603FR-07301KL,Yageo,1,R406,Mouser,603-RC0603FR-07301KL,1,0.10,0.10,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/YAGEO/RC0603FR-07301KL?qs=diQw95jMAeNJi3XO%2F%2FwC0g%3D%3D,2026-10-11
+RC0603FR-073R3L,Yageo,6,"R210, R212, R230, R232, R250, R252",LCSC,C137725,100,0.0082,0.82,in stock,https://www.lcsc.com/product-detail/C137725.html,2026-10-11
+RC0603FR-0742K2L,Yageo,1,R403,Mouser,603-RC0603FR-0742K2L,1,0.10,0.10,in stock,https://www.mouser.com/en/ProductDetail/YAGEO/RC0603FR-0742K2L?qs=gt6vzsuosg2g3L%2FVaGpSfQ%3D%3D,2026-10-11
+RC0603FR-0747KL,Yageo,7,"R211, R213, R231, R233, R251, R253, R309",LCSC,C105579,100,0.0031,0.31,in stock,https://www.lcsc.com/product-detail/C105579.html,2026-10-11
+RC0603FR-074K7L,Yageo,5,"R202, R306, R116, R506, R507",LCSC,C99782,100,0.0034,0.34,in stock,https://www.lcsc.com/product-detail/C99782.html,2026-10-11
+RC0603FR-075K1L,Yageo,2,"R411, R412",LCSC,C105580,100,0.0023,0.23,in stock,https://www.lcsc.com/product-detail/C105580.html,2026-10-11
+RC0603JR-070RL,Yageo,3,"R502, R701, R703",LCSC,C95177,100,0.0024,0.24,in stock,https://www.lcsc.com/product-detail/C95177.html,2026-10-11
+RC0805FR-07120RL,Yageo,1,R719,LCSC,C114245,100,0.0069,0.69,in stock,https://www.lcsc.com/product-detail/C114245.html,2026-10-11
+RC0805FR-072R2L,Yageo,1,R201,LCSC,C137549,50,0.0121,0.61,in stock,https://www.lcsc.com/product-detail/C137549.html,2026-10-11
+RC1206FR-0710KL,Yageo,1,R101,LCSC,C132649,50,0.0096,0.48,in stock,https://www.lcsc.com/product-detail/C132649.html,2026-10-11
+REF2025AIDDCR,Texas Instruments,2,"U502, U308",LCSC,C962078,2,1.8258,3.65,in stock,https://www.lcsc.com/product-detail/C962078.html,2026-10-11
+RT0603BRD07100KL,Yageo,11,"R405, R301, R302, R801, R802, R811, R812, R821, R822, R831, R832",LCSC,C122538,20,0.0325,0.65,in stock,https://www.lcsc.com/product-detail/C122538.html,2026-10-11
+RT0603BRD0710KL,Yageo,17,"R418, R304, R320, R110, R113, R114, R119, R803, R813, R823, R833, R880, R883, R886, R889, R898, R899",LCSC,C95204,20,0.0331,0.66,in stock,https://www.lcsc.com/product-detail/C95204.html,2026-10-11
+RT0603BRD0715KL,Yageo,1,R321,LCSC,C326733,20,0.0351,0.70,in stock,https://www.lcsc.com/product-detail/C326733.html,2026-10-11
+RT0603BRD0716K9L,Yageo,1,R115,LCSC,C861156,20,0.036,0.72,in stock,https://www.lcsc.com/product-detail/C861156.html,2026-10-11
+RT0603BRD07324KL,Yageo,1,R404,LCSC,C861321,20,0.0346,0.69,in stock,https://www.lcsc.com/product-detail/C861321.html,2026-10-11
+RT0603BRD0740K2L,Yageo,1,R118,LCSC,C723489,10,0.0604,0.60,in stock,https://www.lcsc.com/product-detail/C723489.html,2026-10-11
+RT0603BRD0751K1L,Yageo,1,R417,LCSC,C861457,20,0.0403,0.81,in stock,https://www.lcsc.com/product-detail/C861457.html,2026-10-11
+RT0603BRD078K45L,Yageo,1,R303,LCSC,C861590,20,0.0403,0.81,in stock,https://www.lcsc.com/product-detail/C861590.html,2026-10-11
+RT0603BRD0790K9L,Yageo,2,"R111, R112",LCSC,C728600,20,0.0434,0.87,in stock,https://www.lcsc.com/product-detail/C728600.html,2026-10-11
+SMCJ30A,Littelfuse,1,D101,LCSC,C224048,5,0.2982,1.49,in stock,https://www.lcsc.com/product-detail/C224048.html,2026-10-11
+SN74LVC1G11DBVR,Texas Instruments,6,"U703, U704, U707, U708, U711, U712",LCSC,C22046,10,0.2213,2.21,in stock,https://www.lcsc.com/product-detail/C22046.html,2026-10-11
+SN74LVC1G14DBVR,Texas Instruments,1,U710,LCSC,C7835,10,0.0604,0.60,in stock,https://www.lcsc.com/product-detail/C7835.html,2026-10-11
+SN74LVC1G17DBVR,Texas Instruments,1,U306,Mouser,595-SN74LVC1G17DBVR,1,0.15,0.15,in stock,https://www.mouser.com/en/ProductDetail/Texas-Instruments/SN74LVC1G17DBVR?qs=fvkeCqCHl3BQIcdbAa1fbQ%3D%3D,2026-10-11
+SN74LVC1G74DCTR,Texas Instruments,2,"U307, U705",LCSC,C840104,2,0.8392,1.68,in stock,https://www.lcsc.com/product-detail/C840104.html,2026-10-11
+SN74LVC244APWR,Texas Instruments,1,U706,LCSC,C7668,5,0.3026,1.51,in stock,https://www.lcsc.com/product-detail/C7668.html,2026-10-11
+SN74LVC3G17DCTR,Texas Instruments,3,"U603, U604, U802",LCSC,C18213,3,0.7613,2.28,in stock,https://www.lcsc.com/product-detail/C18213.html,2026-10-11
+STM32G474VET6,STMicroelectronics,1,U501,LCSC partner offer,C431632,1,16.2415,16.24,cart marks backordered; partner advertises 3 units and 7-9 business days; confirmation required,https://www.lcsc.com/product-detail/C431632.html,2026-10-11
+STPS5H100AF,STMicroelectronics,1,D301,LCSC,C2802050,1,0.64,0.64,in stock,https://www.lcsc.com/product-detail/C2802050.html,2026-10-11
+TCAN3403DRQ1,Texas Instruments,1,U709,Mouser,595-TCAN3403DRQ1,1,1.77,1.77,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/Texas-Instruments/TCAN3403DRQ1?qs=VVKQmw408U8i3BeOClYB9g%3D%3D,2026-10-11
+TL3342F160QG,E-Switch,2,"SW501, SW502",LCSC,C2886898,2,1.0456,2.09,in stock,https://www.lcsc.com/product-detail/C2886898.html,2026-10-11
+TLV3011BIDBVR,Texas Instruments,1,U301,LCSC,C20345920,1,3.1482,3.15,in stock,https://www.lcsc.com/product-detail/C20345920.html,2026-10-11
+TLV3201AIDBVR,Texas Instruments,1,U304,LCSC,C105188,1,0.98,0.98,in stock,https://www.lcsc.com/product-detail/C105188.html,2026-10-11
+TLV75801PDRVR,Texas Instruments,1,U403,LCSC,C2876308,5,0.345,1.73,in stock,https://www.lcsc.com/product-detail/C2876308.html,2026-10-11
+TLV9024PWR,Texas Instruments,2,"U101, U102",Mouser,595-TLV9024PWR,2,1.84,3.68,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/Texas-Instruments/TLV9024PWR?qs=QNEnbhJQKvaHPXXeMhKu8Q%3D%3D,2026-10-11
+TLV9062IDR,Texas Instruments,2,"U803, U804",LCSC,C398355,5,0.1221,0.61,in stock,https://www.lcsc.com/product-detail/C398355.html,2026-10-11
+TLV9064IPWR,Texas Instruments,1,U801,LCSC,C779410,5,0.3927,1.96,in stock,https://www.lcsc.com/product-detail/C779410.html,2026-10-11
+TPS2116DRLR,Texas Instruments,1,U402,LCSC,C3235557,1,0.40,0.40,in stock,https://www.lcsc.com/product-detail/C3235557.html,2026-10-11
+TPS2553DBVR-1,Texas Instruments,2,"U601, U602",LCSC,C111738,5,0.2952,1.48,in stock,https://www.lcsc.com/product-detail/C111738.html,2026-10-11
+TPS3431SDRBR,Texas Instruments,1,U702,Mouser,595-TPS3431SDRBR,1,2.07,2.07,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/Texas-Instruments/TPS3431SDRBR?qs=w%2Fv1CP2dgqr73oCnz11srA%3D%3D,2026-10-11
+TPS3808G50DBVR,Texas Instruments,1,U305,LCSC,C134123,1,1.1756,1.18,in stock,https://www.lcsc.com/product-detail/C134123.html,2026-10-11
+TPS389033DSER,Texas Instruments,1,U701,LCSC,C702227,1,1.95,1.95,in stock,https://www.lcsc.com/product-detail/C702227.html,2026-10-11
+UCC27511ADBVR,Texas Instruments,1,U302,LCSC,C2676982,5,0.386,1.93,in stock,https://www.lcsc.com/product-detail/C2676982.html,2026-10-11
+USB4105-GF-A,GCT,1,J401,Mouser,640-USB4105-GF-A,1,0.80,0.80,in stock,https://www.mouser.com/en/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D,2026-10-11
+USBLC6-2SC6,STMicroelectronics,1,U404,Mouser,511-USBLC6-2SC6,1,0.59,0.59,in stock,https://www.mouser.com/en/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D,2026-10-11
+WSLP25123L000FEA,Vishay,1,R310,Mouser,71-WSLP25123L000FEA,1,1.42,1.42,backordered; delivery not confirmed,https://www.mouser.com/en/ProductDetail/Vishay/WSLP25123L000FEA?qs=2spUtbtSOvg%252BTTBA6ckz0A%3D%3D,2026-10-11
+XT60PW-M,AMASS,1,J101,TME,XT60PW-M,1,1.053,1.05,international listing 726 in stock; US storefront error; US quote not confirmed,https://www.tme.eu/en/details/xt60pw-m/dc-power-connectors/amass/,2026-10-11

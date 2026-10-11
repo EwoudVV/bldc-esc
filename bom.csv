@@ -184,7 +184,7 @@ R307,03_regen,2.2,RC0603FR-072R2L,Yageo,Resistor_SMD:R_0603_1608Metric,false,fal
 R308,03_regen,1,RC0603FR-071RL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
 Q301,03_regen,ISC011N06LM5,ISC011N06LM5ATMA1,Infineon,Package_SON:Infineon_PG-TDSON-8_6.15x5.15mm,false,false
 R309,03_regen,47k,RC0603FR-0747KL,Yageo,Resistor_SMD:R_0603_1608Metric,false,false
-R310,03_regen,3m / 3W,WSLP2512R0030FEA,Vishay,Resistor_SMD:R_2512_6332Metric,false,false
+R310,03_regen,3m / 3W,WSLP25123L000FEA,Vishay,Resistor_SMD:R_2512_6332Metric,false,false
 C304,03_regen,100n 50V,C0603C104K5RACTU,KEMET,Capacitor_SMD:C_0603_1608Metric,false,false
 C305,03_regen,1u 16V,C0603C105K4RACTU,KEMET,Capacitor_SMD:C_0603_1608Metric,false,false
 J301,03_regen,DUMP RESISTOR,1711725,Phoenix Contact,TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal,false,false
@@ -297,7 +297,7 @@ C704,07_io_can,100n 50V,C0603C104K5RACTU,KEMET,Capacitor_SMD:C_0603_1608Metric,f
 J701,07_io_can,CAN,BM03B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical,false,false
 R719,07_io_can,120,RC0805FR-07120RL,Yageo,Resistor_SMD:R_0805_2012Metric,false,false
 JP701,07_io_can,CAN TERM,M20-9990245,Harwin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,false,false
-D703,07_io_can,PESD2CANFD24V-T,"PESD2CANFD24V-T,215",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
+D703,07_io_can,PESD2CANFD24V-T,"PESD2CANFD24V-TR",Nexperia,Package_TO_SOT_SMD:SOT-23,false,false
 J702,07_io_can,UART / 3V3,BM04B-GHS-TBT(LF)(SN),JST,Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical,false,false
 U101,11_current_protection,TLV9024PWR,TLV9024PWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false
 U102,11_current_protection,TLV9024PWR,TLV9024PWR,Texas Instruments,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,false,false

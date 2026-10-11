@@ -1,0 +1,20 @@
+{
+  "R310": {
+    "old": "WSLP2512R0030FEA",
+    "order_code": "WSLP25123L000FEA",
+    "specification": "3 milliohm, 3 W, 1%, 2512",
+    "sources": [
+      "https://www.vishay.com/docs/30122/wslp.pdf",
+      "https://www.newark.com/vishay/wslp25123l000fea/resistor-0r003-1-metal-strip-smd/dp/26Y1420"
+    ]
+  },
+  "D703": {
+    "old": "PESD2CANFD24V-T,215",
+    "order_code": "PESD2CANFD24V-TR",
+    "specification": "Nexperia PESD2CANFD24V-T, SOT23; reel order suffix",
+    "sources": [
+      "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf",
+      "https://www.mouser.ca/en/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D"
+    ]
+  }
+}

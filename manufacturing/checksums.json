@@ -11,5 +11,5 @@
   "manufacturing/gerbers/bldc-esc-NPTH.drl": "14a1e6bec74c9579eb0d54d3c870e03fdb37f9cfcf87a7e8e7d8e02bb0d0dac4",
   "manufacturing/gerbers/bldc-esc-PTH.drl": "c2c7c27f2dc3b0c728002acefae14db8d9457cd3fbcf3feb09b8cf85912e77d1",
   "manufacturing/gerbers/bldc-esc-job.gbrjob": "0b3dbb53dd0a1f2f76d142be82a8f0ee5f283a553363ce19e9412ac763aa5967",
-  "bldc-esc.kicad_pcb": "59d64d4257789b19c53b95979a48efd6d253d9573f706528c3bcaba5cca07931"
+  "bldc-esc.kicad_pcb": "1fa0cf7424f48fd5ab834c364458ad45465a7a1588c10540cb5544bae22e9876"
 }

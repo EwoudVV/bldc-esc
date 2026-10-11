@@ -1,0 +1,60 @@
+{
+  "checked_date": "2026-10-11",
+  "ready_to_order": false,
+  "component_line_count": 110,
+  "component_merchandise_estimate_usd": "191.29",
+  "includes_backorder_and_unconfirmed_quotes": true,
+  "LCSC": {
+    "cart": "BLDC ESC",
+    "lines": 85,
+    "all_85_in_stock": true,
+    "merchandise_usd": 123.48,
+    "shipping_estimate_usd": 13.88,
+    "merchandise_discount_usd": 1.55,
+    "shipping_discount_usd": 12,
+    "cart_estimate_usd": 123.81,
+    "tax_and_duties": "not finalized"
+  },
+  "Mouser": {
+    "lines": 15,
+    "in_stock_lines": 14,
+    "backordered_lines": 1,
+    "backordered_part": "WSLP25123L000FEA",
+    "merchandise_usd": 28.54,
+    "shipping_usd": 8.49,
+    "tariff_estimate_usd": 2.33,
+    "subtotal_usd": 39.36,
+    "tax": "not finalized",
+    "earlier_clicker_battery": "preserved in a separate saved cart"
+  },
+  "Coilcraft": {
+    "part": "MSS1246T-683MLC",
+    "quantity": 1,
+    "in_stock": true,
+    "merchandise_usd": 2.41,
+    "tariff_surcharge_usd": 0.58,
+    "shipping": "TBD"
+  },
+  "PCBWay": {
+    "pcb": "W907890ASB10",
+    "stencil": "S-B11W907890A",
+    "review": "pending",
+    "pcb_usd": 311.9,
+    "stencil_usd": 10,
+    "available_coupon_usd": 10,
+    "coupon_applied": false,
+    "price_review_message_sent": true
+  },
+  "outstanding": [
+    "TI inventory requires sign-in; login page did not complete",
+    "DigiKey security verification blocks live stock/cart access",
+    "TME international XT60 quote exists but US storefront returns an error",
+    "Confirm partner MCU offer; separate cart BLDC ESC - confirm stock",
+    "Resolve remaining backordered components before ordering",
+    "PCBWay must confirm pricing, layer-specific routing limits, and USB impedance",
+    "Final shipping and tax totals",
+    "Website BOM and final cart screenshots",
+    "Closing reel narration and upload",
+    "Final submission review"
+  ]
+}

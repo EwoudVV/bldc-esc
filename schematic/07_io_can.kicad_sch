@@ -1914,7 +1914,7 @@
       )
       (hide yes)
     )
-    (property "MPN" "PESD2CANFD24V-T,215"
+    (property "MPN" "PESD2CANFD24V-TR"
       (at 132.08 118.11 0)
       (effects
         (font

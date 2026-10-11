@@ -1283,7 +1283,7 @@
 				)
 			)
 		)
-		(property "MPN" "WSLP2512R0030FEA"
+		(property "MPN" "WSLP25123L000FEA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24839,7 +24839,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD2CANFD24V-T,215"
+		(property "MPN" "PESD2CANFD24V-TR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
