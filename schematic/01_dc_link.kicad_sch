@@ -1614,7 +1614,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+    (property "Footprint" "bldc-esc:XT60PW_M_Edge"
       (at 16.51 59.69 0)
       (effects
         (font

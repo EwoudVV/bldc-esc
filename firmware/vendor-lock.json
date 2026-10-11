@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "https://github.com/STMicroelectronics/cmsis-device-g4.git",
+    "commit": "626ee412334a5ed2e5b320af5a8d77d69f03a558",
+    "directory": "vendor/stm32g4"
+  },
+  {
+    "repository": "https://github.com/STMicroelectronics/stm32g4xx-hal-driver.git",
+    "commit": "a6001282dfacfff57e9710250f15e4333b578865",
+    "directory": "vendor/hal"
+  },
+  {
+    "repository": "https://github.com/ARM-software/CMSIS_5.git",
+    "commit": "2b7495b8535bdcb306dac29b9ded4cfb679d7e5c",
+    "directory": "vendor/cmsis"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "board": "bldc-esc",
+  "dimensions_mm": [
+    116,
+    112
+  ],
+  "layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "material": "FR-4",
+  "nominal_thickness_mm": 1.6,
+  "outer_copper_oz": 2,
+  "inner_copper_oz": 1,
+  "stackup": "JLC041621-7628",
+  "catalog_finished_thickness_mm": 1.64,
+  "finished_thickness_tolerance_percent": 10,
+  "mask": "green",
+  "silkscreen": "white",
+  "usb_differential_impedance_ohm": 90,
+  "usb_layer": "B.Cu",
+  "usb_reference_layer": "In2.Cu",
+  "usb_trace_width_mm": 0.228,
+  "usb_pair_gap_mm": 0.2,
+  "usb_coplanar_gap_mm": 0.25,
+  "minimum_inner_trace_width_mm": 0.127,
+  "via_drill_mm": 0.2,
+  "via_diameter_mm": 0.5,
+  "stackup_source": "https://jlcpcb.com/pcb-impedance-calculator",
+  "stackup_checked": "2026-10-11",
+  "vendor_dfm_approved": false,
+  "mounting": [
+    {
+      "ref": "H1",
+      "center_mm": [
+        53.5,
+        53.5
+      ],
+      "drill_mm": 3.2,
+      "copper_keepout_diameter_mm": 7,
+      "maximum_screw_head_diameter_mm": 6.4
+    },
+    {
+      "ref": "H2",
+      "center_mm": [
+        162.5,
+        53.5
+      ],
+      "drill_mm": 3.2,
+      "copper_keepout_diameter_mm": 7,
+      "maximum_screw_head_diameter_mm": 6.4
+    },
+    {
+      "ref": "H3",
+      "center_mm": [
+        53.5,
+        158.5
+      ],
+      "drill_mm": 3.2,
+      "copper_keepout_diameter_mm": 7,
+      "maximum_screw_head_diameter_mm": 6.4
+    },
+    {
+      "ref": "H4",
+      "center_mm": [
+        162.5,
+        158.5
+      ],
+      "drill_mm": 3.2,
+      "copper_keepout_diameter_mm": 7,
+      "maximum_screw_head_diameter_mm": 6.4
+    }
+  ]
+}

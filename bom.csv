@@ -1,5 +1,5 @@
 reference,sheet,value,MPN,manufacturer,footprint,DNP,exclude_from_BOM
-J101,01_dc_link,XT60PW-M,XT60PW-M,AMASS,Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal,false,false
+J101,01_dc_link,XT60PW-M,XT60PW-M,AMASS,bldc-esc:XT60PW_M_Edge,false,false
 D101,01_dc_link,SMCJ30A,SMCJ30A,Littelfuse,Diode_SMD:D_SMC,false,false
 C101,01_dc_link,100u 63V,GXC1J101MCW1GS,Nichicon,Capacitor_SMD:CP_Elec_10x12.5,false,false
 C102,01_dc_link,100u 63V,GXC1J101MCW1GS,Nichicon,Capacitor_SMD:CP_Elec_10x12.5,false,false
